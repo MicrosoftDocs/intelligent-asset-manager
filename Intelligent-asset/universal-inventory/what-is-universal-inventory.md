@@ -4,7 +4,7 @@ Universal Inventory (UI) is the component of IAM that is installed on-premise to
 
 You can use UI to:
 
-- Gather data from a variety of sources, including Active Directory, virtualization systems, asset management solutions, or cloud subscriptions
+- Gather data from a variety of sources, including Active Directory, SCCM, virtualization systems, asset management solutions, or cloud subscriptions
 - Verify that your inventory is up-to-date
 - Refine gathered data
 - Export data to providers of value services to help assess and optimize your 
