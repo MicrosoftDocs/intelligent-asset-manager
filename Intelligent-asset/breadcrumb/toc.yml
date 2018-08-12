@@ -1,3 +1,17 @@
 - name: Docs
   tocHref: /
   topicHref: /
+  items:
+  - name: Intelligent Asset Manager
+    tocHref: /intelligent-asset
+    topicHref: /intelligent-asset/index.md
+    items:
+    - name: Universal Inventory
+      tocHref: /intelligent-asset/universal-inventory
+      topicHref: /intelligent-asset/universal-inventory/index.md
+    - name: SAM Partner
+      tocHref: /intelligent-asset/sam-partner
+      topicHref: /intelligent-asset/sam-partner/index.md
+    - name: ISV Onboarding
+      tocHref: /intelligent-asset/isv
+      topicHref: /intelligent-asset/isv/index.md

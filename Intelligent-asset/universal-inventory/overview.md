@@ -2,24 +2,24 @@
 
 ## Components
 
-Universal Inventory is made up of three components:
+Universal Inventory has three components:
 
-- **Universal Inventory service**
-A Windows service that does the actual work: connect to data sources to import data and store it in the Universal Inventory database.
+- **Universal Inventory client application:** The application you use to manage Universal Inventory: create projects, define data sources, and import, refine, and export your inventory. This is the only visible component you work with.
 
-- **Universal Inventory database server**  
-A SQL Server instance that holds the actual inventory databases as well as other databases that Universal Inventory needs:
+- **Universal Inventory Windows service:** A Windows service that does the actual work of importing data from several sources, and store it in the Universal Inventory database.
+
+- **Universal Inventory database server:** A SQL Server instance that holds the actual inventory databases as well as other databases:
 
   - **UniversalInventory** is a single database where Universal Inventory stores the configuration and status of projects, data sources, and other artifacts. This database does not hold inventory data.
 
-  - **UniversalInventoryCatalogs** <a name=\"#catalogs\"></a> is a single database where Universal Inventory stores standard names of processors, software titles, and manufacturers.\r\n  - **UI\\_xxx** databases hold actual inventory data. A new UI\\_xxx database is created for every Project created with Universal Inventory.
+  - **UniversalInventoryCatalogs** is a single database where Universal Inventory caches standard names of processors, software titles, and manufacturers.
 
-  - **Universal Inventory client**  \r\nThe front-end application you use to manage Universal Inventory: create projects, define data sources, and import, refine, and export your inventory.
+  - **UI_xxx** databases hold actual inventory data. A new UI_xxx database is created for every Project created with Universal Inventory.  
 
 Components can be installed on the same or on different computers:
 
-- During installation you can specify a SQL Server instance to be used as Universal Inventory database server. This can be a local or remote SQL Server instance.
+- During installation you specify an existing SQL Server instance to be used as Universal Inventory database server. This can be a local or remote SQL Server instance.
 
-- After installation, you can install the Universal Inventory client on a separate workstation to manage the Universal Inventory server.
+- After installation, you can copy the Universal Inventory client application to a separate workstation to remotely manage the Universal Inventory service.
 
-![UI Components](media/ui-overview01.png )
+![UI Components](media/ui-overview01.png)
