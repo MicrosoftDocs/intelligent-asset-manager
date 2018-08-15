@@ -10,4 +10,3 @@
 | UserName          | nvarchar(256) |           |     |                                           |
 | LogonCount        | int           |           |     |                                           |
 | TotalLogonMinutes | int           |           |     |                                           |
-|                   |               |           |     |                                           |

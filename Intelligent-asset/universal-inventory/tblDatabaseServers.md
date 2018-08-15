@@ -25,4 +25,3 @@
 | Environment          | nvarchar(256)  |           |                       | User supplied info to allow license assignment. E.g. production vs. dev/test |
 | Isv                  | nvarchar(256)  |           |                       | Specify vendor if included in separate ISV license.                          |
 | Id                   | int            |           |                       | Generated during import. Leave empty.​                                        |
-|                      |                |           |                       |                                                                |

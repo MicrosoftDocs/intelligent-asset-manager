@@ -9,9 +9,8 @@ E.g. suppose the following sequence of performance values was collected:
 |---------------|---|---|----|------|------|----|----|
 | TimeInterval: | 0​ | 1 | 2  | 3    | 4    | 5  | 6​  |
 | Value:        | 0 | 5 | 15 | null | null | 45 | 60 |
-|               |   |   |    |      |      |    |    |
 
-We can replace null values with values on the straight line through ​the points in TimeIntervals 2 and 5.
+We can replace null values with values on the straight line through ​the points in TimeIntervals 2 and 5.  
 In this case, the Runlength column should show the number of replaced values, resulting in:
 
 |               |   |   |    |    |    |    |    |
@@ -19,7 +18,6 @@ In this case, the Runlength column should show the number of replaced values, re
 | TimeInterval: | 0 | 1 | 2  | 3  | 4  | 5  | 6  |
 | Value:        | 0 | 5 | 15 | 25 | 35 | 45 | 60 |
 | Runlength:    | 0 | 0 | 0  | 2  | 2  | 0  | 0  |
-|               |   |   |    |    |    |    |    |
 
 Device Performance tables are largely based on MapToolkit. Read [MAP: Performance Data​](https://social.technet.microsoft.com/wiki/contents/articles/13467.map-performance-data.aspx) for more info.
 
@@ -44,4 +42,3 @@ Device Performance tables are largely based on MapToolkit. Read [MAP: Performanc
 | NetworkIoWriteMbps       | float         |           |     |                                                                                                                              |
 | MemoryPoolNonPagedBytes  | float         |           |     |                                                                                                                              |
 | MemoryCacheBytes         | float         |           |     |                                                                                                                              |
-|                          |               |           |      |                                                        |

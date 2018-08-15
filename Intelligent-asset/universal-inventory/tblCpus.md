@@ -14,4 +14,3 @@
 | NumberOfCores             | int           |           |                       |                                         |
 | NumberOfLogicalProcessors | int           |           |                       |                                         |
 | HyperThreadingCapable     | bit           |           |                       |                                         |
-|                           |               |           |                       |                                         |

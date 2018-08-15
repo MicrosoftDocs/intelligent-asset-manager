@@ -9,4 +9,3 @@ Statistics on Total, Successful, and Failed performance collection attempts on d
 | SuccessfulAttempts | int           |           |                       |                                          |
 | TotalAttempts      | int           |           |                       |                                          |
 | FailureCode        | int           |           |                       |                                          |
-|                    |               |           |                       |                                          |

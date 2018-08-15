@@ -12,4 +12,3 @@ Web Applications hosted on Devices. This table is not intended for web applicati
 | AppPoolId             | nvarchar(64)  |           |                       | If this is an IIS application, ID of the Application Pool.                                               |
 | ManagedRuntimeVersion | nvarchar(20)  |           |                       | If this is an IIS application, version of the Managed .Net runtime.                                      |
 | Technologies          | nvarchar(256) |           |                       | Semi-colon (;) separated string of technologies used by this app, such as aspx, html, java, php, ruby... |
-|                       |               |           |                        |                            |

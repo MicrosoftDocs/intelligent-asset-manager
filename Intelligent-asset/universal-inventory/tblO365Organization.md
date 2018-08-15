@@ -9,4 +9,3 @@
 | Site         | varchar(32)   |           |                                   | A free text value the user can provide with the data source to indicate a site, environment, tenant, ​or other category this Office 365 subscription belongs to. |
 | DisplayName  | nvarchar(256) |           |                                   | The display name for the tenant.                                                                                                                                |
 | Country      | varchar(16)   |           |                                   | Two-letter country code.                                                                                                                                        |
-|              |               |           |                                   |                         |

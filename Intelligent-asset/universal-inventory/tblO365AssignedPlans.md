@@ -11,5 +11,4 @@
 | AssignedUserId         | nvarchar(128) |           |                                   | If this ServicePlan is assigned to a user, the User ID.                      |
 | ServiceName            | nvarchar(256) |           |                                   | The name of the service; for example, “Exchange”.                            |
 | CapabilityStatus       | varchar(32)   |           |                                   | For example, "Enabled", or "Provisioned"                                     |
-| AssignedDateTime       | datetime      |           |                                   | Data and time at which the service plan was assigned.                         |
-|                        |               |           |                                   |                                                       |
+| AssignedDateTime       | datetime      |           |                                   | Data and time at which the service plan was assigned.                        |

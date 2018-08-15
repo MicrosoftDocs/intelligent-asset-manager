@@ -10,4 +10,3 @@
 | DataFileSizeMB      | int           |           |                               |                                         |
 | LogFileSizeMB       | int           |           |                               |                                         |
 | LogFileUsedSizeMB   | int           |           |                               |                                         |
-|                     |               |           |                               |                                         |

@@ -10,4 +10,3 @@
 | UserPrincipalName | nvarchar(256) |           |                                   | The user principal name (UPN) of the user in Azure AD. The UPN is an Internet-style login name for the user based on Internet standard RFC 822. |
 | DisplayName       | nvarchar(256) |           |                                   | The name displayed in the address book for the user.                                                                                            |
 | Mail              | nvarchar(256) |           |                                   | The SMTP address for the user.                                                                                                                  |
-|                   |               |           |                                   |           |

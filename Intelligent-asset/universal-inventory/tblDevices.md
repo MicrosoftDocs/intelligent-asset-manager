@@ -16,7 +16,7 @@
 | Description               | nvarchar(512)  |           |             | Description of the device in the OS.|
 | LastBoot                  | datetime       |           |             | Date and time the device was last booted.|
 | LastScan                  | datetime       |           |             | Date and time the device was last scanned by the data source tool.|
-| Manufacturer              | nvarchar(256)  |           |             | Must be an actual Manfufacturer name or Empty.|
+| Manufacturer              | nvarchar(256)  |           |             | Must be an actual Manufacturer name or Empty.|
 | Model                     | nvarchar(256)  |           |             | Must be an existing Model name or Empty.​|
 | TotalMemoryMb             | bigint         |           |             |                                         |
 | TotalDiskSpaceMB          | bigint         |           |             |                                         |
@@ -67,4 +67,3 @@
 | AdPwdLastSet              | datetime       |           |             |                                        |
 | AdUserPrincipalName       | nvarchar(1048) |           |             |                                        |
 | Id                        | int            |           |             | Generated during import. Leave empty.  |
-|                           |                |           |             |                                        |

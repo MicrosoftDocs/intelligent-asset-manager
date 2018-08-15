@@ -18,4 +18,3 @@
 | DeviceWipeAckTime             | datetime      |           |                       |                                                                                                                             |
 | DeviceAccessState             | nvarchar(64)  |           |                       |                                                                                                                             |
 | DevicePolicyApplicationStatus | nvarchar(64)  |           |                       |                                                                                                                             |
-|                               |               |           |                       |                                       |

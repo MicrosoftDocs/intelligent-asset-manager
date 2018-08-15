@@ -9,4 +9,3 @@
 | HaModeEnabled  | bit           |           |             | True if High Availability is enabled on this farm. |
 | DrsModeEnabled | bit           |           |             | True if Disaster Recovery is enabled on this farm. |
 | Id             | int           |           |             | Generated during import. Leave empty.​              |
-|                |               |           |             |                                                    |

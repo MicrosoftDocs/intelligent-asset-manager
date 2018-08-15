@@ -15,4 +15,3 @@
 | SizeMB             | int           |           |                              |                                                                                          |
 | FreeSpaceMB        | int           |           |                              |                                                                                          |
 | Wwn                | nvarchar(256) |           |                              | World Wide Name of attached storage.                                                     |
-|                    |               |           |                              |                                                                                          |

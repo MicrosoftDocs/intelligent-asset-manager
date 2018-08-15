@@ -8,4 +8,3 @@ There will be a single record in this table showing the version of this UI datab
 |--------------|-----------|-----------|-----|---------|
 | MajorVersi​​on | int       | Y         |     |         |
 | MinorVersion | int       | Y         |     |         |
-|              |           |           |     |         |

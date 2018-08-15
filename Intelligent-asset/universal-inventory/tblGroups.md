@@ -13,4 +13,3 @@
 | GroupType    | varchar(32)   |           |                       | Domain-local, Global, or Universal​                                                  |
 | IsSecurity   | bit           |           |                       |                                                                                     |
 | Id           | int           |           |                       | Leave empty                                                                         |
-|              |               |           |                       |                                                                                     |

@@ -10,4 +10,3 @@
 | UserDomain   | nvarchar(256) |           |     | Hostname if this is a local user account.          |
 | UserName     | nvarchar(256) | Y         |     |                                                    |
 | IsGroup      | bit           |           |     | Is this a nested group rather than a user account? |
-|              |               |           |     |                                                    |
