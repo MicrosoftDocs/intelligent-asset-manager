@@ -3,6 +3,7 @@
 ## Terminology
 
 ​​Stakeholders​
+
 |                    |                                                                                                                                                      |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Customer​           | Organization that uses Microsoft software and wants to optimize their investment in software from Microsoft and other vendors through the use of UI. |
