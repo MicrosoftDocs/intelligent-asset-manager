@@ -39,7 +39,7 @@ Every time the user creates a UI Project, a UI Database is created. UI Database 
 
 UI will not scan or collect data directly. Instead it relies on *Connectors* to connect to existing Data Sources.
 
-![UI Overview ](media/I-AM_UI_Overview.PNG)
+![UI Overview ](media/I-AM_UI_Overview.png)
 
 ## Connectors
 

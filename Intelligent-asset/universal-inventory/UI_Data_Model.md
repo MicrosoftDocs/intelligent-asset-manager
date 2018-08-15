@@ -17,7 +17,7 @@ A UI database has three schemas:
 - Permanent data store [dbo]: permanently stores the Inventory
 - Output schema [out]: tables and procedures to consult the Inventory. Inventory Consumers must use this schema.
 
-![UI Data Flow ](media/UI_Data_Flow.PNG)
+![UI Data Flow ](media/UI_Data_Flow.png)
 
 [Read Push Connectors for more details on uploading data to UI.](Push_Connectors.md)
 

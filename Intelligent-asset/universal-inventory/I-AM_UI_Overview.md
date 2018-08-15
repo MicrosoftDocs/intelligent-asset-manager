@@ -14,7 +14,7 @@ Unlike its predecessor, UI maintains the inventory in a database controlled by t
 
 All components can be installed on a single device. SAM consultants might want to install all components on their laptop, creating new projects for each customer engagement. Enterprises with large infrastructures may want to install the UI Service in their datacenter, the Client on an administrator's desktop, and the Data Store on a dedicated database server.
 
-![UI Overview ](media/I-AM_UI_Overview.PNG)
+![UI Overview ](media/I-AM_UI_Overview.png)
 
 UI does not scan or collect any data from devices. Instead it connects to existing sources of data such using *Connectors*.
 
