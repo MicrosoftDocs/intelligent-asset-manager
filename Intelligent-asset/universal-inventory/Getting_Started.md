@@ -23,7 +23,7 @@ UI is the result of Microsoft's collaboration with service vendors in several fi
 
 1. Make sure you understand the [Input schema](The_Input_Schema.md), and how a [Push Connector](Push_Connectors.md)​ works.
 2. Download and the latest version of the [UI database template](https://microsoft.sharepoint.com/:u:/r/teams/MS_SAM_UI/Shared%20Documents/UniversalInventory.bacpac?csf=1&e=fA9rVK). Select "Import Data-tier Application" from the Databases context menu in SQL Management Studio and follow the wizard.
-3. Read about [DataSourceId](The_Input_Schema.md#DataSourceId), and send a proposed DataSourceId​ for your Connector to SAM-UI@microsoft.com.
+3. Read about [DataSourceId](The_Input_Schema.md#markdown-header-dataSourceId), and send a proposed DataSourceId​ for your Connector to SAM-UI@microsoft.com.
 4. Build a Push Connector and use it to fill the UI database with the data scanned through your inventory tool/service.
 5. Send a backup of the filled database to SAM-UI@microsoft.com.
 6. We will process the database against ​UI quality standards and provide feedback to fine-tune your Connector.
