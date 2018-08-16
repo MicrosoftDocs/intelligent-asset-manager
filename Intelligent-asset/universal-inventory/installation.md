@@ -62,7 +62,7 @@ Click **Next >**
 
 On the **URL** page, specify the URL and port where the client can reach the service. If you intend to use the client on a different computer than the service, you have to enter a fully qualified name or IP address. If not, you can use *localhost*.  
 
-Click **Verify** to check that the URL is a valid name or IP address. A check mark appears next to **URL** in the left pane.  
+Click **Verify** to check that the URL is a valid name or IP address, and that the TCP port is  available. A check mark appears next to **URL** in the left pane.  
 
 Click **Next >**
 
@@ -75,5 +75,3 @@ Click **Install**. A progress bar appears to show the installation is ongoing.
 After the installation completes successfully, select the **Launch Universal Inventory** checkbox if you want to start Universal Inventory.
 
 Click **Exit**
-
-A link to an installation log file appears after the installation completes successfully or fails. Verify the log file for errors in case of failure.\r\n\r\nIf the installation completes successfully, the Universal Inventory client application will open.\r\n\r\n- **Close** Universal Inventory setup

@@ -1,0 +1,17 @@
+- name: Intelligent Asset Manager
+  href: intelligent-asset/index.md
+- name: Universal Inventory
+  href: intelligent-asset/universal-inventory/index.md
+  items:
+    - name: Overview
+      href: intelligent-asset/universal-inventory/overview.md
+    - name: Preparations
+      href: intelligent-asset/universal-inventory/preparation.md
+    - name: Installation
+      href: intelligent-asset/universal-inventory/installation.md
+    - name: Inventory creation
+      href: intelligent-asset/universal-inventory/inventory.md
+- name: SAM Partner Guide
+  href: intelligent-asset/sam-partner/index.md
+- name: ISV Onboarding Guide
+  href: intelligent-asset/isv/index.md

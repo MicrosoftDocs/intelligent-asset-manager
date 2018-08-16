@@ -30,7 +30,7 @@
   - Upload inventory to 3rd party providers of value services (coming soon)
 
   > [!NOTE]
-  > Universal Inventory does not exchange any data over the Internet. No data is exported without your explicit consent.
+  > Universal Inventory does not exchange any data over the Internet without your explicit consent.
 
 ## Universal Inventory Service Account
 
@@ -45,7 +45,7 @@ Universal Inventory runs as a Windows service. A service account that runs the U
 
 - Start > Computer Management
 - Select **Local Users and Groups** > **Users** in the tree pane, and create a new user\r\n
-- It is a good idea to set the **Password never expires** property to prevent that the service stops working when its service account password expires, or follow corporate policies for service account credential management.
+- It is a good idea to set the **Password never expires** property to prevent that the service stops working when its service account password expires, or follow corporate policies for service account credentials.
 
   ![Prepare for UI - Create a Universal Inventory Service Account](media/prepare-service-account.PNG)
 
@@ -71,6 +71,6 @@ The Universal Inventory Service Account requires sysadmin permissions on the dat
 
   ![Prepare for UI - Create a login on SQL Server](media/prepare-sql-login.PNG)
 
-- Select **Server Roles** in the left pane, check the **sysadmin** checkbox, and click OK.\r\n\r\n
+- Select **Server Roles** in the left pane, check the **sysadmin** checkbox, and click OK.
 
   ![Prepare for UI - Assign the sysadmin role to the Universal Inventory Service Account](media/prepare-sql-admin.png)
