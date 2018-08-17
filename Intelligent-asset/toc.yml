@@ -11,6 +11,8 @@
       href: universal-inventory/installation.md
     - name: Inventory creation
       href: universal-inventory/inventory.md
+    - name: Settings
+      href: universal-inventory/settings.md
 - name: SAM Partner Guide
   href: sam-partner/index.md
 - name: ISV UI Onboarding Guide
