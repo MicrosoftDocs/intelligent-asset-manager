@@ -24,7 +24,7 @@
       href: isv/UI_Data_Model.md
     - name: UI Input Schema
       href: isv/The_Input_Schema.md
-        - name: __Version
+        - name: Version
           href: isv/__Version.md 
         - name: tblActiveSync
           href: isv/tblActiveSync.md
