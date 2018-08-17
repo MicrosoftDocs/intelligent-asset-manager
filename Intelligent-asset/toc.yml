@@ -21,6 +21,6 @@
     - name: Universal Inventory Data Model
       href: isv/UI_Data_Model.md
     - name: Input Schema
-      href: isv/The-Input-Schema.md
+      href: isv/The_Input_Schema.md
     - name: Push Connectors
       href: isv/Push_Connectors.md 
