@@ -15,3 +15,12 @@
   href: sam-partner/index.md
 - name: ISV Onboarding Guide
   href: isv/index.md
+  items:
+    - name: Universal Inventory Technical Overview
+      href: isv/I-AM_UI_Overview.md
+    - name: Universal Inventory Data Model
+      href: isv/UI_Data_Model.md
+    - name: Input Schema
+      href: isv/The-Input-Schema.md
+    - name: Push Connectors
+      href: isv/Push_Connectors.md 
