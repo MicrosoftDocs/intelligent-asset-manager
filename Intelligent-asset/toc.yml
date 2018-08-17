@@ -1,6 +1,6 @@
 - name: Intelligent Asset Manager
   href: index.md
-- name: Universal Inventory
+- name: Universal Inventory (UI)
   href: universal-inventory/index.md
   items:
     - name: Overview
@@ -13,14 +13,84 @@
       href: universal-inventory/inventory.md
 - name: SAM Partner Guide
   href: sam-partner/index.md
-- name: ISV Onboarding Guide
+- name: ISV UI Onboarding Guide
   href: isv/index.md
   items:
-    - name: Universal Inventory Technical Overview
+    - name: UI Technical Overview
       href: isv/I-AM_UI_Overview.md
-    - name: Universal Inventory Data Model
+    - name: UI Data Model
       href: isv/UI_Data_Model.md
-    - name: Input Schema
+    - name: UI Input Schema
       href: isv/The_Input_Schema.md
-    - name: Push Connectors
+        - name: __Version
+          href: isv/__Version.md 
+        - name: tblActiveSync
+          href: isv/tblActiveSync.md
+        - name: tblCpus
+          href: isv/tblCpus.md
+        - name: tblDatabases
+          href: isv/tblDatabases.md
+        - name: tblDatabaseServers
+          href: isv/tblDatabaseServers.md
+        - name: tblDeviceLogons
+          href: isv/tblDeviceLogons.md
+        - name: tblDevicePerformance
+          href: isv/tblDevicePerformance.md
+        - name: tblDevicePerformanceStatistics
+          href: isv/tblDevicePerformanceStatistics.md
+        - name: tblDevices
+          href: isv/tblDevices.md
+        - name: tblGroups
+          href: isv/tblGroups.md
+        - name: tblLogicalDrives
+          href: isv/tblLogicalDrives.md
+        - name: tblMailboxes
+          href: isv/tblMailboxes.md
+        - name: tblMailServers
+          href: isv/tblMailServers.md
+        - name: tblMembers
+          href: isv/tblMembers.md
+        - name: tblMemory
+          href: isv/tblMemory.md
+        - name: tblNetworkAdapterConfigurations
+          href: isv/tblNetworkAdapterConfigurations.md
+        - name: tblNetworkAdapters
+          href: isv/tblNetworkAdapters.md
+        - name: tblO365AssignedPlans
+          href: isv/tblO365AssignedPlans.md
+        - name: tblO365Domains
+          href: isv/tblO365Domains.md
+        - name: tblO365Organization
+          href: isv/tblO365Organization.md
+        - name: tblO365ServicePlans
+          href: isv/tblO365ServicePlans.md
+        - name: tblO365Subscriptions
+          href: isv/tblO365Subscriptions.md
+        - name: tblO365Users
+          href: isv/tblO365Users.md
+        - name: tblPhysicalDrives
+          href: isv/tblPhysicalDrives.md
+        - name: tblServices
+          href: isv/tblServices.md
+        - name: tblSoftware
+          href: isv/tblSoftware.md
+        - name: tblUsers
+          href: isv/tblUsers.md
+        - name: tblVmEvents
+          href: isv/tblVmEvents.md
+        - name: tblVmFarms
+          href: isv/tblVmFarms.md
+        - name: tblVmHosts
+          href: isv/tblVmHosts.md
+        - name: tblVms
+          href: isv/tblVms.md
+        - name: tblWebApplications
+          href: isv/tblWebApplications.md
+        - name: tblWebBrowsers
+          href: isv/tblWebBrowsers.md
+        - name: tsysImportLog
+          href: isv/tsysImportLog.md
+        - name: tsysImportErrorLog
+          href: isv/tsysImportErrorLog.md
+    - name: UI Push Connectors
       href: isv/Push_Connectors.md 
