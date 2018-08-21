@@ -72,6 +72,7 @@ Finally, you will need to validate the data you collect. Some best practices are
 SAM Partners should cross check the quality points described above and review the Minimum EDP Quality Standard to see some ways Microsoft evaluates the quality of EDPs.
 
 **Minimum EDP Quality Standard samples:**
+
 | Data Standard:                                                                                         | More Detail/Examples:                                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The EDP Data Tab should have a row for each product and version on each installed device.              | This standard leads to many data rows in the EDP. To get a basic sense of completeness, focus on Workstations - there should be 1 Workstation OS for each seat. |
