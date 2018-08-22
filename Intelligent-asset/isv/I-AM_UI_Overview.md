@@ -1,4 +1,4 @@
-# Intelligent Asset Manager (I-AM) - Universal Inventory (UI) Overview
+# Universal Inventory Technical Structure Overview
 
 ## Components
 

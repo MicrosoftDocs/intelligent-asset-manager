@@ -1,20 +1,11 @@
-# ISV Onboarding Guide
+**Technical Integration Process**
 
-Universal Inventory (UI) is Microsoft's next-generation tool for inventory collection in support of Software Asset Management. UI is a component of Microsoft Intelligent Asset Manager 2018 (IAM), Microsoft's platform for managing and leveraging SAM engagements. IAM supports our Program goals of helping our Customers make good technology decisions by:
-
-1. Ensuring a quality inventory of Microsoft products in use, is acquired during engagements, and
-2. Ensuring this quality inventory can be used for technology decision modeling.
-
-UI enables Partners to automate, standardize, and secure data collection by integrating with several well-known inventory collection tools in the market. UI also enables the standardized inventory to be reused in market-ready Value tools from ISVs for use in Value Engagements.
-
-UI is the result of Microsoft's collaboration with service vendors in several fields (ISV). This site explains how Data Providers and Value Providers can integrate their solution with UI.
-
-**ISV, to be onboarded in the Universal Inventory tool, please:**
+ISV,
 
 1. Ensure your personnel has the required technical skills:
    - Microsoft SQL Server: connect to a SQL Server database, and query or fill the database using T-SQL, the query language used in SQL Server.
    - A solid technical background of your solution.
-2. Read [I-AM UI Overview](I-AM_UI_Overview.md) to get a helicopter-view of Universal Inventory (UI) and Intelligent Asset Manager (IAM).
+2. Read [IAM UI Overview](I-AM_UI_Overview.md) to get a helicopter-view of Universal Inventory (UI) and Intelligent Asset Manager (IAM) technical structure.
 3. Read [UI Data Model](UI_Data_Model.md)​ to understand how data in the inventory is organized.​
 
 ​Next,
