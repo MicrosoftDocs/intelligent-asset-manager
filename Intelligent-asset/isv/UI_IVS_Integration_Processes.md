@@ -40,7 +40,7 @@ The IAM team will discontinue work with any partner found to acting outside of t
 1. **Confirm to Microsoft your intent to proceed with the UI integration process by**:  
 
    **Sending an email to**: SAM-UI@microsoft.com with the following included:
-   - Thoroughly reviewing the [UI ISV Onboarding Guide](intelligent-asset/isv/index.md)
+   - Thoroughly reviewing the [Technical Integration Process](index.md)
    - Company Name
    - Country
    - Primary and secondary contacts name and e-mail addresses
@@ -49,9 +49,9 @@ The IAM team will discontinue work with any partner found to acting outside of t
     
    A Microsoft representative will then reply confirming your request has been received and introduce you to the technical UI developers that will support you during the integration process.
  
-2. **Complete tasks described on the [UI ISV Onboarding Guide](intelligent-asset/isv/index.md)**:
+2. **Complete tasks described on the [Technical Integration Process](index.md)**:
 
-    - Complete all the required technical tasks to integrate your solution with UI following the instructions contained on the [UI ISV Onboarding Guide](intelligent-asset/isv/index.md).
+    - Complete all the required technical tasks to integrate your solution with UI following the instructions contained on the [Technical Integration Process](index.md).
 
 3. **Get your results validated by the UI team**
 
