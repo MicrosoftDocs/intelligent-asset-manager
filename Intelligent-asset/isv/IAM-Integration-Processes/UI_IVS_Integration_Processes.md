@@ -24,8 +24,8 @@ The IAM team will be promoting ISVs who have achieved UI integration points as p
 In order to be included in these promotions your UI integration work must include:
 
 1. A dedicated landing page on your web site outlining the UI integration (within two clicks of your home page)
-1. Information on how your users execute against this integration
-1. Prominent promotion of Value substantively aligning to Microsoft’s SAM Value messaging
+2. Information on how your users execute against this integration
+3. Prominent promotion of Value substantively aligning to Microsoft’s SAM Value messaging
 
 Examples of incorrect, non-aligned messaging would be:
 
@@ -38,55 +38,52 @@ The IAM team will discontinue work with any partner found to acting outside of t
 ## Step by Step Processes
 
 1. **Confirm to Microsoft your intent to proceed with the UI integration process by**:  
+
    **Sending an email to**: SAM-UI@microsoft.com with the following included:
-   - Thoroughly reviewing the UI ISV process document
+   - Thoroughly reviewing the [UI ISV Onboarding Guide](isv/index.md)
    - Company Name
    - Country
-   - Primary contact name and alias for this work
-     - Email alias must use a Microsoft Work or School Account
-   - All additional contact names with alias’s who need access to the resources
-     - All email alias’s must use a Microsoft Work or School Account
-   - Whether your company will be a UI Data Provider, Data Consumer and/or Normalization
+   - Primary and secondary contacts name and e-mail addresses
+   - Whether your tool will be a UI Data Provider, Data Consumer and/or Normalization tool. 
+    Note: You do not have to integrate all 3 functionalities at the same time, you are very welcome to start with one and later on integrate other functionalities if that is of your wish.
+    
+   A Microsoft representative will then reply confirming your request has been received and introduce you to the technical UI developers that will support you during the integration process.
+ 
+2. **Complete tasks described on the [UI ISV Onboarding Guide](isv/index.md)**:
 
-   A Microsoft representative will then reply confirming your access has been granted for the UI SharePoint Wiki page with all technical information regarding integration with Universal Inventory.
+    - Complete all the required technical tasks to integrate your solution with UI following the instructions contained on the [UI ISV Onboarding Guide](isv/index.md).
 
-   - When you access the SharePoint: update the settings using the step by step instructions in the ‘Additional Information’ section below. This will ensure you receive notices about updated or changed content, including information on upcoming releases that may require technical updates to your integration solution.
+3. **Get your results validated by the UI team**
 
-1. **Review the UI integration instructions and complete tasks**:
+   After you have completed your work and passed the self-validation test:
 
-    - Thoroughly reviewing the overview and technical documentation you have been granted access to at: [https://microsoft.SharePoint.com/teams/MS_SAM_UI/HQ%20Team%20UI%20Wiki/Getting%20Started.aspx](https://microsoft.SharePoint.com/teams/MS_SAM_UI/HQ%20Team%20UI%20Wiki/Getting%20Started.aspx)
-    - Complete all the required technical tasks to integrate your solution with UI following the instructions contained in the SharePoint
+   **Send an email to**: SAM-UI@microsoft.com with the following included:
 
-1. **Get your results validated by the UI team: After you have completed your work and passed the self-validation tests**:
-
-   **Sending an email to**: SAM-UI@microsoft.com with the following included:
-
+   - Company Name
+   - Tool Name
    - If you are a Data Provider – include a copy of the validated Inventory database for Microsoft to test against
-   - If you are a Data Consumer – Please indicate you have successfully integrated your solution and are able to retrieve UI DBs for use
+   - If you are a Data Consumer – Please indicate you have successfully integrated your solution and are able to retrieve UI Database for use
 
-1. **Microsoft will review your submissions according to the criteria established on the SP Wiki Pages**
+4. **Microsoft will review your submissions according to the criteria established on the [UI ISV Onboarding Guide](isv/index.md)**
 
-   This validation work can take 1 calendar week. After validation is complete you will receive a Notification e-mail about the findings are some suggestions to improve your integration and make sure you are following the quality guidelines established by Microsoft. Once this refinement stage is done, you will be notified via e-mail.
+   This validation work can take 1 calendar week. After validation is complete you will receive a notification e-mail about the findings are some suggestions to improve your integration and make sure you are following the quality guidelines established by Microsoft. Once this refinement stage is done, you will be notified via e-mail that your integration has been completed.
 
-1. **Send Microsoft your logo, use permission and link to more information**
+5. **Send Microsoft your logo, use permission and link to more information**
 
    - Microsoft will ask via e-mail for some information to be able to include your logo and link on the official IAM 2018 landing page (aka&#46;ms/SAMIAM).
-   - Respond to Microsoft’s request for Logo, Logo approval use and more information in substantially the same format as outlined below in Additional Information.
+   - Respond to Microsoft’s request for Logo file, Logo approval use and more information in substantially the same format as outlined below in Additional Information.
    - Supply a link or a copy of the directions you will supply to your end users on how UI integration works
-   - Once received, Microsoft will add your logo into the official aka&#46;ms/SAMIAM list of UI integrated ISVs
+   - Once received, Microsoft will add your logo into the official aka&#46;ms/SAMIAM list of UI integrated ISVs and you will receive a UI PR Kit to support any marketing content you wish to develop
 
-   All operational communication after this time will be via SharePoint notices as Microsoft indicates future UI planning and updates that may require review or updates of your solutions.
-
-   - Note: You may be required to re-validate results based on future UI updates.
+   Note: You may be required to re-validate results based on future UI updates.
 
 ## Additional Information
 
 **For questions or comments on the IAM ISV integration process please email**: SAM-UI@microsoft.com
 
-More information on both Microsoft SAM Practices and IAM can be found in the Microsoft Partner Network here:  
-[https://partner.microsoft.com/en-US/Licensing/software-asset-management#Navigated_Rich_Text_Node_11](https://partner.microsoft.com/en-US/Licensing/software-asset-management#Navigated_Rich_Text_Node_11)
+More information on both Microsoft SAM Practices and IAM can be found in the [Microsoft Partner Network](https://partner.microsoft.com/en-US/Licensing/software-asset-management#Navigated_Rich_Text_Node_11) page.
 
-**Examples of Logo use request sent from Microsoft to you for Logo approval templates:**
+**Logo Use Consent Request sent from Microsoft to you for Logo Usage Approval**
 
 I was informed by our technical team that the &lt;&lt;insert company name&gt;&gt; application has passed the compatibility tests for integration with our Universal Inventory application.
 
