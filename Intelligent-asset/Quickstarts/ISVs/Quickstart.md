@@ -1,8 +1,8 @@
-# Universal Inventory Integration for ISVs – Onboarding Guide
+# Universal Inventory Integration for ISVs – Quick Start
 
 ## Introduction
 
-This guide explains the steps and process for ISVs to build connectors to <ins>Provide</ins> or <ins>Consume</ins> inventory data with the Universal Inventory (UI) component of the Intelligent Asset Management (IAM) platform.
+This guide explains the steps and process for ISVs to build the integration from their Inventory/Value solutions with Universal Inventory application and standard.
 
 This is a self-guided process and largely relies on <ins>*the ISV*</ins> to initiate the work and complete all the required steps. Please read and follow the processes contained in this guide.
 
@@ -10,14 +10,12 @@ Data Flow in IAM across the 5 phases of SAM Engagements:
 
 ![Data_Flow_IAM](media/Data_Flow_IAM.jpg)
 
-## ISV Commitment to promote Microsoft’s SAM Value Messaging
+## Important ISV Commitment to promote Microsoft’s SAM Value Messaging
 
 IAM 2018 is designed to facilitate achieving the core Microsoft SAM goals in delivering data driven insights that help customers increase the value of their Microsoft investments and make correct technology decisions.
 
-Detailed information on Microsoft’s SAM objectives can be found here:
-
-- [https://blogs.partner.microsoft.com/mpn/myth-busting-software-asset-management-andcompliance-audits/](https://blogs.partner.microsoft.com/mpn/myth-busting-software-asset-management-andcompliance-audits/)
-- [https://www.microsoft.com/en-us/sam/default.aspx](https://www.microsoft.com/en-us/sam/default.aspx)
+- Detailed information on Microsoft’s SAM objectives can be found [here](https://blogs.partner.microsoft.com/mpn/myth-busting-software-asset-management-andcompliance-audits/)
+- [Microsoft SAM Official Page](https://www.microsoft.com/en-us/sam/default.aspx)
 
 The IAM team will be promoting ISVs who have achieved UI integration points as part of the marketing of the platform.
 
@@ -35,7 +33,7 @@ Examples of incorrect, non-aligned messaging would be:
 
 The IAM team will discontinue work with any partner found to acting outside of these guidelines.
 
-## Step by Step Processes
+## Integration: Step by Step Process
 
 1. **Confirm to Microsoft your intent to proceed with the UI integration process by**:  
 
@@ -68,12 +66,13 @@ The IAM team will discontinue work with any partner found to acting outside of t
 
    This validation work can take 1 calendar week. After validation is complete you will receive a notification e-mail about the findings are some suggestions to improve your integration and make sure you are following the quality guidelines established by Microsoft. Once this refinement stage is done, you will be notified via e-mail that your integration has been completed.
 
-5. **Send Microsoft your logo, use permission and link to more information**
+5. **Integration completed: Marketing process**
 
    - Microsoft will ask via e-mail for some information to be able to include your logo and link on the official IAM 2018 landing page (aka&#46;ms/SAMIAM).
-   - Respond to Microsoft’s request for Logo file, Logo approval use and more information in substantially the same format as outlined below in Additional Information.
-   - Supply a link or a copy of the directions you will supply to your end users on how UI integration works
-   - Once received, Microsoft will add your logo into the official aka&#46;ms/SAMIAM list of UI integrated ISVs and you will receive a UI PR Kit to support any marketing content you wish to develop
+   - Respond to Microsoft’s request for Logo file and Logo Usage approval.
+   - Supply a link or a copy of the directions you will supply to your end users on how UI integration works.
+   - Supply URL of your final page with the directions described on the topic above.
+   - Once received, Microsoft will add your logo into the [official list of UI integrated ISVs]((https://aka.ms/samiam)) and you will receive a UI PR Kit to support any marketing content you wish to develop.
 
    Note: You may be required to re-validate results based on future UI updates.
 
@@ -82,23 +81,3 @@ The IAM team will discontinue work with any partner found to acting outside of t
 **For questions or comments on the IAM ISV integration process please email**: SAM-UI@microsoft.com
 
 More information on both Microsoft SAM Practices and IAM can be found in the [Microsoft Partner Network](https://partner.microsoft.com/en-US/Licensing/software-asset-management#Navigated_Rich_Text_Node_11) page.
-
-**Logo Use Consent Request sent from Microsoft to you for Logo Usage Approval**
-
-I was informed by our technical team that the &lt;&lt;insert company name&gt;&gt; application has passed the compatibility tests for integration with our Universal Inventory application.
-
-Microsoft would like approval to use the &lt;&lt;insert company&gt;&gt; logo for inclusion on Microsoft&#46;com/sam website, Intelligent Asset Manager tab, under the IAM/Universal Inventory-compatible ISVs. A mockup of how we would like to use it is outlined below. If you will allow us to use the &lt;&lt;insert company&gt;&gt; logo, please reply to this email with your approval.
-
-1. A high-resolution logo we can use on our webpage to confirm your compatibility with IAM2018. (In .ai format)
-1. An email statement confirming your consent for us to use your logo on our webpage (Microsoft&#46;com/sam) and that you agree to the terms below.
-1. A link to a webpage where people can find further information regarding your tools’ compatibility with IAM2018 and Universal Inventory
-
-   - Download link for your application (or instructions on how to get it)
-   - Versions/editions of your software that are compatible with UI/IAM
-   - Training/guidance for how to export inventory data from your tooling to IAM2018 and/or how to import from IAM 2018 (user guides, videos, etc)
-
-Example of how logo will be used:
-
-![Example Logos](media/Example_Logos.jpg)
-
-Upon your email approval, and in addition to the approval granted above, Microsoft has the right to publish, use, reference and display the logo as follows: (i) on Microsoft’s internal and external websites; (ii) in printed and digital publications; (iii) in printed media distributed by Microsoft internally or externally; (iv) in slides, brochures and other marketing collateral materials; and (v) as a reference when communicating with analysts, the press and the general public. Termination for convenience: you may terminate Microsoft’s rights to use the logo specifically granted in this email at any time without cause by giving 30 days’ notice by email to IAMSupport@microsoft.com. For clarity, such email notice of termination will not affect Microsoft’s rights to use your company’s logos granted in any other agreement or arrangement between your company and Microsoft.

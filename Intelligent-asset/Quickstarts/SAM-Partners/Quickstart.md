@@ -1,22 +1,7 @@
-# Introductory Information
+# SAM Partner - IAM Quick Start
 
-This user guide explains the steps and process for using Intelligent Asset Manager 2018 (IAM 2018). It is a living document. As new features become available they will be added.
+This Quickstart guide explains the end-to-end steps and process required for a SAM Partner to use Intelligent Asset Manager (IAM) when running a complete SAM Engagement in Partnership with Microsoft. 
 
-## 1.1  About Intelligent Asset Manager 2018
-
-Intelligent Asset Manager is designed to help streamline the conversion of raw data from inventory tools into usable and required formats to complete an MS SAM Engagement, and deliver value to the customer from the rich data provided that will enable them to fully understand their IT environment and make key technology and business decisions as a result.  
-
-As the partner working with the customer, you are ultimately responsible for reviewing and ensuring completeness and accuracy of engagements, including all data entered into and reported out from Intelligent Asset Manager before it is provided to a customer.
-
-Intelligent Asset Manager 2018 is a combination of the Universal Inventory system and the IAM Platform. It will be used as a key component of several programs at Microsoft, including Software Asset Management (SAM).
-
-**Universal Inventory (UI):** Windows Desktop Application will convert raw inventory data into a standardized inventory document, with information that can be used for assessment and planning.  
-**IAM Encryption/Decryption tool:** This application is a separate component of installed along with Universal Inventory and ensures data that could potentially contain any Personally Identifiable Information (PII) is encrypted prior to transmission to Microsoft.  
-**Intelligent Asset Manager Cloud (IAM Cloud):** Web application designed to refine and finalize EDPs, and create ELPs, and where Engagement administration activities occur.
-
-## 1.2  How does this guide work?
-
-This guide is intended to be workflow sequenced in a way that largely follows the end-to-end steps required of a SAM Partner to complete a SAM Engagement in partnership with the Microsoft SAM EM.  
 In addition to this guide, there are videos available that contain detailed overviews and demos of IAM features:
 
 | **IAM 2018 Steps** | **Topic**                                         | **Training Session Video Link**|
@@ -26,9 +11,9 @@ In addition to this guide, there are videos available that contain detailed over
 | Step 1         | **Creating a CIDC Using Universal Inventory**       | [https://aka.ms/IAMSession3](https://aka.ms/IAMSession3)  |
 | Steps 2 and 3  |**End-to-end Engagement using the IAM Platform**     | [https://aka.ms/IAMSession4](https://aka.ms/IAMSession4)  |
 
-## 1.3 Intelligent Asset Manager 2018 Workflow Overview
+## IAM Workflow Overview
 
-Here are the high-level Partner steps that make up IAM 2018 end-to-end Engagement com.
+Here are the high-level Partner steps that make up IAM end-to-end Engagement.
 
 1. Determine whether the Engagement will require an Effective Licensing Position (ELP) document. If yes, will it be created using Microsoft’s Centralized ELP Service or self-created.
 1. Provide a copy of the signed Letter of Engagement to the Microsoft SAM Engagement Manager.
@@ -54,7 +39,7 @@ Note: For provisioning to IAM Cloud, please see the last “Administrative” se
 - Have a service account available (instructions on how to create it is included on this Guide)
 - Have a SQL Server 2014 or later, Express Edition or higher database server available.
 
-## 1.6 IAM 2018 Support
+## 1.6 IAM Support
 
 All technical support issues should be directed to IAMSupport@microsoft.com  
 The following overview summarizes IAMs support standards:

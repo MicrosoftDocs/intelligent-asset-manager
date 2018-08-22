@@ -1,4 +1,4 @@
-# Introduction: IAM 2018 Data Flow
+# Introduction: IAM Data Flow
 
 The data flow within IAM 2018 by SAM workflow is displayed in the picture below. It is critical to understand:
 
