@@ -16,9 +16,12 @@
 - name: SAM Partner Guide
   href: sam-partner/index.md
 - name: ISV UI Onboarding Guide
-  href: isv/index.md
   items:
-    - name: UI Technical Overview
+    - name: Integration Process Overview
+      href: isv/IAM-Integration-Processes/UI_IVS_Integration_Processes.md
+    - name: Technical Integration Process 
+      href: isv/index.md
+    - name: UI Technical Structure Overview
       href: isv/I-AM_UI_Overview.md
     - name: UI Data Model
       href: isv/UI_Data_Model.md

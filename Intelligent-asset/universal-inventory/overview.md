@@ -65,3 +65,4 @@ The Universal Inventory can be consulted in the following ways:
 
 - By Inventory Consumers that provide additional **Value Services and Tools**.
 
+[Read here how to connect to UI to provide value.](https://microsoft.sharepoint.com/teams/MS_SAM_UI)
