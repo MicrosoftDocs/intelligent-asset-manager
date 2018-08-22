@@ -18,7 +18,7 @@
 - name: ISV UI Onboarding Guide
   items:
     - name: Integration Process Overview
-      href: isv/IAM-Integration-Processes/UI_IVS_Integration_Processes.md
+      href: isv/UI_IVS_Integration_Processes.md
     - name: Technical Integration Process 
       href: isv/index.md
     - name: UI Technical Structure Overview
