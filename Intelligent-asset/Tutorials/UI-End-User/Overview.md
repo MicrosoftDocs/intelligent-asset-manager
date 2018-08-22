@@ -39,30 +39,25 @@ Every time the user creates a UI Project, a UI Database is created. UI Database 
 
 UI will not scan or collect data directly. Instead it relies on *Connectors* to connect to existing Data Sources.
 
-![UI Overview ](media/I-AM_UI_Overview.png)
+## Inventory Data Input - Connectors
 
-## Connectors
-
-A Connector imports data from a specific Data Source into the Customer's UI Database. Connectors are implemented as scripts so they can easily be reviewed and tweaked by the Customer.
+A Connector imports data from a specific Inventory Data Source (Tool/Service) into the Customer's UI Database. Connectors are implemented as scripts so they can easily be reviewed and tweaked by the Customer.
 
 Two types of connectors exist:
 
 - **Pull connectors** pull information from a Data Source. They are managed and executed by UI. Pull connectors currently exist for Active Directory, Azure, MapToolkit, Office 365, SCCM, and vSphere.
 
-- **Push connectors** push information from a Data Source. They are built by by Inventory Providers, executed through the Inventory Provider tool, and push data directly into the UI Database.
+- **Push connectors** push information from a Data Source. They are built by by Inventory Providers, executed through the Inventory Provider tool, and push data directly into the UI Database. To access the full list of Inventory Providers, please access the [official IAM page](https://aka.ms/samiam).
 
-[Read here how to create a Push connector.](Push_Connectors.md)
 
-## Output
+## Standardized Inventory Data Output - Value Analysis
 
-The Universal Inventory can be consulted in the following ways:
+The Universal Inventory standardized data can be consumed in the following ways:
 
-- Through reports provided in UI.
+- By Inventory Consumers Partners that provide additional **Value Analysis and Data Visualization** through their Tools and Services. To access the full list of Inventory Consumers, please access the [official IAM page](https://aka.ms/samiam).
+ 
+- Through reports provided in UI/IAM Cloud.
 
 - By accessing the UI database directly using tools such as Excel.
 
 - By the **ELP Service** provided by Microsoft to generate a validated License Position based on the Customer's UI Inventory.
-
-- By Inventory Consumers that provide additional **Value Services and Tools**.
-
-[Read here how to connect to UI to provide value.](https://microsoft.sharepoint.com/teams/MS_SAM_UI)
