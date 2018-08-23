@@ -6,14 +6,14 @@ The first steps you need to perform in order to start Universal Inventory integr
 1. Ensure your personnel has the required technical skills:
    - Microsoft SQL Server: connect to a SQL Server database, and query or fill the database using T-SQL, the query language used in SQL Server.
    - A solid technical background of your solution.
-2. Read the [UI Overview](universal-inventory/Overview.md) to get familiarized with the Universal Inventory terms and main technical components.
-3. Read [UI Data Model](UI_Data_Model.md)​ to understand how data in the inventory is organized.​
+2. Read the [UI Introduction](Tutorials/UI/introduction.md) to get familiarized with the Universal Inventory terms and main technical components.
+3. Read [UI Data Model](Data_Model.md)​ to understand how data in the inventory is organized.​
 
 ​Next,
 
 **If you are an ISV that will <ins>provide</ins> inventory data to UI (Inventory Provider), you should build a connector that pushes data into the Universal Inventory:**
 
-1. Make sure you understand the [UI Input schema](The_Input_Schema.md), and how the [UI Push Connectors](Push_Connectors.md)​ works.
+1. Make sure you understand the [UI Input schema](Input_Schema.md), and how the [UI Push Connectors](Push_Connectors.md)​ works.
 2. Read about [DataSourceId](The_Input_Schema.md#markdown-header-dataSourceId), and send a proposed DataSourceId​ for your Connector to SAM-UI@microsoft.com for validation.
 3. Download and install the latest version of [Universal Inventory](https://aka.ms/DownloadUI).
 4. Create a test Project in UI. Look at the empty database created with SQL Management Studio. (The database name will be the name of your test project prefixed with "UI_")
