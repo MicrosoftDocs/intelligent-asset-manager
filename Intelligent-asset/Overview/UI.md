@@ -12,13 +12,13 @@ It is important to note that all UI dataflow occurs inside the environment of th
 
 As an input into the UI application, it is accepted several different types of raw inventory data sources. It could come from either push or pull connectors (described on the picture above).
 
-To check on the official list of UI Inventory Providers Tools, visit the [*official IAM page*](https://aka.ms/samiam).
+To check on the official list of UI Inventory Providers Tools, visit the [**official IAM page**](https://aka.ms/samiam).
 
 ## UI Processing
 
 Once the software deployed on the organization's IT environment is successfully scanned* by the data sources selected from the options above, user will be able to input it into the UI application.
 
-The workflow below outlines the UI processing of the inp[**Best Practices for Quality Inventory**](../Tutorials/ISVs/introduction.md)ut data:
+The workflow below outlines the UI processing of the input data:
 
 - Gather: Inputs the raw data scanned by the data sources described above into UI
 - Verify: Allows user to exclude out-of-scope items
@@ -31,4 +31,4 @@ The workflow below outlines the UI processing of the inp[**Best Practices for Qu
 
 Once the UI inventory is complete and standardized through the normalization process, the user will be able to export the inventory (CIDC) file with the exact correct data for the purpose it will be used to: Microsoft SAM Engagement or other Value/Visualization Tools that have integrated with UI.
  
-To check the official list of officially integrated UI Value Tools, visit the [*official IAM page*](https://aka.ms/samiam).
+To check the official list of officially integrated UI Value Tools, visit the [**official IAM page**](https://aka.ms/samiam).
