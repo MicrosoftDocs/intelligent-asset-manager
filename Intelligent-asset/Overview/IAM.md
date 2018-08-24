@@ -6,9 +6,9 @@
 
 IAM consists of the following components:
 
-- **[Universal Inventory](Overview/UI.md)** (UI) is a free application you can install on-premise to gather, process and standardizes inventory data about the entire IT infrastructure of an organization. UI does not scan the IT infrastructure, but rather integrates with existing solutions to import data from sources such as the Active Directory, well-known discovery tools, asset management solutions, virtualization systems, and cloud subscriptions, and stores the consolidated inventory in a database on-premise. The core output of UI is the Clean Inventory Data Contract (CIDC), which can then be exported into one of the Value solutions integrated with UI or into the IAM Cloud during a Microsoft SAM Engagement (see below).
+- **[Universal Inventory](UI.md)** (UI) is a free application you can install on-premise to gather, process and standardizes inventory data about the entire IT infrastructure of an organization. UI does not scan the IT infrastructure, but rather integrates with existing solutions to import data from sources such as the Active Directory, well-known discovery tools, asset management solutions, virtualization systems, and cloud subscriptions, and stores the consolidated inventory in a database on-premise. The core output of UI is the Clean Inventory Data Contract (CIDC), which can then be exported into one of the Value solutions integrated with UI or into the IAM Cloud during a Microsoft SAM Engagement (see below).
 
-- **[IAM Cloud](Overview/IAMCloud.md)** is a cloud service hosted by Microsoft. During a Microsoft SAM Engagement run by a SAM Partner, Microsoft-only software deployment data consolidated through UI in a CIDC can be uploaded to IAM Cloud to produce the Microsoft-certified Effective Deployment Position (EDP) and Effective License Position (ELP). At this moment only Microsoft SAM Partners have access to IAM Cloud.
+- **[IAM Cloud](IAMCloud.md)** is a cloud service hosted by Microsoft. During a Microsoft SAM Engagement run by a SAM Partner, Microsoft-only software deployment data consolidated through UI in a CIDC can be uploaded to IAM Cloud to produce the Microsoft-certified Effective Deployment Position (EDP) and Effective License Position (ELP). At this moment only Microsoft SAM Partners have access to IAM Cloud.
 
 ## IAM Data Flow
 
@@ -21,6 +21,6 @@ During a Microsoft SAM Engagement, the data flow within IAMis displayed in the p
 
 ## Getting Started with IAM
 
-- Learn more about [**Universal Inventory**](Overview/UI.md) and how it works.  
-- Learn more about the [**IAM Cloud**](Overview/IAMCloud.md) and how it works.
-- Get to know all about the [Key IAM Users and Stakeholders](Overview/key-users.md). Identify which User category you are a part of and follow the correspondent Quickstart and Tutorial guides to learn how to use the IAM features available for you.
+- Learn more about [**Universal Inventory**](UI.md) and how it works.  
+- Learn more about the [**IAM Cloud**](IAMCloud.md) and how it works.
+- Get to know all about the [Key IAM Users and Stakeholders](key-users.md). Identify which User category you are a part of and follow the correspondent Quickstart and Tutorial guides to learn how to use the IAM features available for you.
