@@ -6,7 +6,7 @@
       href: Overview/UI.md
     - name: IAM Cloud
       href: Overview/IAMCloud.md
-    - name: Key Users and Stakeholders
+    - name: IAM Key Users and Stakeholders
       hred: Overview/key-users.md
 - name: Quickstarts
   items:
