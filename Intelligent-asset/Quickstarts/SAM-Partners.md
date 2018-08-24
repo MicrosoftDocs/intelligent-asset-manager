@@ -1,4 +1,4 @@
-# SAM Partner - IAM Quick Start
+# Quickstart: SAM Partners
 
 This Quickstart guide explains the end-to-end steps and process required for a SAM Partner to use Intelligent Asset Manager (IAM) when running a complete SAM Engagement in Partnership with Microsoft. 
 
@@ -34,17 +34,8 @@ Here are the high-level Partner steps that make up IAM end-to-end Engagement.
 
 Note: For provisioning to IAM Cloud, please see the last “Administrative” section of this guide for more information.
 
-## 1.5 Universal Inventory Requirements
 
-- Have a service account available (instructions on how to create it is included on this Guide)
-- Have a SQL Server 2014 or later, Express Edition or higher database server available.
 
-## 1.6 IAM Support
+## SAM Partner: Getting Started
 
-All technical support issues should be directed to IAMSupport@microsoft.com  
-The following overview summarizes IAMs support standards:
-
-![IAM Support Standards](media/IAM_support_standards.jpg)
-
-Microsoft requires written consent directly from the customer before any decrypted PII is accepted.  
-The SAM Engagement Manager will work with the customer to ensure all Microsoft policies and procedures are met for sharing and sending PII.
+IAM Cloud Administrative

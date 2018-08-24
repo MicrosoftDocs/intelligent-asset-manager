@@ -1,4 +1,4 @@
-# UI End User - Quickstart
+# Quickstart: Universal Inventory
 
 ## UI Workflow Overview
 

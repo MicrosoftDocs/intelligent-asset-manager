@@ -17,6 +17,48 @@ To get provisioned for any of the User Types above marked with an “*” please
 
 NOTE: you will need either a Microsoft Account (formerly Live ID) or a Microsoft Work or School Account to log in.
 
+## 3.1 Creation of IAM Engagement
+
+IAM Engagements are created by your SAM Engagement Manager (EM). To be created, you will have to provide to your SAM EM the following:
+
+- Customer Name
+- Copy of signed Letter of Engagement
+- Connect ID (Partner Lead)
+
+For the SAM EM audience, the appendix includes detailed instructions on how to create an IAM Engagement.
+
+## 3.2  Customer’s Engagement Consent
+
+All new Engagements require an Engagement Consent form to be signed by the person at the Customer who has <ins>authority to authorize a SAM Engagement</ins> ‘contact’. IAM Cloud will not accept a CIDC until this consent has been received.  
+To send an Engagement consent via email to this contact, sign into [IAM Cloud](https://www.intelligentassetmanager.com/), select the “Engagement Consent” option in the caret dropdown for the Engagement.
+
+![Engagement Dashboard](media/Engagement_Dashboard.jpg)
+
+Partner should select the correct “Engagement type” for this Engagement:
+
+- "ELP as a Service” to be used only if an ELP will be created using [Microsoft’s Centralized ELP Service program](Step3_Effective_License_Position.md#microsoft’s-centralized-elp-service).
+- "Partner Led” Engagement type: For all others
+
+To choose the right Engagement type, click on “Edit” right next to the Engagement Type option, and select the preferred option. If you choose “ELP as a Service”, select on the first drop-down menu the option "SAM Live!" for ELP Service Provider, you do not need to choose any option for the "Quality assurance provider".
+
+Next, enter the email address for the contact and click the “Send” button.
+
+![Engagement Consent Send](media/Engagement_Consent_Send.jpg)
+
+The contact will receive an email from iamc@microsoft.com with a link to consent to the Engagement activities.
+
+![Engagement Consent Email](media/Engagement_Consent_Email.jpg)
+
+The contact should then click on the link, which present the appropriate terms for the Engagement.
+
+![Engagement Consent Sign](media/Engagement_Consent_Sign.jpg)
+
+The contact will need to enter the email address used to receive the Engagement consent, check the acceptance language, and then click on the accept button.  
+Partners and SAM EMs can review when and by whom consent was accepted by looking under “Acceptance Detail” on the “Engagement Consent” screen in the IAM Cloud  
+After the consent has been received by the contact, IAM Steps 2 and 3 will be enabled for this Engagement.
+
+If needed due to changes in roles, etc at the Customer, or due to choosing for the Centralized ELP Service later on the process, consent forms can be resent to alternative contacts or again to the same contact.
+
 ## 6.2. SAM Partner Admin: Adding SAM Partner Admins/Users
 
 1. Click on the ‘Manage Partner Organizations’ tile in the home page, Partner Organization Dashboard is shown to the user

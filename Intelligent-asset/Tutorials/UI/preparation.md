@@ -14,6 +14,20 @@
 
   The amount of disk space required for the databases of course depends on the size of your inventory. As an indication, a 2GB database can hold info on about 20.000 devices without performance data.
 
+NOTE: The Universal Inventory service account has to have permissions to create and delete databases on the database server.
+
+- Have a folder available where Universal Inventory can store Log and Project files.
+- Have an URL and port available where the Universal Inventory service can be published.
+
+NOTE: The Universal Inventory service is published on [http://localhost:10940](http://localhost:10940) by default. If you want to run the Universal Inventory client application on a different computer, you must replace localhost with a network name that the client computer can connect to.
+
+___
+## 1.5 Universal Inventory Requirements
+
+- Have a service account available (instructions on how to create it is included on this Guide)
+- Have a SQL Server 2014 or later, Express Edition or higher database server available.
+- ________
+- 
   > [!TIP]
   > Although the Universal Inventory databases can be installed on an existing SQL Server, we strongly advise the installation of a separate SQL Server instance for Universal Inventory because the **Universal Inventory Service Account** requires administrative permissions on the entire database server, including all other databases that reside on the same server.
 

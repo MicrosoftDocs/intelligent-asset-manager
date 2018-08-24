@@ -1,8 +1,8 @@
-# Key Users and Stakeholders of IAM
+# Overview: IAM Key Users and Stakeholders
 
 - IT Staff and consultants that are involved with Software Asset Management in their organization or that of their customers, should use IAM to measure actual usage, support the decision-making progress, and profit from value services provided by IAM-certified partners.  
 
-  Customers who use IAM in conjunction with an accredited partner may receive benefits such as audit risk reduction and a fresh start with Microsoft licensing.
+- Customers who use IAM in conjunction with an accredited partner may receive benefits such as audit risk reduction and a fresh start with Microsoft licensing.
 
 - Microsoft SAM Partners must use IAM to produce an EDP and ELP in the context of the SAM Incentive Program or SAM Managed Service Program. See [Microsoft SAM Partners](https://aka.ms/mssampartners) for more information.
 

@@ -1,4 +1,4 @@
-# Universal Inventory Integration for ISVs – Quick Start
+# Quickstart: Universal Inventory ISVs
 
 ## Introduction
 
