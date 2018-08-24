@@ -4,8 +4,6 @@
 
 ​​Stakeholders​
 
-|                    |                                                                                                                                                      |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Customer​           | Organization that uses Microsoft software and wants to optimize their investment in software from Microsoft and other vendors through the use of UI. |
 | Inventory Consumer​ | ​​​ISV (Independent Software Vendor) that produces a Connector to push inventory data from their respective solution into UI.                           |
 | Inventory Provider​​​​​​ | ​​ISV (Independent Software Vendor) that consumes standardized inventory data from UI to provide Value Services.​​​​​​                                       |

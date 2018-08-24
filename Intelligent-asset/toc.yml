@@ -7,12 +7,12 @@
     - name: IAM Cloud
       href: Overview/IAMCloud.md
     - name: IAM Key Users and Stakeholders
-      hred: Overview/key-users.md
+      href: Overview/key-users.md
 - name: Quickstarts
   items:
     - name: Universal Inventory Users
       href: Quickstarts/UI.md
-    - name: SAM Partner
+    - name: SAM Partners
       href: Quickstarts/SAM-Partners.md
     - name: Universal Inventory ISVs
       href: Quickstarts/ISV.md
@@ -32,7 +32,7 @@
           href: Tutorials/UI/installation.md
         - name: Inventory
           href: Tutorials/UI/inventory.md
-    - name: SAM Partner
+    - name: SAM Partners
       items:
         - name: Administrative
           href: Tutorials/SAM-Partners/Admin.md
