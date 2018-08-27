@@ -36,12 +36,16 @@
           href: Tutorials/UI/Release-notes.md       
     - name: SAM Partners
       items:
-        - name: Administrative
-          href: Tutorials/SAM-Partners/Admin.md
+        - name: Preparation
+          href: Tutorials/SAM-Partners/preparation.md
         - name: Effective Deployment Position (EDP)
           href: Tutorials/SAM-Partners/EDP.md
         - name: Effective Licensing Position (ELP)
           href: Tutorials/SAM-Partners/ELP.md
+        - name: Microsoft's ELP Service
+          href: Tutorials/SAM-Partners/ELPS.md
+        - name: Other Data Template
+          href: Tutorials/SAM-Partners/ODT.md
     - name: Universal Inventory ISVs
       items:
         - name: Technical Integration Process 

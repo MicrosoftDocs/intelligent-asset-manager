@@ -1,6 +1,6 @@
-#Quickstart: Microsoft SAM Engagement Managers
+# Quickstart: Microsoft SAM Engagement Managers
 
-# Getting Started
+## Getting Started
 
 Understand UI
 Understand SAM Partner workflow
