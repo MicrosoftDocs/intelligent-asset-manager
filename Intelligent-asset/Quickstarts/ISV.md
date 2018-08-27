@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This guide explains the steps and process for[**Microsoft ISVs**](../Overview/key-users.md) to build the integration from their Inventory/Value solutions with Universal Inventory application and standard.
+This guide explains the steps and process for [**Microsoft ISVs Partners**](../Overview/key-users.md) to build the integration from their Inventory/Value solutions with Universal Inventory application and standard.
 
 This is a self-guided process and largely relies on <ins>*the ISV*</ins> to initiate the work and complete all the required steps. Please read and follow the processes contained in this guide.
 

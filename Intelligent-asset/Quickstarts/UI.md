@@ -3,10 +3,10 @@
 ## UI Workflow Overview
 
 On our Tutorials - UI section:
-1. Read [Overview](overview.md) to understand the UI Terms and technical components.
-1. Read [Preparation](preparation.md) to make sure your system meets requirements and set up prerequisites.
-- [Install Universal Inventory](installation.md)
-- [Create an inventory](inventory.md)
+1. Read [Overview](..Tutorials/UI/introduction.md) to understand the UI Terms and technical components.
+1. Read [Preparation](..Tutorials/UI/preparation.md) to make sure your system meets requirements and set up prerequisites.
+- [Install Universal Inventory](..Tutorials/UI/installation.md)
+- [Create an inventory](..Tutorials/UI/inventory.md)
 
 
                                       | **Training Session Video Link**|

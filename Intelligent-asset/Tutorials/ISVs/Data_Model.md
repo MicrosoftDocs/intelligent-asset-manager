@@ -20,6 +20,4 @@ A UI database has three schemas:
 
 ![UI Data Flow ](media/UI_Data_Flow.png)
 
-Read [**Push Connectors**](Push_Connectors.md) for more details on uploading data to UI.
-
 Read [**Release Notes**](../UI/Release-notes.md) for the detailed description of release changes on the past versions of Universal Inventory. 

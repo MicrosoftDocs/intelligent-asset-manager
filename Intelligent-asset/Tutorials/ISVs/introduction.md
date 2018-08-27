@@ -1,4 +1,4 @@
-# Technical Integration Process
+# Tutorial: Technical Integration Process for UI ISVs
 
 ## First Steps
 
@@ -7,7 +7,7 @@ After reviewing the [**Quickstart process for UI technical integration**](../../
 1. Ensure your personnel has the required technical skills:
    - Microsoft SQL Server: connect to a SQL Server database, and query or fill the database using T-SQL, the query language used in SQL Server.
    - A solid technical background of your solution.
-2. Read the [**UI Introduction**](..Tutorials/UI/introduction.md) to get familiarized with the Universal Inventory terms and main technical components.
+2. Read the [**UI Introduction**](../UI/introduction.md) to get familiarized with the Universal Inventory terms and main technical components.
 3. Read the [**UI Data Model**](Data_Model.md)​ to understand how data in the inventory is organized.​
 
 ## ISV: Inventory Provider
