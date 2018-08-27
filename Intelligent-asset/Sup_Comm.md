@@ -1,9 +1,9 @@
-## IAM Support and Community
+# IAM Support and Community
 
-# IAM     Support
+## IAM Cloud and Universal Inventory Support
 
-All technical support issues should be directed to IAMSupport@microsoft.com  
-The following overview summarizes IAMs support standards:
+All technical support issues should be directed to IAMSupport@microsoft.com, for both IAM Cloud and Universal Inventory app,  
+The following overview summarizes IAM support standards:
 
 ![IAM Support Standards](media/IAM_support_standards.jpg)
 

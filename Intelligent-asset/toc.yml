@@ -32,6 +32,8 @@
           href: Tutorials/UI/installation.md
         - name: Inventory
           href: Tutorials/UI/inventory.md
+        - name: Release Notes
+          href: Tutorials/UI/Release-notes.md       
     - name: SAM Partners
       items:
         - name: Administrative

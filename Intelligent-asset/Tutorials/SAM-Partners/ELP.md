@@ -63,7 +63,15 @@ Please find below some best practices recommendations on how to check the accura
   - Other VLSC that could not be included in MLS – ***For the Centralized ELP Service**, in this case you will need email agreement from your SAM EM to include those in the ODT*
   - If there are MPSA licenses, please verify the SA coverage period dates
 
-## 5.2 Microsoft’s Centralized ELP Service
+***If licenses are missing from the Microsoft License Statement (MLS) provided by Microsoft how do I include them in the ELP?***
+
+There are certain license types that are not captured within the MLS. To capture these types of licenses (OEM, FPP, etc.) the [Other Data](ODT.md) spreadsheet can be used to modify the ELP.  
+
+***If there are deployment data missing on the ELP what should I do to add new information??***
+
+If you realize there are missing deployment data on your ELP, you should capture the information missing using the [Other Data](ODT.md) spreadsheet can be used to modify the ELP.  
+
+## Microsoft’s Centralized ELP Service
 
 *IMPORTANT NOTE: As stated above if this option is chosen, the EDP should not be finalized by the Partner, Partner should follow the steps below with EDP created but not finalized.*
 

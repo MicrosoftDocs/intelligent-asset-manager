@@ -13,5 +13,5 @@ To get started using IAM, you should identify from the list below which User Typ
 
 - [**Universal Inventory Users**](../Quickstarts/UI.md): Customer or SAM Partner staff that is running UI on the Customer's IT environment.
 - [**SAM Partners**](../Quickstarts/SAM-Partners.md): Microsoft's SAM Certified Partner (IT Service Provider) engaged by the Customer to assist with Software Asset Management practices.
-- [**Universal Inventory ISVs**](../Quickstarts/ISV.md): Microsoft's Independent Software Vendor that could either produce a Connector to push inventory data scanned by their respective solution into UI or to consume standardized inventory data from UI to provide Value Services.​
+- [**Universal Inventory ISVs**](../Quickstarts/ISV.md): Microsoft's Independent Software Vendor that could either produce a Connector to push inventory data scanned by their respective solution into UI (Inventory Provider) or to consume standardized inventory data from UI to provide Value Services (Inventory Consumer).​
 - [**Microsoft SAM Engagement Managers**](../Quickstarts/SAM-EMs.md): Microsoft's local representative that supports SAM Partners through the SAM Program and Channel Incentives.

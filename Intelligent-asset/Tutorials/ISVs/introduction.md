@@ -1,28 +1,31 @@
 # Technical Integration Process
 
-**ISV,**
-The first steps you need to perform in order to start Universal Inventory integration of your tool are:
+## First Steps
+
+After reviewing the [**Quickstart process for UI technical integration**](../../Quickstarts/ISV.md) for our [**ISVs partners**](../../Overview/key-users.md), please follow the initial steps below in order to start Universal Inventory integration of your tool:
 
 1. Ensure your personnel has the required technical skills:
    - Microsoft SQL Server: connect to a SQL Server database, and query or fill the database using T-SQL, the query language used in SQL Server.
    - A solid technical background of your solution.
-2. Read the [UI Introduction](Tutorials/UI/introduction.md) to get familiarized with the Universal Inventory terms and main technical components.
-3. Read [UI Data Model](Data_Model.md)​ to understand how data in the inventory is organized.​
+2. Read the [**UI Introduction**](..Tutorials/UI/introduction.md) to get familiarized with the Universal Inventory terms and main technical components.
+3. Read the [**UI Data Model**](Data_Model.md)​ to understand how data in the inventory is organized.​
 
-​Next,
+## ISV: Inventory Provider
 
-**If you are an ISV that will <ins>provide</ins> inventory data to UI (Inventory Provider), you should build a connector that pushes data into the Universal Inventory:**
+If you are an ISV that will <ins>provide</ins> inventory data to UI with your scanning tool or service, you should build a connector that pushes data into the Universal Inventory application:
 
-1. Make sure you understand the [UI Input schema](Input_Schema.md), and how the [UI Push Connectors](Push_Connectors.md)​ works.
-2. Read about [DataSourceId](The_Input_Schema.md#markdown-header-dataSourceId), and send a proposed DataSourceId​ for your Connector to SAM-UI@microsoft.com for validation.
-3. Download and install the latest version of [Universal Inventory](https://aka.ms/DownloadUI).
+1. Make sure you understand the [**UI Input schema**](Input_Schema.md), and how the [**UI Push Connectors**](Push_Connectors.md)​ works.
+2. Read about [**DataSourceId**](Input_Schema.md#markdown-header-dataSourceId), and send a proposed DataSourceId​ for your Connector to SAM-UI@microsoft.com for validation.
+3. Download and install the latest version of [**Universal Inventory**](https://aka.ms/DownloadUI).
 4. Create a test Project in UI. Look at the empty database created with SQL Management Studio. (The database name will be the name of your test project prefixed with "UI_")
-5. Build a [Push Connector](Push_Connectors.md) and use it to fill the tables in the [in] schema of the test database with the data scanned through your inventory tool/service.
+5. Build a [**Push Connector**](Push_Connectors.md) and use it to fill the tables in the [in] schema of the test database with the data scanned through your inventory tool/service.
 6. Send a backup of the filled database to SAM-UI@microsoft.com.
 7. We will process the database against ​UI quality standards and provide feedback to fine-tune your Connector.
 8. Once the fine tuning is finalized, we will confirm your tool's integration.
 
-**If you are an ISV that will <ins>consume</ins> inventory data from UI in your value Tool (Inventory Consumer), please contact SAM-UI@microsoft.com outlining which of the options of the 4 topics below best suit your plan and solution. We will then proceed to give you more information about the integration.**
+## ISV: Inventory Consumer
+
+If you are an ISV that will <ins>consume</ins> inventory data from UI in your value/data analysis tool or service, please contact SAM-UI@microsoft.com outlining which of the options of the 4 topics below best suit your plan and solution. We will then proceed to give you more information about the integration.
 
 1. What is the format and content you need to consume UI data:  
 
@@ -58,7 +61,4 @@ The first steps you need to perform in order to start Universal Inventory integr
 
   We will  work together to (as much as possible) make sure we can provide you a database in a format that your tool can support.
 
-____
-T​here might be regular updates to the Data Model and the data flow of Universal Inventory. We will keep you informed on the updates through the IAM Communication alias, but please check back here for the latest changes before working on the integration of your solution. 
-
-We would like to thank all our partners for their generous contribution to this exciting initiative. Send all your inquiries, proposals and remarks to SAM-UI@microsoft.com​​.
+T​here might be regular updates to the Data Model and the data flow of Universal Inventory. We will keep you informed on the updates through the IAM Communication alias, but please check back here for the latest changes before working on the integration of your solution.

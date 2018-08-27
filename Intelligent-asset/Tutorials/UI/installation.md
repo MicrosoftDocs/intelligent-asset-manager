@@ -2,16 +2,11 @@
 
 ## Quick Tips
 
-- Download the Universal Inventory Application [here](https://aka.ms/downloadUI). 
-
+- Download the Universal Inventory Application [here](https://aka.ms/downloadUI).
 - Always start UISetup.exe **in administrative mode**.
-
 - If a previous installation of Universal Inventory is detected, UISetup allows you to uninstall it.  
-
 - If the version of the previous installation is lower than the version being installed, UISetup allows you to upgrade the existing installation.
-
 - If no previous installation is detected, UISetup displays the **Overview** page to start a first-time installation.
-
 - Click **View Log file** in the top-right corner at all times to bring up a log file that can help in troubleshooting any issues that occur during upgrade or installation.
 
 ## Installing Universal Inventory and Encryption/Decryption Tool
@@ -137,13 +132,6 @@
    Now you are all set up to start creating a CIDC using Universal Inventory.
 
    Additionally, you can watch the video of the [IAM 2018 Session 2: Installing Universal Inventory](https://aka.ms/iamsession2) (this recording still uses the first version and look-and-feel of UI, but the workflow remains correct).
-
-
-
-
-
-
-
 
 ## Overview
 

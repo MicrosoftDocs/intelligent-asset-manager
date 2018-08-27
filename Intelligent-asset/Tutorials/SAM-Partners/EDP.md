@@ -10,7 +10,7 @@ Data such as machine name, user name and IP address is important to collect to p
 
 Additionally, to the steps described on this topic, you can watch the video of the [IAM 2018 Session 4: End-to-End Engagement using the IAM Platform](https://aka.ms/iamsession4).
 
-## 4.1 Uploading a CIDC
+## Uploading a CIDC
 
 After encrypting your CIDC, navigate back to Intelligent Asset Manager and upload it to the Engagement to which it relates.
 
@@ -27,7 +27,7 @@ After encrypting your CIDC, navigate back to Intelligent Asset Manager and uploa
 
     ![CIDC Download Localized Template](media/CIDC_Download_Localized_Template.jpg)
 
-## 4.2 CIDC Error Report
+## CIDC Error Report
 
 If a CIDC fails validation, a CIDC error report can be downloaded outlining all of the errors that failed validation efforts. Click the arrow in the status column next to the text “Validation Failed” and select “Download Error Report”.
 
@@ -35,7 +35,7 @@ If a CIDC fails validation, a CIDC error report can be downloaded outlining all 
 
 Error reporting is added directly to the CIDC report that was uploaded. All cells that have a validation issue will be highlighted in Red. An additional column is added to each sheet within the CIDC outlining the error(s) for the given row. User can make edits directly to the CIDC error report and upload to IAM. (Note: the CIDC report will still need to have the Engagement level password removed from the file before it can be uploaded and restored/encrypted)
 
-## 4.3  Edit CIDC Web Form
+## Edit CIDC Web Form
 
 A “web form” for editing of CIDCs has been developed for Step 2 of Intelligent Asset Manager. This feature is intended to allow users to quickly edit a subset of fields in their CIDC (License Product Family & License Models) without needing to go through the full process of CIDC download, unencrypt, edit, re-encrypt, and re-upload.  
 After a CIDC has been uploaded and either an EDP has been generated or is in “CIDC Incomplete” status it can be edited through the web form.
@@ -56,18 +56,18 @@ The Edit CIDC table is grouped by the Product Pool (EDP Allocation Type – Shee
 - **Environment** - Environment Type
 - **CIDC Tab** – Indicates the tab in the CIDC where the specific record appears. Note that an asterisk (*) in the CIDC Tab column indicates no matching hardware exists on Tab A of the CIDC. This record will not appear in the EDP unless the machine information is added to tab A of the CIDC.
 
-## 4.4 SQL Core vs. Processor License reporting in the CIDC
+## SQL Core vs. Processor License reporting in the CIDC
 
 Standard, Core, and Processor licenses are captured under separate SAM Product Family Names within Intelligent Asset Manager. To specify core or processor, the appropriate product family must be chosen when manually completing the CIDC. A full list of all available product families and mapping to the accepted License Models can be found on Sheet name “2” of Intelligent Asset Manager_*DomainData.xlsx* which can be downloaded from the *“Product & Program Definitions”* link on the footer of Intelligent Asset Manager.
 
 ![Product & Program Definitions](media/Product_Program_Definitions.jpg)
 ![IAM Domain Data](media/IAM_Domain_Data.jpg)
 
-## 4.5  CIDC Tab G cross checking
+## CIDC Tab G cross checking
 
 The information captured in this tab is populated at the discretion of the individual completing the CIDC form. It is not being cross checked against the data provided in tabs A-F of the CIDC for validation. However, if the fields are left blank a warning will appear in the generated EDP notifying the user that they should consider populating the tab for CIDC completeness.
 
-## 4.6  Downloading an EDP
+## Downloading an EDP
 
 For successful uploads of a CIDC, an EDP report will be generated. To download the newly generated EDP report, the user selects the dropdown arrow on the CIDC file, selects the language that they would like to download the report in, and clicks “Download” to download the EDP report.
 
@@ -97,7 +97,8 @@ When opening the file (or any file downloaded from Intelligent Asset Manager) yo
 Additionally, you can watch the video of the [IAM 2018 Session 1: Best Practices for Quality Inventory Collection](https://aka.ms/IAMSession1).
 
 
-## 4.7  Finalizing your EDP
+
+## Finalizing your EDP
 
 *NOTE: if the Engagement will use [Microsoft’s Centralized ELP Service program](Step3_Effective_License_Position.md#microsoft’s-centralized-elp-service), skip to section 5.2*
 

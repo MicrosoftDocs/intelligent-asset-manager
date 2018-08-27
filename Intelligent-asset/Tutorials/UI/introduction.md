@@ -13,8 +13,7 @@
 
 Universal Inventory terms​​
 
-|             |                                                                                                                                                                                                                                                                                                                                               |
-|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
 | Connector​   | A piece of code to import data from a specific Data Source into UI. We distinguish: <ul><li>Push Connectors are defined and executed on the Inventory Provider's solution and push data into UI.</li><li>Pull Connectors are defined an executed on UI to pull data from a Data Source.​</li></ul>                                                                         |
 | Data Source​ | Source of data in the Inventory Provider's solution where data is imported from.                                                                                                                                                                                                                                                              |
 | Inventory​   | All collected information about a Customer's IT assets, stored in the UI Database                                                                                                                                                                                                                                                             |

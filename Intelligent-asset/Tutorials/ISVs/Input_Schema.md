@@ -1,12 +1,14 @@
 # The Input schema [in]
 
-The Input schema [in] holds all tables and procedures to import data into the Inventory. [Connectors](Push_Connectors.md)​​ must inject data into the inventory through this schema.
+Make sure you understand the [**UI Data Model**](Data_Model.md) before reading about The Input schema [in].
+
+The Input Schema [in] holds all tables and procedures to import data into the Inventory. [**Connectors**](Push_Connectors.md)​​ must inject data into the inventory through this schema.
 
 ## Relationships
 
-To facilitate the import process​, foreign key relationships are not hardcoded in the Input [in] schema, but represented ​in the following way:
+To facilitate the import process​, foreign key relationships are not hard-coded in the Input [in] schema, but represented ​in the following way:
 
-- Parent tables have a ​**SrcId** field. This is the Unique ID of an entity       <ins>in its respective Data Source</ins>.
+- Parent tables have a ​**SrcId** field. This is the Unique ID of an entity <ins>in its respective Data Source</ins>.
   It can be the SID of a device in Active Directly, the DeviceNumber of a device retrieved from MapToolkit, or any other ID of an entity relative to their Data Source. The data type of SrcId is nvarchar(128) so that any existing data type can be converted to SrcId.  
   Put the ID of the entity in your data source in this field.
 

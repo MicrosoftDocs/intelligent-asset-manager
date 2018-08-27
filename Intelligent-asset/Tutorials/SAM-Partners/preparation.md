@@ -1,10 +1,15 @@
-# Administrative
+# Preparation to use IAM Cloud
 
-## 6.1  User Types and Provisioning
+## IAM Cloud Requirements
+
+- Microsoft Excel 2007 or higher
+- Connection to the internet
+- Have a Microsoft Account with access to Intelligent Asset Manager
+
+## User Types and Provisioning
 
 There are currently 3 different types of users with elevated Admin permissions to IAM platform:
 
-- **Global Admin**: Can perform all actions within Intelligent Asset Manager site.
 - **Geo Admin***: Responsible for creating Partner Organizations and inviting SAM Engagement Managers located in their Subsidiary/Country. They can also complete the Engagement workflow if no Partner is involved in the Engagement.
 - **SAM Engagement Manager***: Microsoft resource responsible for creating Partner Organizations and assigning new Engagements to Partner Organizations. They can also complete the Engagement workflow if no Partner is involved in the Engagement.
 
@@ -17,7 +22,28 @@ To get provisioned for any of the User Types above marked with an “*” please
 
 NOTE: you will need either a Microsoft Account (formerly Live ID) or a Microsoft Work or School Account to log in.
 
-## 3.1 Creation of IAM Engagement
+## Adding SAM Partner Admins/Users
+
+1. Click on the ‘Manage Partner Organizations’ tile in the home page, Partner Organization Dashboard is shown to the user
+
+   ![Manage Organizations](media/Manage_Organizations.jpg)
+
+1. Click on ‘Edit’ menu item next to the Partner Organization name to Invite Partner Admins/Partner Users.
+
+   ![Invite Partner Admins/Partner Users](media/Invite_Partner_Admin_Users.jpg)
+
+1. On click of the ‘Edit’ menu item the Partner Organization Details page is shown to the user.
+
+    ![Partner Organization Details Page](media/Partner_Organization_Details_Page.jpg)
+
+1. Click on the ‘Invite’ button to Invite SAM Partner Users to your organization.
+1. An email invitation will be sent to the users allowing them to access IAM.
+
+## Organizing your IAM Engagement Dashboard to make active active engagements more visible
+
+Users can “Pin” their most viewed engagements to the Engagement Dashboard. Simply click the pin icon ( ![Pin Icon](media/Pin_Icon.jpg) ) to the left of the engagement and refresh the page to bring the pinned engagement the top of the engagement table. Pinned engagements will always appear first on your list of engagements. If you no longer wish to keep the engagement(s) at the top of the engagement table, “unpin” the engagement by clicking on the pinned icon ( ![Pinned Icon](media/Pinned_Icon.jpg) ) and refresh the page. The engagement will return to the original placement within the table. Pinning is specific to the individual user’s view of the engagement dashboard.
+
+## Creation of IAM Engagement
 
 IAM Engagements are created by your SAM Engagement Manager (EM). To be created, you will have to provide to your SAM EM the following:
 
@@ -25,9 +51,7 @@ IAM Engagements are created by your SAM Engagement Manager (EM). To be created, 
 - Copy of signed Letter of Engagement
 - Connect ID (Partner Lead)
 
-For the SAM EM audience, the appendix includes detailed instructions on how to create an IAM Engagement.
-
-## 3.2  Customer’s Engagement Consent
+## Customer’s Engagement Consent
 
 All new Engagements require an Engagement Consent form to be signed by the person at the Customer who has <ins>authority to authorize a SAM Engagement</ins> ‘contact’. IAM Cloud will not accept a CIDC until this consent has been received.  
 To send an Engagement consent via email to this contact, sign into [IAM Cloud](https://www.intelligentassetmanager.com/), select the “Engagement Consent” option in the caret dropdown for the Engagement.
@@ -59,28 +83,7 @@ After the consent has been received by the contact, IAM Steps 2 and 3 will be en
 
 If needed due to changes in roles, etc at the Customer, or due to choosing for the Centralized ELP Service later on the process, consent forms can be resent to alternative contacts or again to the same contact.
 
-## 6.2. SAM Partner Admin: Adding SAM Partner Admins/Users
-
-1. Click on the ‘Manage Partner Organizations’ tile in the home page, Partner Organization Dashboard is shown to the user
-
-   ![Manage Organizations](media/Manage_Organizations.jpg)
-
-1. Click on ‘Edit’ menu item next to the Partner Organization name to Invite Partner Admins/Partner Users.
-
-   ![Invite Partner Admins/Partner Users](media/Invite_Partner_Admin_Users.jpg)
-
-1. On click of the ‘Edit’ menu item the Partner Organization Details page is shown to the user.
-
-    ![Partner Organization Details Page](media/Partner_Organization_Details_Page.jpg)
-
-1. Click on the ‘Invite’ button to Invite SAM Partner Users to your organization.
-1. An email invitation will be sent to the users allowing them to access IAM.
-
-## 6.5 Organizing your IAM Engagement Dashboard to make active active engagements more visible
-
-Users can “Pin” their most viewed engagements to the Engagement Dashboard. Simply click the pin icon ( ![Pin Icon](media/Pin_Icon.jpg) ) to the left of the engagement and refresh the page to bring the pinned engagement the top of the engagement table. Pinned engagements will always appear first on your list of engagements. If you no longer wish to keep the engagement(s) at the top of the engagement table, “unpin” the engagement by clicking on the pinned icon ( ![Pinned Icon](media/Pinned_Icon.jpg) ) and refresh the page. The engagement will return to the original placement within the table. Pinning is specific to the individual user’s view of the engagement dashboard.
-
-## 6.6 Additional Guidance and Sample Reports
+## Additional Guidance and Sample Reports
 
 Additional IAM guidance and sample reports can be found under IAM User Guides & Templates tile of Intelligent Asset Manager.
 
@@ -91,13 +94,13 @@ IAM Admin users and Partner users are managed through the tiles shown below.
 
 ![Manage IAM Users](media/Manage_IAM_Users.jpg)
 
-## 6.7 Engagement Level Password Protection
+## Engagement Level Password Protection
 
 Engagement level “File Protection Password” is an optional functionality that can be set by the user and specific to an Engagement. The password can be set in the Engagement Dashboard for each Engagement, which will be used to protect all file downloads from that Engagement.  
 The password cannot be changed once it is set for the Engagement.  
 If the user chooses to set a “File Protection Password” then all files being downloaded from that Engagement are being password protected with a password that is set up by the user and specific to an Engagement.The file protection is an additional level of security placed on top of the encryption of all PII fields within the CIDC, EDP, and ELP.
 
-## 6.8 How To: Remove Password Protection from Downloaded Report
+## How To: Remove Password Protection from Downloaded Report
 
 Before any downstream system can consume files from Intelligent Asset Manager (CHIP, and IAM Encryption/Decryption tool) the password protection must be removed from the file. The steps below outline this process within Excel.
 
@@ -107,61 +110,6 @@ Before any downstream system can consume files from Intelligent Asset Manager (C
 
 ![Delete Password](media/Delete_Password.jpg)
 
-## 6.9 Using the Other Data Template
-
-***What is the “Other Data” Spreadsheet?***
-
-The Other Data spreadsheet is a spreadsheet used during the creation of an Effective License Position (ELP) within Intelligent Asset Manager. It can be used to add new licenses (OEM, FPP, ISV, MPN, MPSA, and Subscription Entitlements) not captured within the Microsoft License Statement (MLS) or used to manage manual adjustments to the ELP (Manual MLS Adjustments, Deployment
-Adjustments, and Licensing Allocation Adjustments). ELPs are generated only after a Microsoft License Statement (MLS) has been uploaded to the engagement. After the MLS has been uploaded the “Other Data is used by IAM.
-
-![Other Data Spreadsheet](media/Other_Data_Spreadsheet.jpg)
-
-***What are the types of adjustments handled within the “Other Data” Spreadsheet?***
-
-| Row Type                        | Use                                                                                                                                                                                       | ELP Adjustment Column                 |
-|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
-| OEM                             | Used to add OEM licenses to the ELP calculation. OEM licenses do no get captured within the MLS.                                                                                          | OEM Licenses                          |
-| FPP                             | Used to add FPP licenses that are not captured within the MLS                                                                                                                             | FPP Licenses                          |
-| ISV                             | Used to add ISV to licenses to the ELP.                                                                                                                                                   | ISV Licenses                          |
-| MPN                             | Used to add MPN specific licensing that is not captured within the MLS                                                                                                                    | MPN Licenses                          |
-| MPSA                            | Used to add MPSA licenses to the ELP.                                                                                                                                                     | MPSA Licenses                         |
-| Subscription Entitlement        | Used to add subscription entitlements that are missing from the MLS.                                                                                                                      | Subscription Entitlements (Non-MLS)   |
-| Manual Adjustment               | Manual Adjustments that need to be made to the licensing quantities within the MLS.                                                                                                       | Manual MLS Adjustments                |
-| Deployment Adjustment           | Manual adjustment to incorrect deployment quantities. This could be a result of incorrect EDP datasets after finalizing. The note field is required if a deployment adjustment is made. | Manual Deployment Adjustments         |
-| Licensing Allocation Adjustment | Manual Adjustment to the Licensing allocation quantities being calculated in the ELP.                                                                                                     | Manual License Allocation Adjustments |
-
-***Where is the “Other Data” Spreadsheet available for download?***
-
-There are two places on Intelligent Asset Manager site where users can download the Other Data spreadsheet. Under the “Manage Other Data” tab within step 3 or “IAM User Guide & Templates” on the landing page. In both places users can download a sample file that will pass validation or download a template file which defines the data type requirements and validation criteria for each
-column within the spreadsheet.
-
-![Download Other Data Spreadsheet Location]************(media/Download_Other_Data_Spreadsheet_Location.jpg)
-
-***If licenses are missing from the Microsoft License Statement (MLS) provided by Microsoft how do I include them in the ELP?***
-
-There are certain license types that are not captured within the MLS. To capture these types of licenses (OEM, FPP, etc.) the “Other Data” spreadsheet can be used to modify the ELP.  
-*Example –*  
-The customer purchased a subscription to Office directly from Microsoft and the licenses are not being captured in the MLS generated for the customer.
-
-1. Download “Other Data” sample file from Intelligent Asset Manager for latest Other Data column set.
-1. Add required information to the “Other Data” spreadsheet.
-
-   - ***Licensing Product Family Name*** – Accepted values can be found in Sheet 3 Product & Program Definitions Sheet (Domain Data)
-   - ***Licensing Product Version Name*** – Accepted values can be found in Sheet 3 Product & Program Definitions Sheet (Domain Data)
-   - ***Customer Name on License Document*** – Name of the customer, must be less than 255 characters.
-   - ***Row Type*** – One of the following OEM, FPP, ISV, MPN, MPSA, Subscription Entitlement
-   - ***License Document Start Date*** – date time field of the license start. For OEM, FPP purchases can mark this as 1/1/1900
-   - ***License Document End Date*** – date time field of the license start. For OEM, FPP purchases can mark this as 1/1/1900.
-
-1. Add appropriate “Effective License Quantity” for the licenses purchased by the customer.
-
-   ![Effective License Quantity](media/Effective_License_Quantity.jpg)
-
-1. Navigate to the “Manage Other Data” tab under Step 3 of the engagement.
-1. Click the upload button and select the “Other Data” spreadsheet.
-1. ELP is generated – entitlements uploaded are reflected in the “Subscription Entitlements (Non-MLS)” column of the ELP for this specific row type. If Row Type = “OEM” licenses would be shown under the “OEM Licenses” column.
-
-    ![Subscription Entitlements](media/Subscription_Entitlements.jpg)
 
 ***How do I adjust deployment quantities reflected in the ELP?***
 
@@ -186,7 +134,7 @@ The Established Deployment Position (EDP) was finalized, but a change to the dep
 
    ![Manual Deployment Adjustments](media/Manual_Deployment_Adjustments.jpg)
 
-## 6.10  Additional Information
+## Additional Information
 
 ### **Product & Program Definitions**
 
