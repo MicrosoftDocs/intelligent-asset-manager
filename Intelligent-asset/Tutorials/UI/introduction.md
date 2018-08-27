@@ -1,24 +1,22 @@
-# Universal Inventory Introduction
+# Tutorial: Universal Inventory Introduction
 
 ## Terminology
 
-​​Stakeholders​
+​​**Stakeholders​**
 
-| Customer​           | Organization that uses Microsoft software and wants to optimize their investment in software from Microsoft and other vendors through the use of UI. |
-| Inventory Consumer​ | ​​​ISV (Independent Software Vendor) that produces a Connector to push inventory data from their respective solution into UI.                           |
-| Inventory Provider​​​​​​ | ​​ISV (Independent Software Vendor) that consumes standardized inventory data from UI to provide Value Services.​​​​​​                                       |
-| Microsoft​          | ​Responsible for producing, providing, and supporting UI.                                                                                             |
-| ​SAM Partner        | ​Microsoft SAM Certified Partner (IT Service Provider) engaged by the Customer to assist with Software Asset Management.                              |
-| ​User               | ​Customer or SAM Partner staff that works with UI in the Customer's IT environment.                                                                   |
+- **Customer​**: Organization that uses Microsoft software and wants to optimize their investment in software from Microsoft and other vendors through the use of UI.
+- **Inventory Consumer​**: ​​​ISV (Independent Software Vendor) that produces a Connector to push inventory data from their respective solution into UI.
+- **Inventory Provider​​​​​**​: ​​ISV (Independent Software Vendor) that consumes standardized inventory data from UI to provide Value Services.
+- **Microsoft​**: ​Responsible for producing, providing, and supporting UI.
+- **​SAM Partner**: ​Microsoft SAM Certified Partner (IT Service Provider) engaged by the Customer to assist with Software Asset Management.
+- **UI ​User**: ​Customer or SAM Partner staff that works with UI in the Customer's IT environment.
 
-Universal Inventory terms​​
-
-
-| Connector​   | A piece of code to import data from a specific Data Source into UI. We distinguish: <ul><li>Push Connectors are defined and executed on the Inventory Provider's solution and push data into UI.</li><li>Pull Connectors are defined an executed on UI to pull data from a Data Source.​</li></ul>                                                                         |
-| Data Source​ | Source of data in the Inventory Provider's solution where data is imported from.                                                                                                                                                                                                                                                              |
-| Inventory​   | All collected information about a Customer's IT assets, stored in the UI Database                                                                                                                                                                                                                                                             |
-| Project     | Unit used in UI to manage a SAM engagement. Users need to create a new Project or open an existing one in UI to work on a SAM engagement.                                                                                                                                                                                                     |
-| UI Database | Microsoft SQL Server database that stores the Customer's Inventory. Each Project has its own UI database.A UI Database has 3 schemas:<ul><li>Import Schema [in]: tables and procedures to upload data into UI</li><li>Permanent Data Store [dbo]: tables that permanently store the Inventory</li><li>Output schema[out]: tables and procedures used to consume UI data</li></ul>​ |
+**Universal Inventory Terms​​**
+- **Connector​**: A piece of code to import data from a specific Data Source into UI. We distinguish: <ul><li>Push Connectors are defined and executed on the Inventory Provider's solution and push data into UI.</li><li>Pull Connectors are defined an executed on UI to pull data from a Data Source.​</li></ul>
+- **Data Source​**: Source of data in the Inventory Provider's solution where data is imported from.
+- **Inventory​**: All collected information about a Customer's IT assets, stored in the UI Database.
+- **Project**: Unit used in UI to manage a SAM engagement. Users need to create a new Project or open an existing one in UI to work on a SAM engagement.
+- **UI Database**: Microsoft SQL Server database that stores the Customer's Inventory. Each Project has its own UI database.A UI Database has 3 schemas:<ul><li>Import Schema [in]: tables and procedures to upload data into UI</li><li>Permanent Data Store [dbo]: tables that permanently store the Inventory</li><li>Output schema[out]: tables and procedures used to consume UI data</li></ul>​ 
 
 ## Components
 
@@ -52,7 +50,7 @@ Two types of connectors exist:
 The Universal Inventory standardized data can be consumed in the following ways:
 
 - By Inventory Consumers Partners that provide additional **Value Analysis and Data Visualization** through their Tools and Services. To access the full list of Inventory Consumers, please access the [official IAM page](https://aka.ms/samiam).
- 
+
 - Through reports provided in UI/IAM Cloud.
 
 - By accessing the UI database directly using tools such as Excel.

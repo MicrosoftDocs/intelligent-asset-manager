@@ -2,6 +2,9 @@
 
 After Universal Inventory is [installed](installation.md), follow these steps to create an inventory of the infrastructure:
 
+> [!TIP]
+> If you prefer a video guided training for learning how to create the standard inventory document (CIDC) using UI, you can also watch the [IAM 2018 Session 3: Creating a CIDC Using Universal Inventory](https://aka.ms/IAMSession3).
+
 ## Create a Project
 
 Use the **IAM-UI** shortcut on the desktop to open the Universal Inventory client application. *No projects yet* will be displayed the first time the application is launched.
@@ -12,13 +15,13 @@ Many projects can be created in Universal Inventory. Every Project corresponds w
 
 First you must create a project.
 
-- Click **New Project** in the top-left corner of the screen and enter a name for the project. A valid project name consists of alphanumeric characters and spaces only, and is between 3 and 64 characters long.
+1. Click **New Project** in the top-left corner of the screen and enter a name for the project. A valid project name consists of alphanumeric characters and spaces only, and is between 3 and 64 characters long.
 
-- Click **Save**. An inventory database is created on the database server and a *project card* displays the status of the project and last update time.  
+2. Click **Save**. An inventory database is created on the database server and a *project card* displays the status of the project and last update time.  
 
    ![Inventory - Project card](media/inventory-02.png)
 
-- Click **Open Project** in the project card. The project board displays available actions and reports.  
+3. Click **Open Project** in the project card. The project board displays available actions and reports.  
   
   ![Inventory - Project board](media/inventory-03.png)
 
@@ -33,15 +36,15 @@ The quality of your inventory depends largely on the completeness of the data it
 
 This next section explains how to set up a connector available through UI:
 
-- Click **Gather** in the project board. *Data source not found* will be displayed the first time the Gather screen is opened for a project.  
+1. Click **Gather** in the project board. *Data source not found* will be displayed the first time the Gather screen is opened for a project.  
   
   ![Inventory - Data source not found](media/inventory-04.png)
 
-- Click **+ Add** in the top right corner of the screen. A list of connectors available in UI appears to the right.  
+2. Click **+ Add** in the top right corner of the screen. A list of connectors available in UI appears to the right.  
   
   ![Inventory - UI connectors](media/inventory-05.png)
 
-- Scroll through the list of available connectors and click **Add** on the appropriate connector. Depending on the type of connector selected, an **Add data source** dialog will show up allowing you to enter the parameters required to connect to the data source.  
+3. Scroll through the list of available connectors and click **Add** on the appropriate connector. Depending on the type of connector selected, an **Add data source** dialog will show up allowing you to enter the parameters required to connect to the data source.  
   
   E.g. selecting the MAP Toolkit 9.x connector will bring up the below dialog allowing you to specify a Microsoft Assessment and Planning Toolkit database as source.
 
@@ -54,15 +57,13 @@ This next section explains how to set up a connector available through UI:
   > [!IMPORTANT]
   > Remember that Universal Inventory runs as Windows service. When you select 'Windows Integrated' authentication, it will not be the current user that connects to the data source to import data, but the [service account](installation.md#service-account) of the Universal Inventory service.
 
-- Click **Add** in the Add data source dialog. The data source configuration is saved and a *data source card* displays the status of the data source and last update time.
+4. Click **Add** in the Add data source dialog. The data source configuration is saved and a *data source card* displays the status of the data source and last update time.
 
-- To import data from the data source into the inventory, click the cog wheel on the data source card and select **Run** from the dropdown-menu. The status of the data source will change to *Running*. After the import is completed, the status changes to *Complete*.  
+5. To import data from the data source into the inventory, click the cog wheel on the data source card and select **Run** from the dropdown-menu. The status of the data source will change to *Running*. After the import is completed, the status changes to *Complete*.  
 
   If the data source status is *Failed* or *Partial*, open the log file to troubleshoot. The log file is in the [Work Folder](installation.md#work-folder) you specified during installation. If the information in the log file does not allow you to solve the issue, turn to [IAM Support](https://www.intelligentassetmanager.com) for help.
 
-## Verify
-
-## 3.5  Creating a Clean Inventory Data Contract (CIDC) with Universal Inventory
+## Verify: Creating a Clean Inventory Data Contract (CIDC) with Universal Inventory
 
 The Clean Inventory Data Contract (CIDC) is an Excel report used as the required template to pull in and consolidate raw inventory data from the various inventory and discovery tools, de-duplicated, and formatted to work with the main IAM site. Some manual usage and license allocation inputs will also be required to complete the CIDC. Once uploaded, the CIDC is validated against business rules to ensure proper data collection. If the CIDC fails validation a CIDC Error report detailing what needs to be fixed will be created.
 
@@ -119,7 +120,8 @@ The Clean Inventory Data Contract (CIDC) is an Excel report used as the required
 
    ![Verify Push Inventory](media/Verify_Push_Inventory.jpg)
 
-   NOTE: If you see that any of the data sources included on your Project contain “Import Warnings” in yellow, it means that your data is missing important data points that will ensure a minimum quality standard on your CIDC. Click on the yellow message to read more information about which data is missing. Make sure that data is corrected before creating your CIDC so that you comply to these minimum standards recommended by Microsoft.
+   >[!IMPORTANT]
+    >If you see that any of the data sources included on your Project contain “Import Warnings” in yellow, it means that your data is missing important data points that will ensure a minimum quality standard on your CIDC. Click on the yellow message to read more information about which data is missing. Make sure that data is corrected before creating your CIDC so that you comply to these minimum standards recommended by Microsoft.
 
 1. Once you have finalized pushing and pulling from all the data sources you used to scan your Customer’s environment, you can verify all the data included in UI through the 3 different Reports available on the Project dashboard. Once you are certain that the data from the Push and Pull connectors are correct and all the right Devices and Users are available, you should proceed to the Refinement step, accessed through the “Refine” button on the Project dashboard.
 
@@ -158,23 +160,32 @@ The Clean Inventory Data Contract (CIDC) is an Excel report used as the required
 
     ![Snow Service License Agreement](media/Snow_Service_Agreement.jpg)
 
-1. When the refinement is finalized by Snow’s application, a data timestamp will show on the box, as well as the green “Completed” note. NOTE: When you have products that are not recognized immediately by Snow, those are processed by Snow’s normalization team and made available on the UI app within the next 24 hours.
-1. To check on the normalization work that has been completed, go back to the main Project dashboard and click on “Summary”. On the report, you will see the “Distinct software titles and versions” as the total count within the raw data and “Normalized software titles” with the total count after the normalization process.  
-   NOTE: You can also see the reports “Devices” and “Users” for more detailed information about them.
+1. When the refinement is finalized by Snow’s application, a data timestamp will show on the box, as well as the green “Completed” note. 
+
+>[!NOTE]
+ > When you have products that are not recognized immediately by Snow, those are processed by Snow’s normalization team and made available on the UI app within the next 24 hours.
+
+20. To check on the normalization work that has been completed, go back to the main Project dashboard and click on “Summary”. On the report, you will see the “Distinct software titles and versions” as the total count within the raw data and “Normalized software titles” with the total count after the normalization process.  
+   
+> [!TIP]
+> You can also see the reports “Devices” and “Users” for more detailed information about them.
 
    ![Summary Report](media/Summary_Report.jpg)
 
-1. To finalize your inventory collection for a Microsoft SAM Engagement, you need to create the Universal Inventory CIDC. Click on the “Export” button on the Project dashboard and you will see the option to create a Microsoft CIDC. The system will then build the CIDC file and prompt you to select a location for it to be stored. NOTE: Only Microsoft-related licenses will be exported to this CIDC file. It is the same file that will later be encrypted and uploaded into the IAM platform to finalize your Microsoft SAM Engagement.
+21. To finalize your inventory collection for a Microsoft SAM Engagement, you need to create the Universal Inventory CIDC. Click on the “Export” button on the Project dashboard and you will see the option to create a Microsoft CIDC. The system will then build the CIDC file and prompt you to select a location for it to be stored. 
+
+> [!IMPORTANT]
+> Only Microsoft-related licenses will be exported to this CIDC file. It is the same file that will later be encrypted and uploaded into the IAM platform to finalize your Microsoft SAM Engagement.
 
    ![Microsoft CIDC Create](media/Microsoft_CIDC_Create.jpg)
    ![Microsoft CIDC File Location](media/Microsoft_CIDC_File_Location.jpg)
 
-1. If any of your data sources are missing important data, on this screen you will find an error messages with some information about the missing data. If you click on the “Description” for each item, you will see a list of the Devices that contain that specific error. These are important indicators that your inventory is not following the minimum data quality requirements that Microsoft recommends, so it is especially important that you fix them before moving forward with your CIDC creation.
+22. If any of your data sources are missing important data, on this screen you will find an error messages with some information about the missing data. If you click on the “Description” for each item, you will see a list of the Devices that contain that specific error. These are important indicators that your inventory is not following the minimum data quality requirements that Microsoft recommends, so it is especially important that you fix them before moving forward with your CIDC creation.
 
    ![Error Messages](media/Error_Messages.jpg)
    ![List Devices With Error](media/List_Devices_With_Error.jpg)
 
-1. Once you find that your CIDC has sufficient data quality and is ready to be included on IAM for EDP and/or ELP creation, you should open the IAM Encryption/Decryption tool that was installed along with UI_Setup to encrypt your CIDC data. Launch the tool and fill in the “Source CIDC File” by browsing your document on the location it was saved. Then you will have to determine a Password for your CIDC, so the data will only be available for the ones that have this password. Click on “Encrypt” and the CIDC encrypted file will be created in the same folder as the source file, with the same name suffixed with “-Encrypted”.
+23. Once you find that your CIDC has sufficient data quality and is ready to be included on IAM for EDP and/or ELP creation, you should open the IAM Encryption/Decryption tool that was installed along with UI_Setup to encrypt your CIDC data. Launch the tool and fill in the “Source CIDC File” by browsing your document on the location it was saved. Then you will have to determine a Password for your CIDC, so the data will only be available for the ones that have this password. Click on “Encrypt” and the CIDC encrypted file will be created in the same folder as the source file, with the same name suffixed with “-Encrypted”.
    - Guideline for CIDC password:
         - At least 8 characters long;
         - Include 3 of the following four below:
@@ -190,11 +201,12 @@ The Clean Inventory Data Contract (CIDC) is an Excel report used as the required
    ![Decrypt CIDC](media/Decrypt_CIDC.jpg)
 
 1. Additionally, going back to the Universal Inventory app, on the “Export” option in the main dashboard,you will also find other options to export, which are the UI-integrated Value tools that are provided by our Tool Vendors. Our launch partner in providing this integration is UnifyCloud with their CloudRecon Analytics service, that generated Value Engagements reports. When you click “Export”, you will download a backup of your UI database in the standardized UI format that can be uploaded into CloudRecon.  
-  NOTE 1: CloudRecon licenses might be required for using this service.  
-  NOTE 2: To be able to create a Value Engagement report, CloudRecon will require a full picture of the Customer’s IT environment, not only Microsoft-related licensing information. Therefore, this CIDC downloaded will contain all manufacturers data information.
+  >[!NOTE]
+  > CloudRecon licenses might be required for using this service.  
+  
+  > [!TIP]
+  > To be able to create a Value Engagement report, CloudRecon will require a full picture of the Customer’s IT environment, not only Microsoft-related licensing information. Therefore, this CIDC downloaded will contain all manufacturers data information.
 
     ![CloudRecon Analytics Export](media/CloudRecon_Analytics_Export.jpg)
 
-   Once the CIDC is encrypted you are ready to upload to the Intelligent Asset Manager Platform to run through Steps 2 and 3.
-
-   Additionally, you can watch the video of the [IAM 2018 Session 3: Creating a CIDC Using Universal Inventory](https://aka.ms/IAMSession3).
+   Once the CIDC is encrypted you are ready to upload to the IAM Cloud platform to run through Steps 2 and 3 to create, respectively, the [Established Deployment Position (EDP)](../SAM-Partners/EDP.md) and, if required, the e[Established Licensing Position (ELP)](../SAM-Partners/ELP.md).
