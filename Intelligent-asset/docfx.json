@@ -37,7 +37,9 @@
     "globalMetadata": {
       "breadcrumb_path": "/intelligent-asset-manager/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "Github",
+      "feedback_github_repo": "MicrosoftDocs/intelligent-asset-manager"
+      
     },
     "fileMetadata": {},
     "template": [],
