@@ -26,10 +26,10 @@
           href: Tutorials/Ui/introduction.md
         - name: Preparation
           href: Tutorials/UI/preparation.md
-        - name: Best Practices for Quality Inventory
-          href: Tutorials/UI/quality.md
         - name: Installation
           href: Tutorials/UI/installation.md
+        - name: Best Practices for Quality Inventory
+          href: Tutorials/UI/quality.md
         - name: Inventory
           href: Tutorials/UI/inventory.md
         - name: Release Notes

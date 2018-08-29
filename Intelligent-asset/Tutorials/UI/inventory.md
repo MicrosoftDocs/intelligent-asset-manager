@@ -1,6 +1,6 @@
-# Create an inventory
+# Tutorial: Creating an inventory with UI
 
-After Universal Inventory is [installed](installation.md), follow these steps to create an inventory of the infrastructure:
+After Universal Inventory is [**installed**](installation.md) and you learnt about the qu[**Best Practices for Quality Inventory**](quality.md), follow these steps to create an inventory of the infrastructure:
 
 > [!TIP]
 > If you prefer a video guided training for learning how to create the standard inventory document (CIDC) using UI, you can also watch the [IAM 2018 Session 3: Creating a CIDC Using Universal Inventory](https://aka.ms/IAMSession3).

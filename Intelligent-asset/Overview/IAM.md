@@ -1,3 +1,6 @@
+---
+title: Overview IAM
+---
 # Overview: Intelligent Asset Manager
 
 [**Intelligent Asset Manager**](https://aka.ms/SAMIAM) (IAM) is Microsoft's next-generation platform for [**Software Asset Management**](https://www.microsoft.com/sam) (SAM) best practices. IAM helps organizations make good data-driven technology decisions by maintaining a quality and standardized inventory of software products in use, independently of the inventory tool used*. It also ensures [**Microsoft SAM Partners**](https://www.microsoft.com/sam/programs-sampartner.aspx) performing [**SAM engagements**](https://www.microsoft.com/sam/programs-engagements.aspx) have a standardized process and workflow that ensures data quality, [**privacy**](https://privacy.microsoft.com), security and [**GDPR**](https://www.microsoft.com/it-it/trustcenter/privacy/gdpr) controls are adhered to.

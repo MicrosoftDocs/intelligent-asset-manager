@@ -1,4 +1,6 @@
-# Install Universal Inventory
+# Tutorial: Install Universal Inventory
+
+Before starting the work to install the Universal Inventory application, make sure you have read the [UI Preparation Tutorial section](preparation.md), which contains detailed information about the Prerequisites for installing UI.
 
 ## Quick Tips
 
@@ -11,27 +13,26 @@
 
 ## Installing Universal Inventory and Encryption/Decryption Tool
 
+> [!TIP]
+> If you prefer a video guided training about how to install the Universal Inventory application, you can also watch the [IAM 2018 Session 2: Installing Universal Inventory](https://aka.ms/iamsession2) (this recording still uses the first version and look-and-feel of UI, but the workflow remains correct).
+
 1. To download the Universal Inventory, go to [https://aka.ms/downloadUI](https://aka.ms/downloadUI) and download the “UISetup” compressed folder. Extract the files contained on the folder and run the “UISetup” Application.
 
    ![Step1- Download UI](media/Step1-Download-UI.jpg)
 
-1. Once you finalize the installation of “UISetup”, it will install two different client apps on the computer:  
-   Universal Inventory (IAM-UI) and the IAM Encryption/Decryption Tool (IAM-EDT).  
-   NOTE 1: **The installation of UI must be done on Customers domain**, they can now directly download the UI Application independently of the SAM Partners via [https://aka.ms/downloadUI](https://aka.ms/downloadUI).  
-   NOTE 2: UI must be installed on a machine with English Operating System if users want to be able to decrypt their EDP or ELP  
-   NOTE 3: On UI v1.1 and the next versions, when UISetup Application is started you will now be able to run through three different options:  
-   1. No UI previously installed on the machine: App will run you through the installation steps of the version downloaded.
-   1. UI has already been previously installed and the version is the same as downloaded: App will show only the uninstall button.
-   1. UI has already been previously installed and the version is lower than the download: App will show the uninstall and update buttons.
+1. Once you finalize the installation of “UISetup”, it will install two different client apps on the computer: (1) Universal Inventory (IAM-UI) and; (2) IAM Encryption/Decryption Tool (IAM-EDT).  
+   >[!IMPORTANT]
+   > **The installation of UI must be done on Customers domain.**
 
 1. First, run the “UISetup” as an administrator by right-clicking it and choosing “Run as administrator” option, it is the safest way to install UI.
-1. The Universal Inventory Setup windows will open and the first thing you will see is a list of the prerequisites needed. If you click on the “question mark” on the top right, you will be re-directed to an external page with more detailed information on these topics.
+1. The Universal Inventory Setup windows will open and the first thing you will see is a list of the prerequisites needed.
 
-   NOTE: There are two core components for running successfully UI, SQL Server 2014 or later, Express Edition or higher and also SQL Management Studio. If you do not have them installed, follow the steps 5 to 13.
+>[!NOTE]
+> As previously mentioned on the Prerequisites section,there are two core components for running successfully UI, SQL Server 2014 or later, Express Edition or higher and also SQL Management Studio. If you do not have them installed, follow the steps 5 to 13.
 
    ![Step4 UI Setup](media/Step4-UI_Setup.jpg)
 
-1. For starting SQL Server 2016 Express installation, click on the link available on the UI window (under the second bullet) to download it.
+5. For starting SQL Server 2016 Express installation, click on the link available on the UI window (under the second bullet) to download it.
 1. For installing SQL Server 2016 Express, run the Application downloaded. Select the installation type (Basic/Custom), then choose the directory for extracted files and an download of the installation files will start.
 1. Once it is successfully downloaded and installed, the Remote Desktop Connection window will appear, select the first option “New SQL Server Stand-alone installation”. Accept the application terms and run the installation.
 
@@ -58,7 +59,8 @@
 
    ![Step12 Installation Complete](media/Step12-Installation_Complete.jpg)
 
-   NOTE: It is recommended independently of the edition/version of the SQL Server you choose to use,provided that it follows the UI pre requisites, that the [SQL Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) is installed, to be sure you can connect in the right way to the different databases available on the system (since for SQL 2016 and higher you need the most recent Management Studio for loading the core Universal Inventory datasets).
+  >[!NOTE]
+   > It is recommended independently of the edition/version of the SQL Server you choose to use,provided that it follows the UI pre requisites, that the [SQL Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) is installed, to be sure you can connect in the right way to the different databases available on the system (since for SQL 2016 and higher you need the most recent Management Studio for loading the core Universal Inventory datasets).
 
 1. After downloading and running SQL Management Studio installer Application, you will see the black window shown below. Click on “Install”. The installation will then run, once it is completed you will be requested to restart the computer to finalize the setup.
 
@@ -68,9 +70,13 @@
 
    ![Step14 UI Setup](media/Step14-UI_Setup.jpg)
 
-1. You will then need to provide a user name that can be used for the UI Service Account. If you click on the “question mark” on the top right, you will be redirected to an external URL with more information about this Service Account configuration.
+1. You will then need to provide a user name that can be used for the UI Service Account. 
 
    ![Step15 UI Setup Service Account](media/Step15-UI_Setup_Service_Account.jpg)
+
+>[!TIP]
+>On the **Service Account** page, enter the credentials of the Universal Inventory Service Account. For a local user account, enter the user name only. For a domain account, enter the logon name in the format `domain\username` or `username@domain`  
+
 
 1. To create a Service Account through the local user’s database open “Computer Management” panel under your Windows search bar. Open the drop-down menu on the left for the “Local Users and Groups” and select “Users” folder. You should then right click on the blank space and select “New User”.
 
@@ -84,7 +90,7 @@
 
    ![Step18 UI Setup New User Created](media/Step18-UI_Setup_New_User_Created.jpg)
 
-1. Now going back to the UI interface, populated the Service Account username and password and click on “Verify”. The pop-up window should confirm that the Service Account has been granted the Logon as a service permission.
+1. Now going back to the UI interface, populated the Service Account username and password and click on “Verify” to check that the service account can logon using the specified credentials, and to grant it the *Logon as a Service* permission.. The pop-up window should confirm that the Service Account has been granted the Logon as a service permission.
 
    ![Step19 UI Setup Account Verify](media/Step19-UI_Setup_Account_Verify.jpg)
 
@@ -112,56 +118,36 @@
 
    ![Step25 UI Database Server Configuration](media/Step25-UI_Database_Server_Configuration.jpg)
 
+>[!TIP]
+> Check the "Additional Tips" section further down on this page for more information about this tab.
+
 1. At the “Work Folder” stage, you will need to select a folder where all UI scripts, logs and other files will be stored. Click on “Select Folder” to choose the location. Look for the checkmark on the left to ensure it is configured correctly and click on “Next”.
 
    ![Step26 UI Work Folder Configuration](media/Step26-UI_Work_Folder_Configuration.jpg)
 
+>[!TIP]
+> Check the "Additional Tips" section further down on this page for more information about this tab.
+
 1. On the next screen you will need to select the correct ports that the system will use for communication.This step is necessary because one could have different configuration set-ups such as running everything locally or having another server connecting to UI using one specific port. If the Customer wants to have another port defined that is not the default one (localhost:10940), that is okay. Click on “Verify”, make sure the check mark is shown under the URL stage and click on “Next”.
 
     ![Step27 UI URL Configuration](media/Step27-UI_URL_Configuration.jpg)
+
+>[!TIP]
+> Check the "Additional Tips" section further down on this page for more information about this tab.
 
 1. Review the components Summary and click on “Install”. UI will only start changing configurations of the system once this “Install” button is pressed.
 1. Now UI will create the database on the database Server and Instance, which contains an UI central data store and an additional store with configuration parameters, also will install and, by default, when you click on “Exit” it will launch the UI Client application.
 
    ![Step29 UI Installation](media/Step29-UI_Installation.jpg)
 
-   NOTE: If you get a “You are not connected” error when the UI Client Application is launched, you will need to validate that the connection settings are correct. To do so, click on “Settings” and make sure that the connect address and port are the ones you specified during set-up and click on “Test”. If you see in green “Connection Successful” it means that you are all set. Click on “OK”. You will then be prompted to restart the UI Client application. Once it restarts, you will see a screen showing that you have no projects created.
+   >[!TIP]
+    > If you get a “You are not connected” error when the UI Client Application is launched, you will need to validate that the connection settings are correct. To do so, click on “Settings” and make sure that the connect address and port are the ones you specified during set-up and click on “Test”. If you see in green “Connection Successful” it means that you are all set. Click on “OK”. You will then be prompted to restart the UI Client application. Once it restarts, you will see a screen showing that you have no projects created.
 
    ![Step29.2  UI Installation Completed](media/Step29.2-UI_Installation_Completed.jpg)
 
    Now you are all set up to start creating a CIDC using Universal Inventory.
 
-   Additionally, you can watch the video of the [IAM 2018 Session 2: Installing Universal Inventory](https://aka.ms/iamsession2) (this recording still uses the first version and look-and-feel of UI, but the workflow remains correct).
-
-## Overview
-
-On the **Overview** page, verify that all preparations have been made. Read [Preparations](preparation.md) for more info.
-
-Click **Next >**
-
-![UI Installation - Overview page](media/install-overview.PNG)
-
-## Prerequisites
-
-On the **Prerequisites** page, verify that all prerequisites are met. There should be a green check mark next to each prerequisite, and a check mark next to **Prerequisites** in the left pane. Read [Prerequisites](preparation.md#prerequisites) for more info.  
-
-Click **Next >**
-
-![UI Installation - Prerequisites page](media/install-prerequisites.PNG)
-
-## Service Account
-
-On the **Service Account** page, enter the credentials of the Universal Inventory Service Account.  
-For a local user account, enter the user name only.  
-For a domain account, enter the logon name in the format `domain\username` or `username@domain`  
-
-Click **Verify** to check that the service account can logon using the specified credentials, and to grant it the *Logon as a Service* permission. A check mark appears next to **Service Account** in the left pane.  
-
-Click **Next >**
-
-![UI Installation - Service Account page](media/install-service-account.PNG)
-
-## Database Server
+## Additional Tip: Database Server
 
 On the **Database Server** page, enter the name of the Universal Inventory database server you provisioned earlier.  
 
@@ -174,7 +160,7 @@ Click **Next >**
 
 ![UI Installation - Database Server page](media/install-database-server.PNG)
 
-## Work Folder
+## Additional Tip: Work Folder
 
 On the **Work Folder** page, specify the path to a folder where Universal Inventory can store files. A check mark appears next to **Work Folder** in the left pane.
 
@@ -182,7 +168,7 @@ Click **Next >**
 
 ![UI Installation - Work Folder page](media/install-work-folder.PNG)
 
-## URL
+## Additional Tip: URL
 
 On the **URL** page, specify the URL and port where the client can reach the service. If you intend to use the client on a different computer than the service, you have to enter a fully qualified name or IP address. If not, you can use *localhost*.  
 
@@ -190,19 +176,9 @@ Click **Verify** to check that the URL is a valid name or IP address, and that t
 
 Click **Next >**
 
-## Installation
+## Additional Tip: Settings
 
-On the **Installation** page, verify your settings and specify the folder where the Universal Inventory service should be installed. The Install button is enabled if all checks passed successfully.  
-
-Click **Install**. A progress bar appears to show the installation is ongoing.  
-
-After the installation completes successfully, select the **Launch Universal Inventory** checkbox if you want to start Universal Inventory.
-
-Click **Exit**
-
-## Settings
-
-The **Settings** menu will bring up a dialog where you tell the UI client application where it can find the UI service.
+Once the UI app is open, the **Settings** menu will bring up a dialog where you tell the UI client application where it can find the UI service.
 
 - Enter the URL and port number where the UI service is installed. These were specified during [Installation](installation.md).
 - Click **Test** to verify if the service can be reached at the specified URL.
@@ -216,3 +192,7 @@ The **Settings** menu will bring up a dialog where you tell the UI client applic
 > When you start the client application you might see a message that \"you are not connected\".  This means the connection setting is wrong *or* the UI service is not running.
 > The **Settings** button in this message will bring up the Connection settings screen.
 > ![UI Not Connected](media/ui-settings03.PNG)
+
+## Next Step: Best Practices for Quality Inventory
+
+Now that you have installed Universal Inventory on the customer environment, read the [**UI Best Practices for Quality Inventory Tutorial section**](quality.md) to learn some benchmark practices that Microsoft recommends that ensures your final SAM deliverables will contain high quality and valuable data-insights.

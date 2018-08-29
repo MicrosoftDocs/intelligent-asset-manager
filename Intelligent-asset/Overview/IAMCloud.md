@@ -1,3 +1,6 @@
+---
+title: Overview IAM Cloud
+---
 # Overview: IAM Cloud
 
 [**IAM Cloud**](https://www.intelligentassetmanager.com/) is a cloud service hosted by Microsoft. During a Microsoft SAM Engagement run by a SAM Partner, Microsoft-only software deployment data [**consolidated through UI in a CIDC**](UI.md) can be uploaded to IAM Cloud to produce the Microsoft-certified Effective Deployment Position (EDP) and Effective License Position (ELP). At this moment only [**Microsoft SAM Partners**](key-users.md) have access to IAM Cloud.
@@ -19,4 +22,5 @@ There are currently 2 different types of users within a Partner Organization on 
 
 To get provisioned for any of the User Types above please reach out to IAMSupport@microsoft.com or, if you are a SAM Partner, you can also contact your local Microsoft SAM Engagement Manager.
 
-NOTE: you will need either a Microsoft Account (formerly Live ID) or a Microsoft Work or School Account to log in.
+>[!NOTE]
+> You will need either a Microsoft Account (formerly Live ID) or a Microsoft Work or School Account to log in.

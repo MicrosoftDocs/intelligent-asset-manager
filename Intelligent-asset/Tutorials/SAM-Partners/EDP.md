@@ -80,23 +80,8 @@ When opening the file (or any file downloaded from Intelligent Asset Manager) yo
 ![File Protection Password](media/File_Protection_Password.jpg)
 ![EDP Report Excel](media/EDP_Report_Excel.jpg)
 
-**Minimum EDP Quality Standard samples:**
-
-| Data Standard:                                                                                         | More Detail/Examples:                                                                                                                                           |
-|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The EDP Data Tab should have a row for each product and version on each installed device.              | This standard leads to many data rows in the EDP. To get a basic sense of completeness, focus on Workstations - there should be 1 Workstation OS for each seat. |
-| Cumulative Workstation volume should equal the approximate company workstation volume (PCs count)      | Check EDP Summary Tab for Workstation OS licenses or CIDC tab A                                                                                                 |
-| Physical Core and Processor Count for physical servers and workstations must be ALWAYS greater than 0. |                                                                                                                                                                 |
-| Virtual Processor Count for virtual Servers and workstations must be ALWAYS greater than 0.            |                                                                                                                                                                 |
-| All Virtual hosts must have 1 underlying physical server                                               | Check the EDP 'Other Server' Worksheet for any product identified as 'unknown host' & correct as needed.                                                        |
-| All devices (virtual, physical, hosted) must contain an actual Processor type                          | 'Unknown' or XXXXXXXX are not processor types. No generic character strings should be included.                                                                 |
-| The data rows in SQL Instance Worksheet tab must equal the total in Summary tab.                       | CIDC tab F must contain SQL instance data.                                                                                                                      |
-| All products with Royalty Free License Model must have a license count greater than 0.                 |                                                                                                                                                                 |
-| Machine Manufacturer and Model must represent actual Manufacture & Model.                              | No generic character strings should be included - XXXXXXXX or 123123 are not actual mfr names.                                                                  |
-
-Additionally, you can watch the video of the [IAM 2018 Session 1: Best Practices for Quality Inventory Collection](https://aka.ms/IAMSession1).
-
-
+>[!IMPORTANT]
+>As a SAM Partner, you should be familiarized and follow the Microsoft guidelines of the [Best Practices for a Quality Inventory](../UI/quality.md), as well as the[ Minimum EDP Quality standard](../UI/quality.md).  
 
 ## Finalizing your EDP
 

@@ -1,3 +1,6 @@
+---
+title: Overview UI
+---
 # Overview: Universal Inventory
 
 [**Universal Inventory**](https://aka.ms/downloadUI) (UI) is a free application you can install on-premise to gather, process and standardizes inventory data about the entire IT infrastructure of an organization. UI does not scan the IT infrastructure, but rather integrates with existing solutions to import data from sources such as the Active Directory, well-known discovery tools, asset management solutions, virtualization systems, and cloud subscriptions, and stores the consolidated inventory in a database on-premise. The core output of UI is the Clean Inventory Data Contract (CIDC), which can then be exported into one of the Value solutions integrated with UI or into the IAM Cloud during a Microsoft SAM Engagement (see below).
