@@ -1,3 +1,6 @@
+---
+title: in.tblO365ServicePlans
+---
 # in.tblO365ServicePlans
 
 Office 365 Service Plans that are available with a subscription and their provisioning status.

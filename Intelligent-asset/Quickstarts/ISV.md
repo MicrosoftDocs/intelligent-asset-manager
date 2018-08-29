@@ -1,3 +1,6 @@
+---
+title: Quickstart UI ISVs
+---
 # Quickstart: Universal Inventory ISVs
 
 ## Introduction
@@ -10,7 +13,7 @@ This is a self-guided process and largely relies on <ins>*the ISV*</ins> to init
 
 IAM is designed to facilitate achieving the core Microsoft SAM goals in delivering data driven insights that help customers increase the value of their Microsoft investments and make correct technology decisions.
 
-- Please, review the detailed information on Microsoft’s SAM objectives can be found [here](https://blogs.partner.microsoft.com/mpn/myth-busting-software-asset-management-andcompliance-audits/)
+- Please, review the detailed information on Microsoft’s SAM objectives can be found [here](https://blogs.partner.microsoft.com/mpn/myth-busting-software-asset-management-and-compliance-audits/)
 - Also, it is ideal to check the [Microsoft SAM Official Page](https://www.microsoft.com/en-us/sam/default.aspx) before you start
 
 The IAM team will be promoting ISVs who have achieved UI integration points as part of the marketing of the platform.

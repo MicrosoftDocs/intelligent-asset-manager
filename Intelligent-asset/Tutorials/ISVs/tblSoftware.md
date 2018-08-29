@@ -1,3 +1,6 @@
+---
+title: in.tblSoftware
+---
 # in.tblSoftware
 
 ​Software installed/running on Devices, excluding Operating Systems.​​

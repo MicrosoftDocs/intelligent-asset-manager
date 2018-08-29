@@ -1,3 +1,6 @@
+---
+title: in.tblDevicePerformanceStatistics
+---
 # in.tblDevicePerformanceStatistics
 
 Statistics on Total, Successful, and Failed performance collection attempts on devices.​​

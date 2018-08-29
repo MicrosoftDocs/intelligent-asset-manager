@@ -1,3 +1,6 @@
+---
+title: in.tblCpus
+---
 # in.tblCpus
 
 ​​​​​CPUs per Device. One record per CPU.

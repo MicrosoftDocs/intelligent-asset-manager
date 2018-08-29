@@ -1,3 +1,6 @@
+---
+title: UI Data Model
+---
 # UI Data Model
 
 After the [**ISV**](../../Overview/key-users.md) has reviewed the [**Technical Integration Process introduction**](introduction.md), you should understand the UI Data Model. 

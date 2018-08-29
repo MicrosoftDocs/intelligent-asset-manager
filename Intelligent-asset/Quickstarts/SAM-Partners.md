@@ -1,3 +1,6 @@
+---
+title: Quickstart SAM Partners
+---
 # Quickstart: SAM Partners
 
 This Quickstart guide explains the end-to-end steps and process required for a SAM Partner to use Intelligent Asset Manager (IAM) when running a complete SAM Engagement in Partnership with Microsoft. 
@@ -12,18 +15,11 @@ Here are the high-level [SAM Partner](../Overview/key-users.md) steps that make 
 
 1. Determine whether the Engagement will require an Effective Licensing Position (ELP) document. If yes, will it be created using Microsoft’s Centralized ELP Service or self-created.
 1. Provide a copy of the signed Letter of Engagement to the Microsoft SAM Engagement Manager.
-1. Collect Customer Engagement consent through the IAM Tool.
-1. Start working with Customer on inventory data collection
-1. Load inventory data and create a Clean Inventory Data Contract (CIDC).
-1. Encrypt the CIDC.
-1. Upload an encrypted CIDC into the IAM Cloud.
-1. Complete an Established Deployment Position (EDP).
-1. *(Optional step)* Complete an ELP.
+1. Collect [Customer Engagement consent](../Tutorials/SAM-Partners/SAM-Partner-admin.md) through the IAM Cloud platform.
+1. Start working with Customer on[ inventory data collection](../Tutorials/UI/inventory.md)
+1. Load inventory data and create a Clean Inventory Data Contract (CIDC) using [Universal Inventory](../Quickstarts/UI.md).
+1. Read the [IAM Cloud preparation Tutorial](../Tutorials/SAM-Partners/preparation.md) section for the SAM Partners and learn how to work with the [IAM Cloud administrative](../Tutorials/SAM-Partners/SAM-Partner-admin.md) tasks.
+1. [Encrypt the CIDC](../Tutorials/UI/inventory.md) using UI.
+1. Upload an encrypted CIDC into the IAM Cloud and complete an [Established Deployment Position (EDP)](../Tutorials/SAM-Partners/EDP.md).
+1. *(Optional step)* Complete an [ELP yourself](../Tutorials/SAM-Partners/ELP.md) or use the [Microsoft's ELP Service](../Tutorials/SAM-Partners/ELPS.md).
 1. *(Optional step)* Use CIDC to gain Value reporting from integrated offerings.
-
-
-
-
-## SAM Partner: Getting Started
-
-IAM Cloud Administrative

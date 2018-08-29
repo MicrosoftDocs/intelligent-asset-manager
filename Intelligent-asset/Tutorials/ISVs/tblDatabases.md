@@ -1,3 +1,6 @@
+---
+title: in.tblDatabases
+---
 # in.tblDatabases
 
 ​​​​​Databases running on a licensable database server.

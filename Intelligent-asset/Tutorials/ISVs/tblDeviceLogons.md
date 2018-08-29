@@ -1,3 +1,6 @@
+---
+title: in.tblDeviceLogons
+---
 # in.tblDeviceLogons
 
 ​Number of times a user account has successfully logged on to a device, and total logon time. Only local device logons, not Active Directory logons.

@@ -1,3 +1,6 @@
+---
+title: in.tblDevices
+---
 # in.tblDevices
 
 ​All network-enabled devices on which licensable software may be installed or executed.​

@@ -1,3 +1,6 @@
+---
+title: in.tblMailboxes
+---
 # in.tblMailboxes
 
 ​​​Mailboxes on mail servers.​

@@ -1,3 +1,6 @@
+---
+title: in.tblMemory
+---
 # in.tblMemory
 
 Physical/Virtual Memory per Device.​

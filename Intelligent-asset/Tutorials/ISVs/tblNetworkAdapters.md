@@ -1,3 +1,6 @@
+---
+title: in.tblNetworkAdapters
+---
 # in.tblNetworkAdapters
 
 ​Network adapters with MAC Addresses only.

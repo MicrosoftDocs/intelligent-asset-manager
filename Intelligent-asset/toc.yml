@@ -38,6 +38,8 @@
       items:
         - name: Preparation
           href: Tutorials/SAM-Partners/preparation.md
+        - name: IAM Cloud Administrative tasks
+          href: Tutorials/SAM-Partners/SAM-Partners-admin.md
         - name: Effective Deployment Position (EDP)
           href: Tutorials/SAM-Partners/EDP.md
         - name: Effective Licensing Position (ELP)
@@ -129,3 +131,5 @@
           href: Tutorials/ISVs/Push_Connectors.md 
     - name: Microsoft SAM Engagement Managers
       href: Tutorials/SAM-EMS/Tutorial.md
+- name: Support & Community
+  href: Sup_Comm.md

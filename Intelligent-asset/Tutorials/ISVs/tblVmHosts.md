@@ -1,3 +1,6 @@
+---
+title: in.tblVmHosts
+---
 # in.tblVmHosts
 
 Virtualization Hosts.​

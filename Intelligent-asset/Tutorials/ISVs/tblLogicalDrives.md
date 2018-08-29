@@ -1,3 +1,6 @@
+---
+title: in.tblLogicalDrives
+---
 # in.tblLogicalDrives
 
 ​​​Logical Drives per Device.​​​​

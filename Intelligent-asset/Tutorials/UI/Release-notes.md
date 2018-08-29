@@ -1,3 +1,6 @@
+---
+title: UI Release Notes
+---
 # Universal Inventory Release Notes
 
 **Version 2.10** (​Announced as "Universal Inventory v1.1")

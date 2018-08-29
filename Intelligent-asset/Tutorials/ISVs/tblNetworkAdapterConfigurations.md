@@ -1,3 +1,6 @@
+---
+title: in.tblNetworkAdapterConfigurations
+---
 # in.tblNetworkAdapterConfigurations
 
 ​​IP Configuration of Network Adapters.

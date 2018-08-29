@@ -1,5 +1,7 @@
+---
+title: Tutorial Quality Inventory
+---
 # Tutorial: Best Practices for Quality Inventory Collection
-
 
 Collecting complete and accurate inventory is the key to success to complete a SAM Engagement. In this section, we give some guidance on how to ensure this and meet the obligations defined in the [Value Engagements Statements Of Work (SOWs)](https://www.microsoft.com/en-us/sam/use-cases.aspx?CollectionId=9d33c0b2-7c54-4274-8b1c-d1dec3b8548d).  
 

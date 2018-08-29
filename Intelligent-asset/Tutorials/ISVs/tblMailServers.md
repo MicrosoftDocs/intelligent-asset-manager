@@ -1,3 +1,6 @@
+---
+title: in.tblMailServers
+---
 # in.tblMailServers
 
 ​Instances of licensable mail servers of all brands (IBM, Microsoft, ​​CommuniGate...). One record per installed instance.

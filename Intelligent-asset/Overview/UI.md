@@ -11,6 +11,9 @@ This workflow is better showcased on the picture below.
 
 It is important to note that all UI dataflow occurs inside the environment of the organization that is analyzing its IT environment (most commonly named as "Customer", or "End-customer"). As far as an official Microsoft SAM Engagement go, only Microsoft software data collected will be transferred to Microsoft, which is explained more thoroughly on the [**IAM Cloud overview**](IAMCloud.md).
 
+>[!TIP]
+> Check the section UI [Release Notes](../Tutorials/UI/Release-notes.md) to learn the technical details about the new launched versions.
+
 ## UI Input: Inventory Data Sources
 
 As an input into the UI application, it is accepted several different types of raw inventory data sources. It could come from either push or pull connectors (described on the picture above).

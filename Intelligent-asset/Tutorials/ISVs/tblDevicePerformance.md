@@ -1,3 +1,6 @@
+---
+title: in.tblDevicePerformance
+---
 # in.tblDevicePerformance
 
 ​​​​Device Performance Counters.​​​

@@ -1,3 +1,6 @@
+---
+title: in.tsysImportErrorLog
+---
 # in.tsysImportErrorLog
 
 Error details of failed Import processes. Read-only​.

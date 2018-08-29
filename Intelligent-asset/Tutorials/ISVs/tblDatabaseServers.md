@@ -1,3 +1,6 @@
+---
+title: in.tblDatabaseServers
+---
 # in.tblDatabaseServers
 
 ​​​​​Instances of licensable database servers from all vendors (IBM, Microsoft, MySql, Oracle​, PostgreSQL...). One record per installed instance.​

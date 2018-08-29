@@ -1,3 +1,6 @@
+---
+title: in.tblVmFarms
+---
 # in.tblVmFarms
 
 ​Clusters/Farms of Virtualization Hosts.

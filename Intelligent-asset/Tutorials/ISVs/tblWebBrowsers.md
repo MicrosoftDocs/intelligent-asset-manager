@@ -1,3 +1,6 @@
+---
+title: in.tblWebBrowsers
+---
 # in.tblWebBrowsers
 
 Web Browsers installed on Devices.​

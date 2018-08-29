@@ -1,3 +1,6 @@
+---
+title: Tutorial SAM EMs
+---
 # Tutorial: IAM Cloud for Microsoft SAM Engagement Manager
 
 ## Creating a New Partner Organization

@@ -1,3 +1,6 @@
+---
+title: in.tblVmEvents
+---
 # in.tblVmEvents
 
 Virtualization Events, limited to Created, Cloned, Removed, Migrated, and Migrated for Disaster Recovery.​ To establish license compliance, it is important to make the distinction between the latter two.​

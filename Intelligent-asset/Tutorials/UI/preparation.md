@@ -1,3 +1,6 @@
+---
+title: Tutorial Preparing for Universal Inventory
+---
 # Tutorial: Preparing to install Universal Inventory
 
 Before learning more about the prerequisites for using UI application, make sure you have read the [UI Introduction Tutorial section](introduction.md), which contains detailed information about main UI terms and parts.

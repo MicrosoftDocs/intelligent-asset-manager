@@ -1,3 +1,6 @@
+---
+title: in.tsysImportLog
+---
 # in.tsysImportLog
 
 Import process results. Read-only.

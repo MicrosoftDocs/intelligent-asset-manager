@@ -1,4 +1,7 @@
-# Tutorial: Install Universal Inventory
+---
+title: Tutorial Installing Universal Inventory
+---
+# Tutorial: Installing Universal Inventory
 
 Before starting the work to install the Universal Inventory application, make sure you have read the [UI Preparation Tutorial section](preparation.md), which contains detailed information about the Prerequisites for installing UI.
 

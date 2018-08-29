@@ -1,3 +1,6 @@
+---
+title: in.__Version
+---
 # in.__Version
 
 The version of the template this database was generated from. Read-Only.

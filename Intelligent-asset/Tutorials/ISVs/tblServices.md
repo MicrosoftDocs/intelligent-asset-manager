@@ -1,3 +1,6 @@
+---
+title: in.tblServices
+---
 # in.tblServices
 
 Services/Daemons installed on Devices.

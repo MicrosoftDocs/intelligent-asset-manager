@@ -1,3 +1,6 @@
+---
+title: in.tblGroups
+---
 # in.tblGroups
 
 ​Device-local and Domain Security Groups.​​

@@ -1,3 +1,6 @@
+---
+title: in.tblO365Organization
+---
 # in.tblO365Organization
 
 ​Definition in Office 365 of the subscribing organization.​

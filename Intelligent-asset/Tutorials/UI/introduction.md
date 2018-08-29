@@ -1,3 +1,6 @@
+---
+title: Tutorial Universal Inventory Introduction
+---
 # Tutorial: Universal Inventory Introduction
 
 After learning about the Universal Inventory workflow at the [UI Overview ](../../Overview/UI.md) section, this introduction will give you the main terms and components you should know before starting to work with the UI app.

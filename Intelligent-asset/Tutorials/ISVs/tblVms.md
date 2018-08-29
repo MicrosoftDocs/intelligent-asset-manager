@@ -1,3 +1,6 @@
+---
+title: in.tblVms
+---
 # in.tblVms
 
 Virtual Machines.​​​
