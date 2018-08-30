@@ -39,7 +39,7 @@
         - name: Preparation
           href: Tutorials/SAM-Partners/preparation.md
         - name: IAM Cloud Administrative tasks
-          href: Tutorials/SAM-Partners/SAM-Partners-admin.md
+          href: Tutorials/SAM-Partners/SAM-Partner-admin.md
         - name: Effective Deployment Position (EDP)
           href: Tutorials/SAM-Partners/EDP.md
         - name: Effective Licensing Position (ELP)

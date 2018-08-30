@@ -40,4 +40,4 @@ title: Tutorial ELP Service
 The SLA for the entire Centralized ELP Service desk process outlined above is up to 3 business days in total, provided the data handoff from the partner is complete and clear. Additional time may be needed if there are gaps in handoff or if further partner & Service Desk collaboration is required for clarification purposes.  
 SLA clock will pause during Partner review.  
 If partner does not respond or fails to complete remediation plan within three business days (or other timeline agreed upon in above dialogue), the Service Desk will withdraw the Engagement from the Centralized ELP Service and notify Partner.  
-NOTE 5: Service Desk hours will be Monday to Friday 8 a.m. to 6 p.m. CET.
+Service Desk hours will be Monday to Friday 8 a.m. to 6 p.m. CET.
