@@ -23,3 +23,5 @@ Here are the high-level [SAM Partner](../Overview/key-users.md) steps that make 
 1. Upload an encrypted CIDC into the IAM Cloud and complete an [Established Deployment Position (EDP)](../Tutorials/SAM-Partners/EDP.md).
 1. *(Optional step)* Complete an [ELP yourself](../Tutorials/SAM-Partners/ELP.md) or use the [Microsoft's ELP Service](../Tutorials/SAM-Partners/ELPS.md).
 1. *(Optional step)* Use CIDC to gain Value reporting from integrated offerings.
+1. Make sure you also check the [**IAM support team and community platforms**](../Sup_Comm.md) section in order to know how to reach out for support in case you run into issues when following the readiness procedures outlined into this platform.
+

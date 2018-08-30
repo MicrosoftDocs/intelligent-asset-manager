@@ -76,8 +76,8 @@ The IAM team will discontinue work with any partner found to acting outside of t
 
    Note: You may be required to re-validate results based on future UI updates.
 
-## Additional Information
+## Additional Information and Support
 
-**For questions or comments on the IAM ISV integration process please email**: SAM-UI@microsoft.com
+**For questions, comments or support required on the IAM ISV integration process please email**: SAM-UI@microsoft.com
 
 More information on both Microsoft SAM Practices and IAM can be found in the [Microsoft Partner Network](https://partner.microsoft.com/en-US/Licensing/software-asset-management#Navigated_Rich_Text_Node_11) page.

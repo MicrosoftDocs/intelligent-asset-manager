@@ -22,7 +22,7 @@ Before learning more about the prerequisites for using UI application, make sure
     >The **Universal Inventory Service Account** has to have permissions to create and delete databases on the database server.
   > [!TIP]
   > Although the Universal Inventory databases can be installed on an existing SQL Server, we strongly advise the installation of a separate SQL Server instance for Universal Inventory because the **Universal Inventory Service Account** requires administrative permissions on the entire database server, including all other databases that reside on the same server.
-- Have a work folder, a folder on the device where Universal Inventory is installed and where logs, exports, and custom scripts can be stored. The Universal Inventory Service Account requires Modify permissions on the Work Folder.
+- Have a work folder, a folder on the device where Universal Inventory is installed and where logs, exports, and custom scripts can be stored. The Universal Inventory Service Account requires Modify permissions on the Work Folder. Please avoid setting up your Work Folder at a OneDrive location.
 - Have an URL and port available where the Universal Inventory service can be published.
   >[!IMPORTANT]
     >The Universal Inventory service is published on [http://localhost:10940](http://localhost:10940) by default. If you want to run the Universal Inventory client application on a different computer, you must replace localhost with a network name that the client computer can connect to.

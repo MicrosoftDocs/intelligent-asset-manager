@@ -23,9 +23,9 @@ A Push Connector needs to perform these steps, in order:
 3. **Execute stored procedure in.CleanDataSource, specifying your DataSourceId as a parameter**  
    UI may have many Data Sources. All data from all sources is combined in the Input schema [in] of the database. Before importing new data, all existing data from the same Data Source must be removed from tables in the Input schema, so it is important to distinguish from which Data Source the data originates. Procedure [in].CleanDataSource deletes records with the specified DataSourceId.
 
-   [**Learn more about the UI Data Flow here.​**](Data_Model.md#DataFlow)
+   [**Learn more about the UI Data Flow here.​**](Data_Model.md)
 
-   [**Read more about the DataSourceId here.**](Input_Schema.md#DataSourceId)
+   [**Read more about the DataSourceId here.**](Input_Schema.md)
 
 4. **Insert data into the Input schema**
    Execute queries to fill tables in the [in] schema of the UI Database. In their simplest form, these queries look something like:

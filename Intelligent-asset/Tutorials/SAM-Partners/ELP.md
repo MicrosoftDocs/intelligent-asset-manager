@@ -1,7 +1,7 @@
 ---
-title: Tutorial ELP
+title: Tutorial Effective Licensing Position
 ---
-# Tutorial: Effective License Position (ELP)
+# Tutorial: Effective Licensing Position (ELP)
 
 After [generating the EDP file](EDP.md) for the SAM Engagement, if the Customer chose to receive an ELP through the SAM Engagement, you will need to follow the procedure contained in this section. The chevrons below outline the steps to generate an ELP report and make up the Step 3 process.
 
@@ -125,7 +125,7 @@ The following adjustments can be made on this screen:
 - **Notes**: Notes can be recorded using this field and will be recorded in the ELP “Notes” column.
 
 >[!NOTE] 
-> All adjustments can still be made using the [Other Data ](ODT.md)spreadsheet. 
+> All adjustments can still be made using the [Other Data](ODT.md)spreadsheet. 
 
 ## ELP Editing Example
 

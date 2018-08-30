@@ -23,7 +23,8 @@ The Tutorial section for the SAM Partners will showcase how to get access to IAM
 
 ## Customer’s Engagement Consent
 
-All new Engagements require an Engagement Consent form to be signed by the person at the Customer who has <ins>authority to authorize a SAM Engagement</ins> ‘contact’. IAM Cloud will not accept a CIDC until this consent has been received.  
+All new Engagements require an Engagement Consent form to be signed by the person at the Customer who has <ins>authority to authorize a SAM Engagement</ins> ‘contact’. IAM Cloud will not accept a CIDC until this consent has been received. Microsoft requires written consent directly from the customer before any decrypted Personal Identifiable Information (PII) is accepted. The SAM Engagement Manager will work with SAM Partner and the customer to ensure all Microsoft policies and procedures are met for sharing and sending PII.
+
 To send an Engagement consent via email to this contact, sign into [IAM Cloud](https://www.intelligentassetmanager.com/), select the “Engagement Consent” option in the caret dropdown for the Engagement.
 
 ![Engagement Dashboard](media/Engagement_Dashboard.jpg)

@@ -11,7 +11,7 @@ title: SAM Partners Administrative Work on IAM Cloud
 
 ## User Types and Provisioning
 
-There are currently 3 different types of users with elevated Admin permissions to IAM platform:
+There are currently 2 different types of users with elevated Admin permissions to IAM platform:
 
 - **Geo Admin***: Responsible for creating Partner Organizations and inviting SAM Engagement Managers located in their Subsidiary/Country. They can also complete the Engagement workflow if no Partner is involved in the Engagement.
 - **SAM Engagement Manager***: Microsoft resource responsible for creating Partner Organizations and assigning new Engagements to Partner Organizations. They can also complete the Engagement workflow if no Partner is involved in the Engagement.
