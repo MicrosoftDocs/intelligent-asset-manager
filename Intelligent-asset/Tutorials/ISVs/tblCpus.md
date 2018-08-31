@@ -1,7 +1,7 @@
 ---
-title: in.tblCpus
+title: in.tblCpus - Table
 ---
-# in.tblCpus
+# in.tblCpus - Input Schema Table
 
 ​​​​​CPUs per Device. One record per CPU.
 

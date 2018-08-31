@@ -1,7 +1,7 @@
 ---
 title: in.tblActiveSync
 ---
-# in.tblActiveSync
+# in.tblActiveSync - Input Schema Table
 
 ​​​​​Detected ActiveSync connections.​​​
 

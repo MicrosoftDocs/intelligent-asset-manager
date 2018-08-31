@@ -1,7 +1,7 @@
 ---
 title: in.tblWebBrowsers
 ---
-# in.tblWebBrowsers
+# in.tblWebBrowsers - Input Schema Table
 
 Web Browsers installed on Devices.​
 

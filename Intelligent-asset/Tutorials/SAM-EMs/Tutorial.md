@@ -43,15 +43,15 @@ To get provisioned for any of the User Types above marked with an “*” please
 
 1. Click on Manage Organizations tile
 
-   ![Manage Organizations Tile](media/Manage_Organizations_Tile.jpg)
+   ![Manage Organizations Tile on IAM Cloud](media/Manage_Organizations_Tile.jpg)
 
 1. Click add button:
 
-   ![Add Organization](media/Add_Organization_Btn.jpg)
+   ![Add New Organization into IAM Cloud](media/Add_Organization_Btn.jpg)
 
 1. Fill out the Organization details and click save.
 
-   ![Fill Organization Details](media/Fill_Organization_Details.jpg)
+   ![Fill New Organization Details in IAM CLoud](media/Fill_Organization_Details.jpg)
 
 >[!NOTE]
 > A SAM Partner Admin will be needed to access IAM to accept the EULA. Until this is done, the SAM Engagement Manager will not be able to add Engagements to the SAM Partner Organization.
@@ -66,8 +66,8 @@ For a SAM Partner to work on an Engagement within Intelligent Asset Manager the 
 - Copy of the signed Letter of Engagement
 - MLS (Optional for when an ELP is desired)
 
-![IAM Engagement Dashboard](media/IAM_Engagement_Dashboard.jpg)
+![Intelligent Asset Manager Engagement Dashboard](media/IAM_Engagement_Dashboard.jpg)
 
-![IAM Add New Engagement](media/IAM_Add_New_Engagement.jpg)
+![Intelligent Asset Manager Add New Engagement](media/IAM_Add_New_Engagement.jpg)
 
 After saving, the SAM EM user is sent back to the Engagement Dashboard where the newly created Engagement is available to start.

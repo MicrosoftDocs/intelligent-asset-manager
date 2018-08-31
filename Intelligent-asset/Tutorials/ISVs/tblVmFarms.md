@@ -1,7 +1,7 @@
 ---
 title: in.tblVmFarms
 ---
-# in.tblVmFarms
+# in.tblVmFarms - Input Schema Table
 
 ​Clusters/Farms of Virtualization Hosts.
 

@@ -1,5 +1,5 @@
 ---
-title: Tutorial ODT
+title: Tutorial Other Data Template
 ---
 # Tutorial: Other Data Template (ODT)
 
@@ -7,7 +7,7 @@ title: Tutorial ODT
 
 The Other Data spreadsheet is a spreadsheet used during the creation of an [Effective License Position (ELP)](ELP.md) within Intelligent Asset Manager. It can be used to add new licenses entitlement (OEM, FPP, ISV, MPN, MPSA, and Subscription Entitlements) not captured within the Microsoft License Statement (MLS) or used to manage manual adjustments to the ELP (Manual MLS Adjustments and Licensing Allocation Adjustments). ELPs are generated only after a Microsoft License Statement (MLS) has been uploaded to the engagement. After the MLS has been uploaded the “Other Data is used by IAM.
 
-![Other Data Spreadsheet](media/Other_Data_Spreadsheet.jpg)
+![Other Data Spreadsheet for Licensing Adjustment](media/Other_Data_Spreadsheet.jpg)
 
 ## Types of adjustments handled within the ODT Spreadsheet
 
@@ -45,11 +45,11 @@ The customer purchased a subscription to Office directly from Microsoft and the 
 
 1. Add appropriate “Effective License Quantity” for the licenses purchased by the customer.
 
-   ![Effective License Quantity](media/Effective_License_Quantity.jpg)
+   ![Effective License Quantity Adjustment](media/Effective_License_Quantity.jpg)
 
 1. Navigate to the “Manage Other Data” tab under Step 3 of the engagement.
 1. Click the upload button and select the “Other Data” spreadsheet.
 1. ELP is generated – entitlements uploaded are reflected in the “Subscription Entitlements (Non-MLS)” column of the ELP for this specific row type. If Row Type = “OEM” licenses would be shown under the “OEM Licenses” column.
 
-    ![Subscription Entitlements](media/Subscription_Entitlements.jpg)
+    ![Subscription Entitlements ELP IAM Cloud](media/Subscription_Entitlements.jpg)
 

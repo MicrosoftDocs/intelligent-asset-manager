@@ -1,5 +1,5 @@
 ---
-title: Overview IAM
+title: Overview Intelligent Asset Manager (IAM)
 ---
 # Overview: Intelligent Asset Manager
 
@@ -20,7 +20,7 @@ During a Microsoft SAM Engagement, the data flow within IAMis displayed in the p
 1. Only Microsoft software inventory data is sent to the IAM Cloud, therefore, to Microsoft. While solely using UI no customer data is shared with Microsoft.
 1. IAM includes security measures to help protect the data and privacy of Customers and their employees. Details about this topic can be found in the [**IAM Data Usage and Privacy Information**](https://aka.ms/iamdatausage) document.
 
-![IAM Data Flow](media/Data_Flow_IAM.jpg)
+![Intelligent Asset Manager Data Flow](media/Data_Flow_IAM.jpg)
 
 ## Getting Started with IAM
 

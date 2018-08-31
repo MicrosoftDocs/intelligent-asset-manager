@@ -1,7 +1,7 @@
 ---
-title: in.tblVmHosts
+title: in.tblVmHosts - Table
 ---
-# in.tblVmHosts
+# in.tblVmHosts - Input Schema Table
 
 Virtualization Hosts.​
 

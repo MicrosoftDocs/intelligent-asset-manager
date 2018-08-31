@@ -1,7 +1,7 @@
 ---
 title: in.tblSoftware
 ---
-# in.tblSoftware
+# in.tblSoftware - Input Schema Table
 
 ​Software installed/running on Devices, excluding Operating Systems.​​
 

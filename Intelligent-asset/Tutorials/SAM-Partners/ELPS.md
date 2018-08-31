@@ -3,7 +3,7 @@ title: Tutorial ELP Service
 ---
 # Microsoft's ELP Service
 
-## Microsoft’s Centralized ELP Service
+## Microsoft’s Free Centralized ELP Service
 
 > [!IMPORTANT]
 > As stated above if this option is chosen, the EDP should not be finalized by the Partner, Partner should follow the steps below with EDP created but not finalized.*
@@ -15,7 +15,7 @@ title: Tutorial ELP Service
      - MAP Toolkit + AD + VMWare
      - Movere + AD + VMWare
      - Additional inventory tools can be used
-   - CIDC provided must not contain any [“Red cell” errors](Step2_Established_Deployment_Report.md#cdic-error-report) and must follow Minimum EDP Quality Standards described above.
+   - CIDC provided must not contain any ed[“Red cell” errors](EDP.md) and must follow Minimum EDP Quality Standards described above.
    - Other Data Template (ODT) uploaded with complete with License positions not captured in the MLS as described above
    - MLS in English (this needs to be provided by your SAM EM):
      - Must contain all Customer Account Names
@@ -33,7 +33,7 @@ title: Tutorial ELP Service
    - Additional emails or phone calls might be established as needed
 
 1. Partner will receive from Business Desk a document stating the ELP Licensing Logic and more information regarding the Customer’s environment, as well as the created ELP on the IAM tool. Both should be reviewed and signed off by the Partner/Customer.
-1. Partner should proceed to [Finalize ELP](#finalizing-elp) once it meets all Partner’s requirements.
+1. Partner should proceed to [Finalize ELP](ELP.md#finalizing-elp) once it meets all Partner’s requirements.
 
 >[!NOTE] 
 >No data may be sent directly from partner/Customer to Service Desk. ALL data must originate from IAM, so if changes are needed on CIDC/ODT/MLS, those documents will have to be re-uploaded into IAM Cloud.  

@@ -1,5 +1,5 @@
 ---
-title: Tutorial Preparing for Universal Inventory
+title: Preparing for Universal Inventory
 ---
 # Tutorial: Preparing to install Universal Inventory
 
@@ -27,12 +27,11 @@ Before learning more about the prerequisites for using UI application, make sure
   >[!IMPORTANT]
     >The Universal Inventory service is published on [http://localhost:10940](http://localhost:10940) by default. If you want to run the Universal Inventory client application on a different computer, you must replace localhost with a network name that the client computer can connect to.
 - Optionally, an outgoing Internet connection on the device where Universal Inventory is installed for:
-
   - Normalization of inventory data by 3rd party service providers
-  - Automatic updates of patches and fixes to Universal Inventory connector scripts (coming soon)
-  - Automatic updates of the [Universal Inventory catalog](ui-overview#catalogs) database
-  - Version detection and download of the latest version (coming soon)
-  - Upload inventory to 3rd party providers of value services (coming soon)
+  - Automatic updates of patches and fixes to Universal Inventory connector scripts 
+  - Automatic updates of the Universal Inventory catalog database
+  - Version detection and download of the latest version 
+  - Upload inventory to 3rd party providers of value services 
 
   > [!NOTE]
   > Universal Inventory does not exchange any data over the Internet without your explicit consent.
@@ -52,11 +51,11 @@ Universal Inventory runs as a Windows service. A service account that runs the U
 - Select **Local Users and Groups** > **Users** in the tree pane, and create a new user\r\n
 - It is a good idea to set the **Password never expires** property to prevent that the service stops working when its service account password expires, or follow corporate policies for service account credentials.
 
-  ![Prepare for UI - Create a Universal Inventory Service Account](media/prepare-service-account.PNG)
+  ![Prepare for UI Create a Service Account](media/prepare-service-account.PNG)
 
 The Universal Inventory Service Account requires Modify permissions on the Work Folder.
 
-**To assign Modify permissions on the Work Folder:**
+## To assign Modify permissions on the Work Folder
 
 - Right-click the Work Folder in Explorer, and select **Properties**
 - On the **Security** tab, click **Edit** and **Add...**

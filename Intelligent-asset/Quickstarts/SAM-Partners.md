@@ -1,7 +1,7 @@
 ---
-title: Quickstart SAM Partners
+title: Quickstart - SAM Partners on Intelligent Asset Manager
 ---
-# Quickstart: SAM Partners
+# Quickstart: Microsoft SAM Partners
 
 This Quickstart guide explains the end-to-end steps and process required for a SAM Partner to use Intelligent Asset Manager (IAM) when running a complete SAM Engagement in Partnership with Microsoft. 
 

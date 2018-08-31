@@ -1,5 +1,5 @@
 ---
-title: Tutorial UI ISVs
+title: Tutorial Universal Inventory ISVs
 ---
 # Tutorial: Technical Integration Process for UI ISVs
 
@@ -18,7 +18,7 @@ After reviewing the [**Quickstart process for UI technical integration**](../../
 If you are an ISV that will <ins>provide</ins> inventory data to UI with your scanning tool or service, you should build a connector that pushes data into the Universal Inventory application:
 
 1. Make sure you understand the [**UI Input schema**](Input_Schema.md), and how the [**UI Push Connectors**](Push_Connectors.md)​ works.
-2. Read about [**DataSourceId**](Input_Schema.md#markdown-header-dataSourceId), and send a proposed DataSourceId​ for your Connector to SAM-UI@microsoft.com for validation.
+2. Read about [**DataSourceId**](Input_Schema.md#datasourceid), and send a proposed DataSourceId​ for your Connector to SAM-UI@microsoft.com for validation.
 3. Download and install the latest version of [**Universal Inventory**](https://aka.ms/DownloadUI).
 4. Create a test Project in UI. Look at the empty database created with SQL Management Studio. (The database name will be the name of your test project prefixed with "UI_")
 5. Build a [**Push Connector**](Push_Connectors.md) and use it to fill the tables in the [in] schema of the test database with the data scanned through your inventory tool/service.

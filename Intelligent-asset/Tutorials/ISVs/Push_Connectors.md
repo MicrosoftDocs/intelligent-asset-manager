@@ -1,7 +1,7 @@
 ---
-title: Push Connectors
+title: Push Connectors - Table
 ---
-# Push Connectors
+# Universal Inventory Push Connectors
 
 A Push Connector is a piece of code that executes a set of SQL queries to fill tables in the [**Input schema [in]**](Input_Schema.md) schema of the UI data store.
 

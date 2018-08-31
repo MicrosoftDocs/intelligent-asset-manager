@@ -1,7 +1,7 @@
 ---
 title: in.tblPhysicalDrives
 ---
-# in.tblPhysicalDrives
+# in.tblPhysicalDrives - Input Schema Table
 
 ​​Physical Drives per Device.​
 

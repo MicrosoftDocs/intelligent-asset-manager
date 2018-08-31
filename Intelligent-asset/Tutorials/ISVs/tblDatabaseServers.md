@@ -1,7 +1,7 @@
 ---
 title: in.tblDatabaseServers
 ---
-# in.tblDatabaseServers
+# in.tblDatabaseServers - Input Schema Table
 
 ​​​​​Instances of licensable database servers from all vendors (IBM, Microsoft, MySql, Oracle​, PostgreSQL...). One record per installed instance.​
 

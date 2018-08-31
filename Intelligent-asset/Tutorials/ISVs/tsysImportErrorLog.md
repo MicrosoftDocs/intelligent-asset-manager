@@ -1,7 +1,7 @@
 ---
 title: in.tsysImportErrorLog
 ---
-# in.tsysImportErrorLog
+# in.tsysImportErrorLog - Input Schema Table
 
 Error details of failed Import processes. Read-only​.
 

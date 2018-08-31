@@ -1,7 +1,7 @@
 ---
-title: in.tblLogicalDrives
+title: in.tblLogicalDrives 
 ---
-# in.tblLogicalDrives
+# in.tblLogicalDrives - Input Schema Table
 
 ​​​Logical Drives per Device.​​​​
 

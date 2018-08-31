@@ -1,7 +1,7 @@
 ---
 title: in.tblDevicePerformanceStatistics
 ---
-# in.tblDevicePerformanceStatistics
+# in.tblDevicePerformanceStatistics - Input Schema Table
 
 Statistics on Total, Successful, and Failed performance collection attempts on devices.​​
 

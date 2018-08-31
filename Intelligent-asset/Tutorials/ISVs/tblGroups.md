@@ -1,7 +1,7 @@
+--- 
+title: in.tblGroups - Table
 ---
-title: in.tblGroups
----
-# in.tblGroups
+# in.tblGroups - Input Schema Table
 
 ​Device-local and Domain Security Groups.​​
 

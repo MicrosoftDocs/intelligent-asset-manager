@@ -1,7 +1,7 @@
 ---
 title: in.tblO365Organization
 ---
-# in.tblO365Organization
+# in.tblO365Organization - Input Schema Table
 
 ​Definition in Office 365 of the subscribing organization.​
 

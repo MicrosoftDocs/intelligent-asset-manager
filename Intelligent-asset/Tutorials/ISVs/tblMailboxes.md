@@ -1,7 +1,7 @@
 ---
-title: in.tblMailboxes
+title: in.tblMailboxes 
 ---
-# in.tblMailboxes
+# in.tblMailboxes - Input Schema Table
 
 ​​​Mailboxes on mail servers.​
 

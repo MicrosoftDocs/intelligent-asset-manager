@@ -1,7 +1,7 @@
 ---
 title: in.tblNetworkAdapterConfigurations
 ---
-# in.tblNetworkAdapterConfigurations
+# in.tblNetworkAdapterConfigurations - Input Schema Table
 
 ​​IP Configuration of Network Adapters.
 

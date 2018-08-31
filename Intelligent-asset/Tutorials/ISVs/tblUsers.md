@@ -1,7 +1,7 @@
 ---
-title: in.tblUsers
+title: in.tblUsers - Table
 ---
-# in.tblUsers
+# in.tblUsers - Input Schema Table
 
 Device-local and Domain User Accounts.​
 

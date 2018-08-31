@@ -1,7 +1,7 @@
 ---
 title: in.tblO365Subscriptions
 ---
-# in.tblO365Subscriptions
+# in.tblO365Subscriptions - Input Schema Table
 
 Information about an Office 365 service SKU that a company is subscribed to.​​​​​
 

@@ -1,7 +1,7 @@
 ---
-title: in.tblDevices
+title: in.tblDevices - Table
 ---
-# in.tblDevices
+# in.tblDevices - Input Schema Table
 
 ​All network-enabled devices on which licensable software may be installed or executed.​
 

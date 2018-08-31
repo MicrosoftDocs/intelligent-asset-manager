@@ -1,7 +1,7 @@
 ---
 title: in.tblWebApplications
 ---
-# in.tblWebApplications
+# in.tblWebApplications - Input Schema Table
 
 Web Applications hosted on Devices. This table is not intended for web applications that are used within the organization but not hosted on the organization's (hosted or on premise) infrastructure.​
 

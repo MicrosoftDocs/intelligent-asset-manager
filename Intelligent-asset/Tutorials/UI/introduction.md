@@ -1,5 +1,5 @@
 ---
-title: Tutorial Universal Inventory Introduction
+title: Universal Inventory Introduction
 ---
 # Tutorial: Universal Inventory Introduction
 

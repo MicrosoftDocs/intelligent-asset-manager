@@ -1,7 +1,7 @@
 ---
-title: in.tblMembers
+title: in.tblMembers - Table
 ---
-# in.tblMembers
+# in.tblMembers - Input Schema Table
 
 ​User Account members of Security Groups.
 

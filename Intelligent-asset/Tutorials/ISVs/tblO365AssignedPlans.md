@@ -1,7 +1,7 @@
 ---
 title: in.tblO365AssignedPlans
 ---
-# in.tblO365AssignedPlans
+# in.tblO365AssignedPlans - Input Schema Table
 
 ​Office 365 Service Plans assigned to users or to the entire organization.​
 

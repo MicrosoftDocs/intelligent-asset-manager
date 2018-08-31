@@ -1,7 +1,7 @@
 ---
 title: in.tblDevicePerformance
 ---
-# in.tblDevicePerformance
+# in.tblDevicePerformance - Input Schema Table
 
 ​​​​Device Performance Counters.​​​
 

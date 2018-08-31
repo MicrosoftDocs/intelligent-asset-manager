@@ -1,7 +1,7 @@
 ---
-title: in.tblVms
+title: in.tblVms - Table
 ---
-# in.tblVms
+# in.tblVms - Input Schema Table
 
 Virtual Machines.​​​
 

@@ -1,7 +1,7 @@
 ---
-title: in.tblMemory
+title: in.tblMemory - Table
 ---
-# in.tblMemory
+# in.tblMemory - Input Schema Table
 
 Physical/Virtual Memory per Device.​
 

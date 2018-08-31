@@ -1,5 +1,5 @@
 ---
-title: Quickstart UI
+title: Quickstart Universal Inventory (UI) Users
 ---
 # Quickstart: Universal Inventory
 
@@ -8,7 +8,7 @@ title: Quickstart UI
 After you have read the Overview: Universal Inventory section and have learned the value proposition and main components of UI, please access the articles below in the suggested order to learn the tool's prerequisites, how to use it and some other valuable tips.
 
 On our Tutorials - UI section, please read in the following order:
-1. [**Universal Inventory Introduction**](..Tutorials/UI/introduction.md) to understand the UI Terms and technical components.
+1. [**Universal Inventory Introduction**](../Tutorials/UI/introduction.md) to understand the UI Terms and technical components.
 1. [**Preparating to Install Universal Inventory**](../Tutorials/UI/preparation.md) to make sure your system meets requirements and you set up the prerequisites.
 1. [**Installing Universal Inventory**](../Tutorials/UI/installation.md) to learn the step by step on how to install UI.
 1. [**Best Practices for Quality Inventory**](../Tutorials/UI/quality.md) to understand the Microsoft's suggested benchmark practices to get a high quality inventory and consequent valuable SAM data-insights.

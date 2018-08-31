@@ -1,4 +1,4 @@
-# IAM Support and Community
+# Intelligent Asset Manager Support and Community
 
 ## IAM Cloud and Universal Inventory Support
 

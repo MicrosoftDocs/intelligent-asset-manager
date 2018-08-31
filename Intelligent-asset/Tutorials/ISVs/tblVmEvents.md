@@ -1,7 +1,7 @@
 ---
 title: in.tblVmEvents
 ---
-# in.tblVmEvents
+# in.tblVmEvents - Input Schema Table
 
 Virtualization Events, limited to Created, Cloned, Removed, Migrated, and Migrated for Disaster Recovery.​ To establish license compliance, it is important to make the distinction between the latter two.​
 

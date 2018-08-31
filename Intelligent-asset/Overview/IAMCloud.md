@@ -1,7 +1,7 @@
 ---
-title: Overview IAM Cloud
+title: Overview Intelligent Asset Manager (IAM) Cloud
 ---
-# Overview: IAM Cloud
+# Overview: Intelligent Asset Manager (IAM) Cloud
 
 [**IAM Cloud**](https://www.intelligentassetmanager.com/) is a cloud service hosted by Microsoft. During a Microsoft SAM Engagement run by a SAM Partner, Microsoft-only software deployment data [**consolidated through UI in a CIDC**](UI.md) can be uploaded to IAM Cloud to produce the Microsoft-certified Effective Deployment Position (EDP) and Effective License Position (ELP). At this moment only [**Microsoft SAM Partners**](key-users.md) have access to IAM Cloud.
 

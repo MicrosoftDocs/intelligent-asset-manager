@@ -1,7 +1,7 @@
 ---
-title: The Input Schema
+title: The Input Schema 
 ---
-# The Input schema [in]
+# Universal Inventory Input schema [in]
 
 Make sure you understand the [**UI Data Model**](Data_Model.md) before reading about The Input schema [in].
 

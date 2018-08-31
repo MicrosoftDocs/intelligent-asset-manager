@@ -1,7 +1,7 @@
 ---
 title: in.tblNetworkAdapters
 ---
-# in.tblNetworkAdapters
+# in.tblNetworkAdapters - Input Schema Table
 
 ​Network adapters with MAC Addresses only.
 

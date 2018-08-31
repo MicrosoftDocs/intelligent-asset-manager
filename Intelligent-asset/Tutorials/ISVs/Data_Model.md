@@ -1,7 +1,7 @@
 ---
-title: UI Data Model
+title: Universal Inventory Data Model for ISVs
 ---
-# UI Data Model
+# Universal Inventory Data Model
 
 After the [**ISV**](../../Overview/key-users.md) has reviewed the [**Technical Integration Process introduction**](introduction.md), you should understand the UI Data Model. 
 
@@ -21,6 +21,6 @@ A UI database has three schemas:
 2. **Permanent data store [dbo]**: permanently stores the Inventory.
 3. **Output schema [out]**: tables and procedures to consult the Inventory. Inventory Consumers must use this schema.
 
-![UI Data Flow ](media/UI_Data_Flow.png)
+![Universal Inventory overview Data Flow ](media/UI_Data_Flow.png)
 
 Read [**Release Notes**](../UI/Release-notes.md) for the detailed description of release changes on the past versions of Universal Inventory. 

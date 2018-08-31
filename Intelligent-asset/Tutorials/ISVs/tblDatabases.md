@@ -1,7 +1,7 @@
 ---
 title: in.tblDatabases
 ---
-# in.tblDatabases
+# in.tblDatabases - Input Schema Table
 
 ​​​​​Databases running on a licensable database server.
 

@@ -1,5 +1,5 @@
 ---
-title: SAM Partners Administrative Work on IAM Cloud
+title: SAM Partners Administrative Work
 ---
 # Tutorial: IAM Cloud Administrative work for SAM Partners
 
@@ -30,22 +30,22 @@ To get provisioned for any of the User Types above marked with an “*” please
 
 1. Click on the ‘Manage Partner Organizations’ tile in the home page, Partner Organization Dashboard is shown to the user
 
-   ![Manage Organizations](media/Manage_Organizations.jpg)
+   ![Manage Organizations on IAM Cloud dashboard](media/Manage_Organizations.jpg)
 
 1. Click on ‘Edit’ menu item next to the Partner Organization name to Invite Partner Admins/Partner Users.
 
-   ![Invite Partner Admins/Partner Users](media/Invite_Partner_Admin_Users.jpg)
+   ![Invite Partner Admins/Partner Users on IAM Cloud dashboard](media/Invite_Partner_Admin_Users.jpg)
 
 1. On click of the ‘Edit’ menu item the Partner Organization Details page is shown to the user.
 
-    ![Partner Organization Details Page](media/Partner_Organization_Details_Page.jpg)
+    ![Partner Organization Details Page on IAM Cloud dashboard](media/Partner_Organization_Details_Page.jpg)
 
 1. Click on the ‘Invite’ button to Invite SAM Partner Users to your organization.
 1. An email invitation will be sent to the users allowing them to access IAM.
 
 ## Organizing your IAM Engagement Dashboard to make active active engagements more visible
 
-Users can “Pin” their most viewed engagements to the Engagement Dashboard. Simply click the pin icon ( ![Pin Icon](media/Pin_Icon.jpg) ) to the left of the engagement and refresh the page to bring the pinned engagement the top of the engagement table. Pinned engagements will always appear first on your list of engagements. If you no longer wish to keep the engagement(s) at the top of the engagement table, “unpin” the engagement by clicking on the pinned icon ( ![Pinned Icon](media/Pinned_Icon.jpg) ) and refresh the page. The engagement will return to the original placement within the table. Pinning is specific to the individual user’s view of the engagement dashboard.
+Users can “Pin” their most viewed engagements to the Engagement Dashboard. Simply click the pin icon ( ![Pin Icon on IAM Cloud dashboard](media/Pin_Icon.jpg) ) to the left of the engagement and refresh the page to bring the pinned engagement the top of the engagement table. Pinned engagements will always appear first on your list of engagements. If you no longer wish to keep the engagement(s) at the top of the engagement table, “unpin” the engagement by clicking on the pinned icon ( ![Pinned Icon on IAM Cloud dashboard](media/Pinned_Icon.jpg) ) and refresh the page. The engagement will return to the original placement within the table. Pinning is specific to the individual user’s view of the engagement dashboard.
 
 ## Creation of IAM Engagement
 
@@ -60,12 +60,12 @@ IAM Engagements are created by your SAM Engagement Manager (EM). To be created, 
 
 Additional IAM guidance and sample reports can be found under IAM User Guides & Templates tile of Intelligent Asset Manager.
 
-![IAM User Guides & Templates](media/IAM_User_Guides_Templates.jpg)
+![IAM Cloud User Guides & Templates](media/IAM_User_Guides_Templates.jpg)
 
 IAM Admin users and Partner users are managed through the tiles shown below.  
 (Depending on your level of permissions you may not see these tiles)
 
-![Manage IAM Users](media/Manage_IAM_Users.jpg)
+![Manage IAM Cloud Users dashboard](media/Manage_IAM_Users.jpg)
 
 ## Engagement Level Password Protection
 
@@ -79,9 +79,9 @@ Before any downstream system can consume files from Intelligent Asset Manager (C
 
 ![Remove Password Protection From_Report](media/Remove_Password_Protection_From_Report.jpg)
 
-![Encrypt With Password](media/Encrypt_With_Password.jpg)
+![Encrypt With Password on Downloaded report](media/Encrypt_With_Password.jpg)
 
-![Delete Password](media/Delete_Password.jpg)
+![Delete Password on downloaded report](media/Delete_Password.jpg)
 
 ## How to: Adjust deployment quantities reflected in the ELP
 
@@ -94,17 +94,12 @@ The Established Deployment Position (EDP) was finalized, but a change to the dep
 
    - ***Licensing Product Family Name*** – Accepted values can be found in Sheet 3 Product & Program Definitions Sheet (Domain Data)
    - ***Licensing Product Version Name*** – Accepted values can be found in Sheet 3 Product & Program Definitions Sheet (Domain Data)
-   - ***Row Type*** – One of the following Manual Adjustment, Deployment Adjustment, or Licensing Allocation Adjustment. In this case “Deployment Adjustment” is used.
-   - ***Deployment Adjustment Quantity*** – numeric deployment qty of the adjustment. If this was an adjustment to the license allocation, the quantity would be added to the License Allocation Adjustment Quantity column.
+   - ***Row Type*** – One of the following Manual Adjustment, or Licensing Allocation Adjustment. 
    - ***Notes** – Notes detailing why the adjustment was needed*.
-
-   ![Deployment Adjustments](media/Deployment_Adjustments.jpg)
 
 1. Navigate to the “Manage Other Data” tab under Step 3 of the engagement.
 1. Click the upload button and select the “Other Data” spreadsheet.
-1. ELP is generated – adjustment is reflected in the “Manual Deployment Adjustments” column of the ELP for this specific row type. If this was a license allocation adjustment the Row Type = “License Allocation Adjustment Quantity” licenses would be shown under the “Manual License Allocation Adjustments” column.
-
-   ![Manual Deployment Adjustments](media/Manual_Deployment_Adjustments.jpg)
+1. ELP is generated 
 
 ## Additional Information
 

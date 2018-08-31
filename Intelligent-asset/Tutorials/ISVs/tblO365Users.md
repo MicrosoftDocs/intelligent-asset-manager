@@ -1,7 +1,7 @@
 ---
 title: in.tblO365Users
 ---
-# in.tblO365Users
+# in.tblO365Users - Input Schema Table
 
 ​Office 365 (Azure AD) User Accounts.​​
 

@@ -1,7 +1,7 @@
 ---
 title: in.tblO365Domains
 ---
-# in.tblO365Domains
+# in.tblO365Domains - Input Schema Table
 
 ​​​​Domain names defined in an Office 365 subscription. Corresponds to the Domains tab in the Office 365 administration portal.​
 

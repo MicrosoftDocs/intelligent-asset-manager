@@ -1,7 +1,7 @@
 ---
-title: in.__Version
+title: in.__Version - Table
 ---
-# in.__Version
+# in.__Version - Input Schema Table
 
 The version of the template this database was generated from. Read-Only.
 

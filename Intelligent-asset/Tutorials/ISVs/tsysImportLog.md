@@ -1,7 +1,7 @@
 ---
 title: in.tsysImportLog
 ---
-# in.tsysImportLog
+# in.tsysImportLog - Input Schema Table
 
 Import process results. Read-only.
 
