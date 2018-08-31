@@ -35,11 +35,8 @@
         tocHref: /Quickstarts
         topicHref: /Quickstarts/SAM-EMs.md
   - name: Tutorials
-    tocHref: /
-    topicHref: /
     items:
       - name: Universal Inventory Users
-        tocHref: /
         topicHref: /
         items:
           - name: Introduction
@@ -207,6 +204,6 @@
       - name: Microsoft SAM Engagement Managers
         tocHref: /Tutorials/SAM-EMS
         topicHref: /Tutorials/SAM-EMS/Tutorial.md
-  - name: Support & Community
-    tocHref: /
-    topicHref: /Sup_Comm.md
+- name: Support & Community
+  tocHref: /
+  topicHref: /Sup_Comm.md
