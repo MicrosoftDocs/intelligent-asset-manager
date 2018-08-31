@@ -3,8 +3,6 @@
   topicHref: /
   items:
   - name: Overview
-    tocHref: /
-    topicHref: /
     items:
       - name: Intelligent Asset Manager (IAM)
         tocHref: /Overview
@@ -19,8 +17,6 @@
         tocHref: /Overview
         topicHref: /Overview/key-users.md
   - name: Quickstarts
-    tocHref: /
-    topicHref: /
     items:
       - name: Universal Inventory Users
         tocHref: /Quickstarts
@@ -37,7 +33,6 @@
   - name: Tutorials
     items:
       - name: Universal Inventory Users
-        topicHref: /
         items:
           - name: Introduction
             tocHref: /Tutorials/Ui
@@ -58,8 +53,6 @@
             tocHref: /Tutorials/Ui
             topicHref: /Tutorials/UI/Release-notes.md       
       - name: SAM Partners
-        tocHref: /
-        topicHref: /
         items:
           - name: Preparation
             tocHref: /Tutorials/SAM-Partners
@@ -80,8 +73,6 @@
             tocHref: /Tutorials/SAM-Partners
             topicHref: /Tutorials/SAM-Partners/ODT.md
       - name: Universal Inventory ISVs
-        tocHref: /
-        topicHref: /
         items:
           - name: Technical Integration Process 
             tocHref: /Tutorials/ISVs
@@ -205,5 +196,4 @@
         tocHref: /Tutorials/SAM-EMS
         topicHref: /Tutorials/SAM-EMS/Tutorial.md
 - name: Support & Community
-  tocHref: /
   topicHref: /Sup_Comm.md
