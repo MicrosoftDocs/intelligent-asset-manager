@@ -51,7 +51,7 @@ Universal Inventory runs as a Windows service. A service account that runs the U
 - Select **Local Users and Groups** > **Users** in the tree pane, and create a new user\r\n
 - It is a good idea to set the **Password never expires** property to prevent that the service stops working when its service account password expires, or follow corporate policies for service account credentials.
 
-  ![Prepare for UI Create a Service Account](media/prepare_service_account.PNG)
+  ![Prepare for UI Create a Service Account](media/prepare-service-account.PNG)
 
 The Universal Inventory Service Account requires Modify permissions on the Work Folder.
 
@@ -73,11 +73,11 @@ The Universal Inventory Service Account requires sysadmin permissions on the dat
   -- or --  
   select **SQL Authentication**  and enter a Login Name and Password.
 
-  ![Prepare for UI - Create a login on SQL Server](media/prepare_sql_login.PNG)
+  ![Prepare for UI - Create a login on SQL Server](media/prepare-sql-login-screenshot.PNG)
 
 - Select **Server Roles** in the left pane, check the **sysadmin** checkbox, and click OK.
 
-  ![Prepare for UI - Assign the sysadmin role to the Universal Inventory Service Account](media/prepare_sql_admin.png)
+  ![Prepare for UI Assign the sysadmin role to the UI Service Account](media/prepare-sql-admin-screenshot.png)
 
 ## Next Step: Best Practices for Quality Inventory
 

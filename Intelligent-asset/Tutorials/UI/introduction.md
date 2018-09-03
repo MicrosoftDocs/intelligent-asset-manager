@@ -38,6 +38,8 @@ Every time the user creates a UI Project, a UI Database is created. UI Database 
 
 UI will not scan or collect data directly. Instead it relies on *Connectors* to connect to existing Data Sources.
 
+![Universal Inventory Model Overview](media/IAM-UI-Overview.png)
+
 ## Raw Inventory Data Input - Connectors
 
 A Connector imports data from a specific Inventory Data Source (Tool/Service) into the Customer's UI Database. Connectors are implemented as scripts so they can easily be reviewed and tweaked by the Customer.

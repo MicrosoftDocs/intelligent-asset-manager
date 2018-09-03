@@ -7,7 +7,7 @@ title: Overview Universal Inventory (UI) and Workflow
 
 This workflow is better showcased on the picture below.
 
-![Universal Inventory overview dataflow](media/UI_overview.jpg)
+![Universal Inventory overview dataflow](media/UI-overview-input-output.jpg)
 
 It is important to note that all UI dataflow occurs inside the environment of the organization that is analyzing its IT environment (most commonly named as "Customer", or "End-customer"). As far as an official Microsoft SAM Engagement go, only Microsoft software data collected will be transferred to Microsoft, which is explained more thoroughly on the [**IAM Cloud overview**](IAMCloud.md).
 

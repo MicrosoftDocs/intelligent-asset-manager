@@ -17,10 +17,10 @@ To do you so, we recommend you download the Universal Inventory database templat
 
 A UI database has three schemas:
 
-1. [**Input schema [in]**](Input_Schema.md): holds tables and procedures to import data into the UI Database. Push Connectors​ must fill tables in this schema.
+1. [**Input schema [in]**](Input-Schema.md): holds tables and procedures to import data into the UI Database. Push Connectors​ must fill tables in this schema.
 2. **Permanent data store [dbo]**: permanently stores the Inventory.
 3. **Output schema [out]**: tables and procedures to consult the Inventory. Inventory Consumers must use this schema.
 
-![Universal Inventory overview Data Flow ](media/UI_Data_Flow.png)
+![Universal Inventory overview Data Flow ](media/UI-Technical-Data-Flow.png)
 
 Read [**Release Notes**](../UI/Release-notes.md) for the detailed description of release changes on the past versions of Universal Inventory. 

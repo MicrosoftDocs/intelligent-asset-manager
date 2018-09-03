@@ -30,22 +30,22 @@ To get provisioned for any of the User Types above marked with an “*” please
 
 1. Click on the ‘Manage Partner Organizations’ tile in the home page, Partner Organization Dashboard is shown to the user
 
-   ![Manage Organizations on IAM Cloud dashboard](media/Manage_Organizations.jpg)
+   ![Manage Organizations on IAM Cloud dashboard](media/Manage-Organizations.jpg)
 
 1. Click on ‘Edit’ menu item next to the Partner Organization name to Invite Partner Admins/Partner Users.
 
-   ![Invite Partner Admins/Partner Users on IAM Cloud dashboard](media/Invite_Partner_Admin_Users.jpg)
+   ![Invite Partner Admins/Partner Users on IAM Cloud dashboard](media/Invite-Partner-Admin-Users.jpg)
 
 1. On click of the ‘Edit’ menu item the Partner Organization Details page is shown to the user.
 
-    ![Partner Organization Details Page on IAM Cloud dashboard](media/Partner_Organization_Details_Page.jpg)
+    ![Partner Organization Details Page on IAM Cloud dashboard](media/Partner-Organization-Details-Page.jpg)
 
 1. Click on the ‘Invite’ button to Invite SAM Partner Users to your organization.
 1. An email invitation will be sent to the users allowing them to access IAM.
 
 ## Organizing your IAM Engagement Dashboard to make active active engagements more visible
 
-Users can “Pin” their most viewed engagements to the Engagement Dashboard. Simply click the pin icon ( ![Pin Icon on IAM Cloud dashboard](media/Pin_Icon.jpg) ) to the left of the engagement and refresh the page to bring the pinned engagement the top of the engagement table. Pinned engagements will always appear first on your list of engagements. If you no longer wish to keep the engagement(s) at the top of the engagement table, “unpin” the engagement by clicking on the pinned icon ( ![Pinned Icon on IAM Cloud dashboard](media/Pinned_Icon.jpg) ) and refresh the page. The engagement will return to the original placement within the table. Pinning is specific to the individual user’s view of the engagement dashboard.
+Users can “Pin” their most viewed engagements to the Engagement Dashboard. Simply click the pin icon ( ![Pin Icon on IAM Cloud dashboard](media/Pin-Icon-dashboard--.jpg) ) to the left of the engagement and refresh the page to bring the pinned engagement the top of the engagement table. Pinned engagements will always appear first on your list of engagements. If you no longer wish to keep the engagement(s) at the top of the engagement table, “unpin” the engagement by clicking on the pinned icon ( ![Pinned Icon on IAM Cloud dashboard](media/Pinned-Icon-dashboard.jpg) ) and refresh the page. The engagement will return to the original placement within the table. Pinning is specific to the individual user’s view of the engagement dashboard.
 
 ## Creation of IAM Engagement
 
@@ -60,12 +60,12 @@ IAM Engagements are created by your SAM Engagement Manager (EM). To be created, 
 
 Additional IAM guidance and sample reports can be found under IAM User Guides & Templates tile of Intelligent Asset Manager.
 
-![IAM Cloud User Guides & Templates](media/IAM_User_Guides_Templates.jpg)
+![IAM Cloud User Guides & Templates](media/IAM-User-Guides-Templates.jpg)
 
 IAM Admin users and Partner users are managed through the tiles shown below.  
 (Depending on your level of permissions you may not see these tiles)
 
-![Manage IAM Cloud Users dashboard](media/Manage_IAM_Users.jpg)
+![Manage IAM Cloud Users dashboard](media/Manage-IAM-Users-dashboard.jpg)
 
 ## Engagement Level Password Protection
 
@@ -77,11 +77,11 @@ If the user chooses to set a “File Protection Password” then all files being
 
 Before any downstream system can consume files from Intelligent Asset Manager (CHIP, and IAM Encryption/Decryption tool) the password protection must be removed from the file. The steps below outline this process within Excel.
 
-![Remove Password Protection From_Report](media/Remove_Password_Protection_From_Report.jpg)
+![Remove Password Protection From Report](media/Remove-Password-Protection-From-Report.jpg)
 
-![Encrypt With Password on Downloaded report](media/Encrypt_With_Password.jpg)
+![Encrypt With Password on Downloaded report](media/Encrypt-With-Password.jpg)
 
-![Delete Password on downloaded report](media/Delete_Password.jpg)
+![Delete Password on downloaded report](media/Delete-Password-dashboard.jpg)
 
 ## How to: Adjust deployment quantities reflected in the ELP
 
@@ -109,9 +109,9 @@ The Product and Program Definitions spreadsheet referenced below, contains the s
 
 Located in the footer link of [Intelligent Asset Manager](http://www.intelligentassetmanager.com/):
 
-![Product And Program Definitions Link](media/Product_And_Program_Definitions_Link.jpg)
+![Product And Program Definitions Link](media/Product-And-Program-Definitions-Link.jpg)
 
-![Product And Program Definitions Spreadsheet](media/Product_And_Program_Definitions_Spreadsheet.jpg)
+![Product And Program Definitions Spreadsheet](media/Product-And-Program-Definitions-Spreadsheet.jpg)
 
 ### **SAM Product Family Name Types**
 

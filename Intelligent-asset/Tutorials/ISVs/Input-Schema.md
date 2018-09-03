@@ -3,9 +3,9 @@ title: The Input Schema
 ---
 # Universal Inventory Input schema [in]
 
-Make sure you understand the [**UI Data Model**](Data_Model.md) before reading about The Input schema [in].
+Make sure you understand the [**UI Data Model**](Data-Model.md) before reading about The Input schema [in].
 
-The Input Schema [in] holds all tables and procedures to import data into the Inventory. [**Connectors**](Push_Connectors.md)​​ must inject data into the inventory through this schema.
+The Input Schema [in] holds all tables and procedures to import data into the Inventory. [**Connectors**](Push-Connectors.md)​​ must inject data into the inventory through this schema.
 
 ## Relationships
 
@@ -27,7 +27,7 @@ A​ll records in all [in​] tables have a **DataSourceId** field, used to uniq
 
 Propose a DataSourceId for your Connector by mail to SAM-UI@microsoft.com. We will keep track of all DataSourceId's and make sure they are unique.
 
-When creating a [Push Connector](Push_Connectors.md), please keep in mind:
+When creating a [Push Connector](Push-Connectors.md), please keep in mind:
 
 - ​It is not necessary to fill all tables. ​ Only insert data that is available in your data source.
 
@@ -39,7 +39,7 @@ When creating a [Push Connector](Push_Connectors.md), please keep in mind:
 
 | Name                            | Description​                                                                                                                 |
 |---------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| [__Version](_Version.md)                       | This Database Version. Read-only.                                                                                           |
+| [__Version](-Version.md)                       | This Database Version. Read-only.                                                                                           |
 | [tblActiveSync​](tblActiveSync.md)                   | Detected ActiveSync connections.                                                                                            |
 | [tblCpus](tblCpus.md)                         | CPUs per Device. One record per CPU.                                                                                        |
 | [tblDa​​​tabases](tblDatabases.md)                    | ​Databases running on a licensable database server.                                                                          |

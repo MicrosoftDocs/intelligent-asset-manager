@@ -3,11 +3,11 @@ title: Push Connectors - Table
 ---
 # Universal Inventory Push Connectors
 
-A Push Connector is a piece of code that executes a set of SQL queries to fill tables in the [**Input schema [in]**](Input_Schema.md) schema of the UI data store.
+A Push Connector is a piece of code that executes a set of SQL queries to fill tables in the [**Input schema [in]**](Input-Schema.md) schema of the UI data store.
 
 The Inventory Provider that creates the connector decides what form it takes. It can be a script, function, or other add-on module to their solution, or a stand-alone tool. It is up to the Inventory Provider to decide what is the most appropriate format for their customers. The Push Connector is executed independently from the UI application, and pushes data directly into the UI Database.​
 
-The idea is that the actual queries/scripts that extract and upload data are readable/editable.  This way a User can easily customize Connectors in support of his particular setup. For example, the user might update the script that fills tblDatabaseServers to extract an Environment value from the name or disitinguishedName of the server. That would be a customer-specific rule.
+The idea is that the actual queries/scripts that extract and upload data are readable/editable.  This way a User can easily customize Connectors in support of his particular setup. For example, the user might update the script that fills tblDatabaseServers to extract an Environment value from the name or distinguished Name of the server. That would be a customer-specific rule.
 
 If at all possible, do not compile your queries into a tool but include them in a readable format.
 
@@ -23,9 +23,9 @@ A Push Connector needs to perform these steps, in order:
 3. **Execute stored procedure in.CleanDataSource, specifying your DataSourceId as a parameter**  
    UI may have many Data Sources. All data from all sources is combined in the Input schema [in] of the database. Before importing new data, all existing data from the same Data Source must be removed from tables in the Input schema, so it is important to distinguish from which Data Source the data originates. Procedure [in].CleanDataSource deletes records with the specified DataSourceId.
 
-   [**Learn more about the UI Data Flow here.​**](Data_Model.md)
+   [**Learn more about the UI Data Flow here.​**](Data-Model.md)
 
-   [**Read more about the DataSourceId here.**](Input_Schema.md)
+   [**Read more about the DataSourceId here.**](Input-Schema.md)
 
 4. **Insert data into the Input schema**
    Execute queries to fill tables in the [in] schema of the UI Database. In their simplest form, these queries look something like:

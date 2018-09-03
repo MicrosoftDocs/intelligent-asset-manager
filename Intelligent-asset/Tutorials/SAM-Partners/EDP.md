@@ -17,19 +17,19 @@ After [encrypting your CIDC using Universal Inventory](../UI/inventory.md), navi
 1. Select the drop-down icon next to the Engagement Name and select “Manage Engagement”
 1. Select the Step 2 Chevron to get to the “CIDC & Established Deployment Position” page.
 
-   ![Step2 CIDC Established Deployment Position Page](media/Step2_CIDC_Established_Deployment_Page.jpg)
+   ![Step2 CIDC Established Deployment Position Page](media/Step2-CIDC-Established-Deployment-Page.jpg)
 
 1. Select “Upload” and browse on the machine to the encrypted CIDC file and select it
 1. The CIDC will then be uploaded and validated. The status will update automatically without refreshing the page. If the CIDC passes validation, an EDP report will be generated. If not, the user can download an Excel error report outlining all errors in the CIDC that need to be fixed before validation will be successful.
 1. CIDC reports can be uploaded the following languages. To download localized templates, click on the “Download CIDC Sample” or “Download CIDC Template” links on the Manage CIDC Data tab.
 
-    ![CIDC Download Localized Template](media/CIDC_Download_Localized_Template.jpg)
+    ![CIDC Download Localized Template](media/CIDC-Download-Localized-Template.jpg)
 
 ## CIDC Error Report
 
 If a CIDC fails validation, a CIDC error report can be downloaded outlining all of the errors that failed validation efforts. Click the arrow in the status column next to the text “Validation Failed” and select “Download Error Report”.
 
-![CIDC Validation Fail Error Report](media/CIDC_Validation_Fail_Error_Report.jpg)
+![CIDC Validation Fail Error Report](media/CIDC-Validation-Fail-Error-Report.jpg)
 
 Error reporting is added directly to the CIDC report that was uploaded. All cells that have a validation issue will be highlighted in Red. An additional column is added to each sheet within the CIDC outlining the error(s) for the given row. User can make edits directly to the CIDC error report and upload to IAM. (Note: the CIDC report will still need to have the Engagement level password removed from the file before it can be uploaded and restored/encrypted)
 
@@ -38,7 +38,7 @@ Error reporting is added directly to the CIDC report that was uploaded. All cell
 A “web form” for editing of CIDCs has been developed for Step 2 of Intelligent Asset Manager. This feature is intended to allow users to quickly edit a subset of fields in their CIDC (License Product Family & License Models) without needing to go through the full process of CIDC download, unencrypt, edit, re-encrypt, and re-upload.  
 After a CIDC has been uploaded and either an EDP has been generated or is in “CIDC Incomplete” status it can be edited through the web form.
 
-![Edit CIDC Web Form on IAM Cloud](media/Edit_CIDC_Web_Form.jpg)
+![Edit CIDC Web Form on IAM Cloud](media/Edit-CIDC-Web-Form--.jpg)
 
 The Edit CIDC table is grouped by the Product Pool (EDP Allocation Type – Sheet 2 of the Product and Program Definitions spreadsheet) and Inventory Product Family and Version listed in the CIDC.
 
@@ -58,8 +58,8 @@ The Edit CIDC table is grouped by the Product Pool (EDP Allocation Type – Shee
 
 Standard, Core, and Processor licenses are captured under separate SAM Product Family Names within Intelligent Asset Manager. To specify core or processor, the appropriate product family must be chosen when manually completing the CIDC. A full list of all available product families and mapping to the accepted License Models can be found on Sheet name “2” of Intelligent Asset Manager_*DomainData.xlsx* which can be downloaded from the *“Product & Program Definitions”* link on the footer of Intelligent Asset Manager.
 
-![IAM CloudProduct & Program Definitions](media/Product_Program_Definitions.jpg)
-![IAM Cloud Domain Data Products](media/IAM_Domain_Data.jpg)
+![IAM CloudProduct & Program Definitions](media/Product-Program-Definitions.jpg)
+![IAM Cloud Domain Data Products](media/IAM-Domain-Data-Screenshot.jpg)
 
 ## CIDC Tab G cross checking
 
@@ -69,14 +69,14 @@ The information captured in this tab is populated at the discretion of the indiv
 
 For successful uploads of a CIDC, an EDP report will be generated. To download the newly generated EDP report, the user selects the dropdown arrow on the CIDC file, selects the language that they would like to download the report in, and clicks “Download” to download the EDP report.
 
-![EDP Established Deployment Position Report](media/EDP_Report.jpg)
-![IAM Cloud Language Culture Selection](media/Language_Culture_Selection.jpg)
+![EDP Established Deployment Position Report](media/EDP-Report-Screenshot.jpg)
+![IAM Cloud Language Culture Selection](media/Language-Culture-Selection.jpg)
 
 The EDP report summarizes the information contained within the CIDC report into a set of tabs geared towards Customer conversation.  
 When opening the file (or any file downloaded from Intelligent Asset Manager) you will need to provide the “File Protection Password” before opening the Excel report. This password was set by the user who first uploaded a CIDC to the Engagement.
 
-![File Protection Password for EDP](media/File_Protection_Password.jpg)
-![EDP Established Deployment Position Report Excel](media/EDP_Report_Excel.jpg)
+![File Protection Password for EDP](media/File-Protection-Password.jpg)
+![EDP Established Deployment Position Report Excel](media/EDP-Report-Excel.jpg)
 
 >[!IMPORTANT]
 >As a SAM Partner, you should be familiarized and follow the Microsoft guidelines of the [Best Practices for a Quality Inventory](../UI/quality.md), as well as the[ Minimum EDP Quality standard](../UI/quality.md).  
@@ -89,17 +89,17 @@ When opening the file (or any file downloaded from Intelligent Asset Manager) yo
 1. As a first step to finalize an EDP, it is recommended Partner and Customer review and sign off teh data available on the EDP document provided.
 1. Click on the “Finalize” link for the EDP you would like to finalize.
 
-   ![Finalize Established Deployment Position EDP](media/Finalize_EDP.jpg)
+   ![Finalize Established Deployment Position EDP](media/Finalize-EDP-Screenshot.jpg)
 
 1. There are two selection options provided when finalizing an EDP:
    1. If you are going to be completing an ELP for an Engagement the radio button should be updated to “Yes” to indicate that the EDP is not the last step for this Engagement.
    1. If the EDP is the last step for this Engagement the selection can stay with the defaulted “No” radio button selection.
-      ![Finalize Established Deployment Position EDP Options](media/Finalize_EDP_Options.jpg)
+      ![Finalize Established Deployment Position EDP Options](media/Finalize-EDP-Options.jpg)
 1. Select the appropriate radio button and check the “I understand…” box to finalize the EDP.
 1. Then click the finalize button, which will close the Finalize EDP pop up.
 1. The step 2 page will go into a “Read-Only” state, and the EDP that was selected for finalizing will be marked as “Finalized”.
 
-   ![Finalized Established Deployment Position EDP](media/Finalized_EDP.jpg)
+   ![Finalized Established Deployment Position EDP](media/Finalized-EDP-Screenshot.jpg)
 
 1. The Engagement status will be updated accordingly. If “No” was selected, the Engagement status will read “EDP Finalized”. If yes was selected the status should read “Step 3: ELP” in the Engagement dashboard.
 

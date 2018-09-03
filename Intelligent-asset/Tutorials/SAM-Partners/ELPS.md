@@ -1,7 +1,7 @@
 ---
 title: Tutorial ELP Service
 ---
-# Microsoft's ELP Service
+# Microsoft's Effective Licensing Position (ELP) Service
 
 ## Microsoft’s Free Centralized ELP Service
 

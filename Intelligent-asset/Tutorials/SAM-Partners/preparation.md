@@ -11,7 +11,7 @@ Data such as machine name, user name and IP address is important to collect to p
 
 **The ELP** report will match the information presented at the final EDP report against the Microsoft Licenses Entitlement from the Customer running the SAM Engagement. It helps identify potential risks for Microsoft non-compliant Licensing ("Licensing Delta shown on the picture below). Although recommended, it is currently not anymore required for a Microsoft SAM Engagement ran by a Microsoft SAM Partner.
 
-![ELP Report IAM Cloud sample report](media/ELP_Report.jpg)
+![ELP Report IAM Cloud sample report](media/ELP-Report-screenshot.jpg)
 
 The Tutorial section for the SAM Partners will showcase how to get access to IAM Cloud platform, how to tackle the IAM Cloud administrative work required, as well as end-to-end steps on how to upload the UI CIDC file into the tool and generate both EDP and ELP reports.
 
@@ -27,7 +27,7 @@ All new Engagements require an Engagement Consent form to be signed by the perso
 
 To send an Engagement consent via email to this contact, sign into [IAM Cloud](https://www.intelligentassetmanager.com/), select the “Engagement Consent” option in the caret dropdown for the Engagement.
 
-![Engagement Dashboard example on IAM Cloud](media/Engagement_Dashboard.jpg)
+![Engagement Dashboard example on IAM Cloud](media/Engagement-Dashboard.jpg)
 
 Partner should select the correct “Engagement type” for this Engagement:
 
@@ -38,15 +38,15 @@ To choose the right Engagement type, click on “Edit” right next to the Engag
 
 Next, enter the email address for the contact and click the “Send” button.
 
-![Engagement Consent Send on IAM Cloud](media/Engagement_Consent_Send.jpg)
+![Engagement Consent Send on IAM Cloud](media/Engagement-Consent-Send.jpg)
 
 The contact will receive an email from iamc@microsoft.com with a link to consent to the Engagement activities.
 
-![Engagement Consent Email on IAM Cloud](media/Engagement_Consent_Email.jpg)
+![Engagement Consent Email on IAM Cloud](media/Engagement-Consent-Email.jpg)
 
 The contact should then click on the link, which present the appropriate terms for the Engagement.
 
-![Engagement Consent Sign on IAM Cloud](media/Engagement_Consent_Sign.jpg)
+![Engagement Consent Sign on IAM Cloud](media/Engagement-Consent-Sign.jpg)
 
 The contact will need to enter the email address used to receive the Engagement consent, check the acceptance language, and then click on the accept button.  
 Partners and SAM EMs can review when and by whom consent was accepted by looking under “Acceptance Detail” on the “Engagement Consent” screen in the IAM Cloud  
