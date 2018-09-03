@@ -1,5 +1,5 @@
 ---
-title: in.tblWebApplications
+title: in.tblWebApplications - UI Input Schema
 ---
 # in.tblWebApplications - Input Schema Table
 

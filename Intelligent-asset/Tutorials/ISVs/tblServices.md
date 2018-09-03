@@ -1,5 +1,5 @@
 ---
-title: in.tblServices
+title: in.tblServices - UI Input Schema
 ---
 # in.tblServices - Input Schema Table
 

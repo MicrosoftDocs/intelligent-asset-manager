@@ -1,5 +1,5 @@
 ---
-title: in.tblDatabaseServers
+title: in.tblDatabaseServers - UI Input Schema
 ---
 # in.tblDatabaseServers - Input Schema Table
 

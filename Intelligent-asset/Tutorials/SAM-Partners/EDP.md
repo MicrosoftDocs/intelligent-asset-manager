@@ -17,8 +17,6 @@ After [encrypting your CIDC using Universal Inventory](../UI/inventory.md), navi
 1. Select the drop-down icon next to the Engagement Name and select “Manage Engagement”
 1. Select the Step 2 Chevron to get to the “CIDC & Established Deployment Position” page.
 
-   ![Step2 CIDC Established Deployment Position Page](media/Step2-CIDC-Established-Deployment-Page.jpg)
-
 1. Select “Upload” and browse on the machine to the encrypted CIDC file and select it
 1. The CIDC will then be uploaded and validated. The status will update automatically without refreshing the page. If the CIDC passes validation, an EDP report will be generated. If not, the user can download an Excel error report outlining all errors in the CIDC that need to be fixed before validation will be successful.
 1. CIDC reports can be uploaded the following languages. To download localized templates, click on the “Download CIDC Sample” or “Download CIDC Template” links on the Manage CIDC Data tab.
@@ -76,7 +74,7 @@ The EDP report summarizes the information contained within the CIDC report into 
 When opening the file (or any file downloaded from Intelligent Asset Manager) you will need to provide the “File Protection Password” before opening the Excel report. This password was set by the user who first uploaded a CIDC to the Engagement.
 
 ![File Protection Password for EDP](media/File-Protection-Password.jpg)
-![EDP Established Deployment Position Report Excel](media/EDP-Report-Excel.jpg)
+![EDP Established Deployment Position Report Excel](media/EDP-Report-Excel-screenshot.jpg)
 
 >[!IMPORTANT]
 >As a SAM Partner, you should be familiarized and follow the Microsoft guidelines of the [Best Practices for a Quality Inventory](../UI/quality.md), as well as the[ Minimum EDP Quality standard](../UI/quality.md).  
@@ -107,3 +105,7 @@ When opening the file (or any file downloaded from Intelligent Asset Manager) yo
 > Even if the EDP is finalized, the user can still upload/edit ELPs for this Engagement if it is decided later that the Engagement will require an ELP.
 
 If it was decided the SAM Engagement will contain the deliverable of an ELP, follow the [ELP Tutorial](ELP.md) section for the detailed procedure.
+
+## Next Step: Effective Licensing Position (ELP)
+
+If your SAM Engagement does not include an Effective Licensing Position (ELP) as a main deliverable, your SAM Engagement finalizes here. However, if an ELP needs to be produced, please read the Tutorial [Effective Licensing Position](ELP.md) (ELP).

@@ -107,7 +107,7 @@ The Established Deployment Position (EDP) was finalized, but a change to the dep
 
 The Product and Program Definitions spreadsheet referenced below, contains the standard product taxonomy for the main IAM site. It is updated on a weekly basis as product definitions are updated (newly released products/versions, new processors identified, etc.) This Excel spreadsheet can be found in the footer link of Intelligent Asset Manager. This report is necessary for the completion of the CIDC and Other Data Template as it contains details on the taxonomy (i.e., naming conventions) used within Intelligent Asset Manager site, such as License Product Family Names or License Product Family Version Names. If this information is entered incorrectly in either report, then the reports may fail when uploaded to Intelligent Asset Manager site.
 
-Located in the footer link of [Intelligent Asset Manager](http://www.intelligentassetmanager.com/):
+Located in the footer link of [Intelligent Asset Manager](https://www.intelligentassetmanager.com/):
 
 ![Product And Program Definitions Link](media/Product-And-Program-Definitions-Link.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: The Input Schema 
+title: Universal Inventory Input Schema 
 ---
 # Universal Inventory Input schema [in]
 

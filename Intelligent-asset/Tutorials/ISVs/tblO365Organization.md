@@ -1,5 +1,5 @@
 ---
-title: in.tblO365Organization
+title: in.tblO365Organization - UI Input Schema
 ---
 # in.tblO365Organization - Input Schema Table
 

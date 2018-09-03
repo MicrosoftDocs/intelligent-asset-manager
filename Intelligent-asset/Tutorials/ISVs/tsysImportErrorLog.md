@@ -1,5 +1,5 @@
 ---
-title: in.tsysImportErrorLog
+title: in.tsysImportErrorLog - UI Input Schema
 ---
 # in.tsysImportErrorLog - Input Schema Table
 

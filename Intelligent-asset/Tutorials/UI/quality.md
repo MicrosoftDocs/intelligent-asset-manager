@@ -46,7 +46,7 @@ SAM Partners should cross check the quality points described above and review th
 | All devices (virtual, physical, hosted) must contain an actual Processor type                          | 'Unknown' or XXXXXXXX are not processor types. No generic character strings should be included.                                                                 |
 | The data rows in SQL Instance Worksheet tab must equal the total in Summary tab.                       | CIDC tab F must contain SQL instance data.                                                                                                                      |
 | All products with Royalty Free License Model must have a license count greater than 0.                 |                                                                                                                                                                 |
-| Machine Manufacturer and Model must represent actual Manufacture & Model.                              | No generic character strings should be included - XXXXXXXX or 123123 are not actual mfr names.                                                                  |
-## Next Step: Inventory
+| Machine Manufacturer and Model must represent actual Manufacture & Model.                              | No generic character strings should be included - XXXXXXXX or 123123 are not actual mfr names.                                                                 |
+## Next Step: Creating an inventory with Universal Inventory
 
-Now that you are familiar with the Microsoft's best practices on how to collect a quality raw inventory of the software deployed and its importance, read how to create a UI standardized inventory on the [**UI Inventory Tutorial section**](inventory.md).
+Now that you are familiar with the Microsoft's best practices on how to collect a quality raw inventory of the software deployed and its importance, read how to create a UI standardized inventory on the [**UI Creating an inventory Tutorial section**](inventory.md).

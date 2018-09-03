@@ -1,5 +1,5 @@
 ---
-title: in.tblNetworkAdapters
+title: in.tblNetworkAdapters - UI Input Schema
 ---
 # in.tblNetworkAdapters - Input Schema Table
 

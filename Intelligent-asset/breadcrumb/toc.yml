@@ -79,119 +79,119 @@
             topicHref: /Tutorials/ISVs/introduction.md
           - name: Data Model
             tocHref: /Tutorials/ISVs
-            topicHref: /Tutorials/ISVs/Data_Model.md
+            topicHref: /Tutorials/ISVs/Data-Model.md
           - name: Input Schema
             tocHref: /Tutorials/ISVs
-            topicHref: /Tutorials/ISVs/Input_Schema.md
+            topicHref: /Tutorials/ISVs/Input-Schema.md
             items:
               - name: Version
-                tocHref: /Tutorials/ISVs/Input_Schema.md
-                topicHref: /Tutorials/ISVs/_Version.md 
+                tocHref: /Tutorials/ISVs/Input-Schema.md
+                topicHref: /Tutorials/ISVs/-Version.md 
               - name: tblActiveSync
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblActiveSync.md
               - name: tblCpus
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblCpus.md
               - name: tblDatabases
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblDatabases.md
               - name: tblDatabaseServers
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblDatabaseServers.md
               - name: tblDeviceLogons
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblDeviceLogons.md
               - name: tblDevicePerformance
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblDevicePerformance.md
               - name: tblDevicePerformanceStatistics
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblDevicePerformanceStatistics.md
               - name: tblDevices
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblDevices.md
               - name: tblGroups
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblGroups.md
               - name: tblLogicalDrives
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblLogicalDrives.md
               - name: tblMailboxes
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblMailboxes.md
               - name: tblMailServers
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblMailServers.md
               - name: tblMembers
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblMembers.md
               - name: tblMemory
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblMemory.md
               - name: tblNetworkAdapterConfigurations
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblNetworkAdapterConfigurations.md
               - name: tblNetworkAdapters
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblNetworkAdapters.md
               - name: tblO365AssignedPlans
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblO365AssignedPlans.md
               - name: tblO365Domains
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblO365Domains.md
               - name: tblO365Organization
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblO365Organization.md
               - name: tblO365ServicePlans
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblO365ServicePlans.md
               - name: tblO365Subscriptions
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblO365Subscriptions.md
               - name: tblO365Users
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblO365Users.md
               - name: tblPhysicalDrives
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblPhysicalDrives.md
               - name: tblServices
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblServices.md
               - name: tblSoftware
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblSoftware.md
               - name: tblUsers
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblUsers.md
               - name: tblVmEvents
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblVmEvents.md
               - name: tblVmFarms
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblVmFarms.md
               - name: tblVmHosts
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: Tutorials/ISVs/tblVmHosts.md
               - name: tblVms
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblVms.md
               - name: tblWebApplications
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblWebApplications.md
               - name: tblWebBrowsers
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblWebBrowsers.md
               - name: tsysImportLog
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tsysImportLog.md
               - name: tsysImportErrorLog
-                tocHref: /Tutorials/ISVs/Input_Schema.md
+                tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tsysImportErrorLog.md
           - name: Push Connectors
             tocHref: /Tutorials/ISVs
-            topicHref: /Tutorials/ISVs/Push_Connectors.md 
+            topicHref: /Tutorials/ISVs/Push-Connectors.md 
       - name: Microsoft SAM Engagement Managers
         tocHref: /Tutorials/SAM-EMS
         topicHref: /Tutorials/SAM-EMS/Tutorial.md

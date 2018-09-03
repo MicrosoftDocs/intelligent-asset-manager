@@ -1,5 +1,5 @@
 ---
-title: in.tblO365Users
+title: in.tblO365Users - UI Input Schema
 ---
 # in.tblO365Users - Input Schema Table
 

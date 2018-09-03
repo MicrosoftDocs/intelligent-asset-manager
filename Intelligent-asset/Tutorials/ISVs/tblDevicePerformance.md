@@ -1,5 +1,5 @@
 ---
-title: in.tblDevicePerformance
+title: in.tblDevicePerformance - UI Input Schema
 ---
 # in.tblDevicePerformance - Input Schema Table
 

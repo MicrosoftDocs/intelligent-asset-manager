@@ -1,5 +1,5 @@
 ---
-title: in.tblO365ServicePlans
+title: in.tblO365ServicePlans - UI Input Schema
 ---
 # in.tblO365ServicePlans - Input Schema Table
 

@@ -1,5 +1,5 @@
 ---
-title: in.tblVmEvents
+title: in.tblVmEvents - UI Input Schema
 ---
 # in.tblVmEvents - Input Schema Table
 

@@ -1,5 +1,5 @@
 ---
-title: Push Connectors - Table
+title: Universal Inventory Push Connectors
 ---
 # Universal Inventory Push Connectors
 

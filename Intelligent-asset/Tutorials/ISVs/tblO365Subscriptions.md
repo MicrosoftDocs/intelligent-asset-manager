@@ -1,5 +1,5 @@
 ---
-title: in.tblO365Subscriptions
+title: in.tblO365Subscriptions - UI Input Schema
 ---
 # in.tblO365Subscriptions - Input Schema Table
 

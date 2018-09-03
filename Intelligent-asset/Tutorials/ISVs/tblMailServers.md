@@ -1,5 +1,5 @@
 ---
-title: in.tblMailServers
+title: in.tblMailServers - UI Input Schema
 ---
 # in.tblMailServers - Input Schema Table
 

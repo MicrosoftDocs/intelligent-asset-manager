@@ -149,3 +149,11 @@ To download a copy of your ELP, click on the ‘Download” link next to the ELP
 Once you have completed your ELP and you are ready to finalize, click on the “Finalize” link next to the ELP you would like to finalize. Once that is turned into green “Finalized”, you are done with your IAM Engagement.
 
 ![Finalizing ELP Established Licensing Position](media/Finalizing-ELP-screenshot.jpg)
+
+## Next Step: Other Data Template (ODT)
+
+In order to make sure your ELP contains the correct Licensing Entitlement values, check the [Other Data Template ](ODT.md)(ODT) Tutorial to learn more about how to add Licensing data which are not Volume Licensing into your ELP.
+
+## Next Step (Optional): Microsoft's Effective Licensing Position (ELP) Service
+
+If your SAM Engagement will have an ELP produced through the Free [Microsoft's Effective Licensing Position](ELPS.md) (ELP) Service, learn more about its process through the Tutorial section.

@@ -6,7 +6,7 @@ All technical support issues regardinf both Intelligent Asset Manager, Universal
   
 The following overview summarizes IAM support standards:
 
-![Intelligent Asset Manager Support Standards](Tutorials/SAM-Partners/media/IAM_support_standards.jpg)
+![Intelligent Asset Manager Support Standards](Tutorials/SAM-Partners/media/IAM-support-standards.jpg)
 
 ## Intelligent Asset Manager Community Platforms
 

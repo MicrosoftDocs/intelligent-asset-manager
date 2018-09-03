@@ -1,5 +1,5 @@
 ---
-title: in.tblDeviceLogons
+title: in.tblDeviceLogons - UI Input Schema
 ---
 # in.tblDeviceLogons - Input Schema Table
 

@@ -1,5 +1,5 @@
 ---
-title: in.tblO365AssignedPlans
+title: in.tblO365AssignedPlans - UI Input Schema
 ---
 # in.tblO365AssignedPlans - Input Schema Table
 

@@ -1,5 +1,5 @@
 ---
-title: in.tblVmFarms
+title: in.tblVmFarms - UI Input Schema
 ---
 # in.tblVmFarms - Input Schema Table
 

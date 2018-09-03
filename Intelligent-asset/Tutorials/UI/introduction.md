@@ -38,7 +38,7 @@ Every time the user creates a UI Project, a UI Database is created. UI Database 
 
 UI will not scan or collect data directly. Instead it relies on *Connectors* to connect to existing Data Sources.
 
-![Universal Inventory Model Overview](media/IAM-UI-Overview.png)
+![Universal Inventory Model Overview](media/IAM-UI-Overview-model.png)
 
 ## Raw Inventory Data Input - Connectors
 
@@ -59,6 +59,6 @@ The Universal Inventory standardized data can be consumed in the following ways:
 - By accessing the UI database directly using tools such as Excel.
 - By the **ELP Service** provided by Microsoft to generate a validated License Position based on the Customer's UI Inventory.
 
-## Next Step: Preparation
+## Next Step: Preparing to install Universal Inventory
 
 Now that you are familiarized with the UI terms and components, read the [**UI Preparation Tutorial section**](preparation.md).

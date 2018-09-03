@@ -53,12 +53,12 @@
         - name: Technical Integration Process 
           href: Tutorials/ISVs/introduction.md
         - name: Data Model
-          href: Tutorials/ISVs/Data_Model.md
+          href: Tutorials/ISVs/Data-Model.md
         - name: Input Schema
-          href: Tutorials/ISVs/Input_Schema.md
+          href: Tutorials/ISVs/Input-Schema.md
           items:
             - name: Version
-              href: Tutorials/ISVs/_Version.md 
+              href: Tutorials/ISVs/-Version.md 
             - name: tblActiveSync
               href: Tutorials/ISVs/tblActiveSync.md
             - name: tblCpus
@@ -128,7 +128,7 @@
             - name: tsysImportErrorLog
               href: Tutorials/ISVs/tsysImportErrorLog.md
         - name: Push Connectors
-          href: Tutorials/ISVs/Push_Connectors.md 
+          href: Tutorials/ISVs/Push-Connectors.md 
     - name: Microsoft SAM Engagement Managers
       href: Tutorials/SAM-EMS/Tutorial.md
 - name: Support & Community

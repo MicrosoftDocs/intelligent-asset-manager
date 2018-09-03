@@ -1,5 +1,5 @@
 ---
-title: in.tblActiveSync
+title: in.tblActiveSync - UI Input Schema
 ---
 # in.tblActiveSync - Input Schema Table
 

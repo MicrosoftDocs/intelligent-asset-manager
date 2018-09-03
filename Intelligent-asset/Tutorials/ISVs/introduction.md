@@ -1,5 +1,5 @@
 ---
-title: Tutorial Universal Inventory ISVs
+title: Tutorial Universal Inventory for ISVs
 ---
 # Tutorial: Technical Integration Process for UI ISVs
 

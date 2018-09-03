@@ -1,5 +1,5 @@
 ---
-title: in.tblMemory - Table
+title: in.tblMemory - UI Input Schema
 ---
 # in.tblMemory - Input Schema Table
 

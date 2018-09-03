@@ -1,5 +1,5 @@
 ---
-title: in.tblO365Domains
+title: in.tblO365Domains - UI Input Schema
 ---
 # in.tblO365Domains - Input Schema Table
 

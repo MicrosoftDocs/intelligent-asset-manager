@@ -21,6 +21,10 @@ The Tutorial section for the SAM Partners will showcase how to get access to IAM
 >[!IMPORTANT]
 > For any Microsoft SAM Engagement be able to be submitted at the IAM Cloud platform, the SAM Partner will have to do the procedure below to get the Customer's Consent on the SAM Engagement, which basically consists of an online signing from the customer to consent to the IAM Data Usage and Privacy terms.
 
+## IAM Cloud Administrative Tasks
+
+Before starting any work on the IAM Cloud platform, you should review the [IAM Cloud administrative](../Tutorials/SAM-Partners/SAM-Partner-admin.md) Tutorial section in order to learn how to get provisioned and tackle the IAM Cloud tasks.
+
 ## Customer’s Engagement Consent
 
 All new Engagements require an Engagement Consent form to be signed by the person at the Customer who has <ins>authority to authorize a SAM Engagement</ins> ‘contact’. IAM Cloud will not accept a CIDC until this consent has been received. Microsoft requires written consent directly from the customer before any decrypted Personal Identifiable Information (PII) is accepted. The SAM Engagement Manager will work with SAM Partner and the customer to ensure all Microsoft policies and procedures are met for sharing and sending PII.
@@ -53,3 +57,7 @@ Partners and SAM EMs can review when and by whom consent was accepted by looking
 After the consent has been received by the contact, IAM Steps 2 and 3 will be enabled for this Engagement.
 
 If needed due to changes in roles, etc at the Customer, or due to choosing for the Centralized ELP Service later on the process, consent forms can be resent to alternative contacts or again to the same contact.
+
+## Next Step: Established Deployment Position (EDP)
+
+Learn how to input your Universal Inventory Microsoft CIDC into the IAM Clo[Tutorial: Established Deployment Position (EDP)](EDP.md)ud and create the Established Deployment Position (EDP).

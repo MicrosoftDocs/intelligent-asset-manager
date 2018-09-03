@@ -120,7 +120,7 @@ For IAM , Microsoft is partnering with leading SAM Tools providers who have demo
 
 2. Click on “Refine” under the Snow service that is shown as available.
 
-    ![Snow Service Normalization Universal Inventory UI](media/Snow-Service.-screenshot.jpg)
+    ![Snow Service Normalization Universal Inventory UI](media/Snow-Service-screenshot.jpg)
 
 1. Because it’s a no-cost service, you will need only at the first time do a short registration at Snow’s application. Click on “Sign up with Microsoft” and you will be requested to sign up with your Microsoft Work or School Account (Office 365 or Azure). You will then be redirected to a screen to type your Account and Password and then click on “Sign in”.
 

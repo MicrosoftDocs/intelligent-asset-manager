@@ -1,5 +1,5 @@
 ---
-title: in.tblVmHosts - Table
+title: in.tblVmHosts - UI Input Schema
 ---
 # in.tblVmHosts - Input Schema Table
 

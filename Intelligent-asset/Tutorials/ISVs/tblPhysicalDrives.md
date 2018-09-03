@@ -1,5 +1,5 @@
 ---
-title: in.tblPhysicalDrives
+title: in.tblPhysicalDrives - UI Input Schema
 ---
 # in.tblPhysicalDrives - Input Schema Table
 

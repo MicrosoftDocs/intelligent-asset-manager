@@ -1,5 +1,5 @@
 ---
-title: in.tblMembers - Table
+title: in.tblMembers - UI Input Schema
 ---
 # in.tblMembers - Input Schema Table
 

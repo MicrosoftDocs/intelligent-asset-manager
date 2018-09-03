@@ -1,5 +1,5 @@
 ---
-title: in.tblCpus - Table
+title: in.tblCpus - UI Input Schema
 ---
 # in.tblCpus - Input Schema Table
 

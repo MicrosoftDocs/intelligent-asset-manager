@@ -1,5 +1,5 @@
 ---
-title: Quickstart Universal Inventory Independent Software Vendors
+title: Quickstart UI Independent Software Vendors (ISVs)
 ---
 # Quickstart: Universal Inventory ISVs
 

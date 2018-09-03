@@ -79,6 +79,6 @@ The Universal Inventory Service Account requires sysadmin permissions on the dat
 
   ![Prepare for UI Assign the sysadmin role to the UI Service Account](media/prepare-sql-admin-screenshot.png)
 
-## Next Step: Best Practices for Quality Inventory
+## Next Step: Installating Universal Inventory
 
 After making sure you have got the Prerequisites for using UI on your computer, read the[**UI Installation Tutorial section**](installation.md).

@@ -1,5 +1,5 @@
 ---
-title: in.tblWebBrowsers
+title: in.tblWebBrowsers - UI Input Schema
 ---
 # in.tblWebBrowsers - Input Schema Table
 

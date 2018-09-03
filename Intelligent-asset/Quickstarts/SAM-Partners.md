@@ -1,5 +1,5 @@
 ---
-title: Quickstart - SAM Partners on Intelligent Asset Manager
+title: Quickstart SAM Partners on Intelligent Asset Manager
 ---
 # Quickstart: Microsoft SAM Partners
 
@@ -16,7 +16,7 @@ Here are the high-level [SAM Partner](../Overview/key-users.md) steps that make 
 1. Determine whether the Engagement will require an Effective Licensing Position (ELP) document. If yes, will it be created using Microsoft’s Centralized ELP Service or self-created.
 1. Provide a copy of the signed Letter of Engagement to the Microsoft SAM Engagement Manager.
 1. Collect [Customer Engagement consent](../Tutorials/SAM-Partners/SAM-Partner-admin.md) through the IAM Cloud platform.
-1. Start working with Customer on[ inventory data collection](../Tutorials/UI/inventory.md)
+1. Start working with Customer on [inventory data collection](../Tutorials/UI/inventory.md)
 1. Load inventory data and create a Clean Inventory Data Contract (CIDC) using [Universal Inventory](../Quickstarts/UI.md).
 1. Read the [IAM Cloud preparation Tutorial](../Tutorials/SAM-Partners/preparation.md) section for the SAM Partners and learn how to work with the [IAM Cloud administrative](../Tutorials/SAM-Partners/SAM-Partner-admin.md) tasks.
 1. [Encrypt the CIDC](../Tutorials/UI/inventory.md) using UI.

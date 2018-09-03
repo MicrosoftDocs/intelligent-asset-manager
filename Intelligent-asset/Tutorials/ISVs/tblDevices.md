@@ -1,5 +1,5 @@
 ---
-title: in.tblDevices - Table
+title: in.tblDevices - UI Input Schema
 ---
 # in.tblDevices - Input Schema Table
 

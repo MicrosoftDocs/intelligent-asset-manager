@@ -1,7 +1,7 @@
 ---
-title: in.tblDatabases
+title: in.tblDatabases - UI Input Schema
 ---
-# in.tblDatabases - Input Schema Table
+# in.tblDatabases - UI Input Schema
 
 ​​​​​Databases running on a licensable database server.
 

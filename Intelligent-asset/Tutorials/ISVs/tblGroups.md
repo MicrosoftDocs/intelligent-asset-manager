@@ -1,5 +1,5 @@
 --- 
-title: in.tblGroups - Table
+title: in.tblGroups - UI Input Schema
 ---
 # in.tblGroups - Input Schema Table
 

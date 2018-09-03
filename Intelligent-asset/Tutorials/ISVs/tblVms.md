@@ -1,5 +1,5 @@
 ---
-title: in.tblVms - Table
+title: in.tblVms - UI Input Schema
 ---
 # in.tblVms - Input Schema Table
 

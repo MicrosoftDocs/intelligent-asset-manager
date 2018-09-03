@@ -1,5 +1,5 @@
 ---
-title: in.tblMailboxes 
+title: in.tblMailboxes - UI Input Schema
 ---
 # in.tblMailboxes - Input Schema Table
 

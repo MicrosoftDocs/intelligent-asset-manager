@@ -1,5 +1,5 @@
 ---
-title: in.tblUsers - Table
+title: in.tblUsers - UI Input Schema
 ---
 # in.tblUsers - Input Schema Table
 
