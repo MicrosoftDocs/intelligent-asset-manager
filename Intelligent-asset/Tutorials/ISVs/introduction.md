@@ -13,7 +13,7 @@ After reviewing the [**Quickstart process for UI technical integration**](../../
 2. Read the [**UI Introduction**](../UI/introduction.md) to get familiarized with the Universal Inventory terms and main technical components.
 3. Read the [**UI Data Model**](Data-Model.md)​ to understand how data in the inventory is organized.​
 
-## ISV: Data Provider
+## ISV: Inventory Provider
 
 If you are an ISV that will <ins>provide</ins> inventory data to UI with your scanning tool or service, you should build a connector that pushes data into the Universal Inventory application:
 
@@ -26,7 +26,7 @@ If you are an ISV that will <ins>provide</ins> inventory data to UI with your sc
 7. We will process the database against ​UI quality standards and provide feedback to fine-tune your Connector.
 8. Once the fine tuning is finalized, we will confirm your tool's integration.
 
-## ISV: Value Provider
+## ISV: Inventory Consumer
 
 If you are an ISV that will <ins>consume</ins> inventory data from UI in your value/data analysis tool or service, please contact SAM-UI@microsoft.com outlining which of the options of the 4 topics below best suit your plan and solution. We will then proceed to give you more information about the integration.
 
