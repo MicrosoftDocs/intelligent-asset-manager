@@ -22,7 +22,7 @@ During a Microsoft SAM Engagement, the data flow within IAMis displayed in the p
 
 ![Intelligent Asset Manager Data Flow](media/Full-Data-Flow-IAM-UI.jpg)
 
-## Getting Started with IAM
+## Getting Started with IAM .
 
 - Learn more about [**Universal Inventory**](UI.md) and how it works.  
 - Learn more about the [**IAM Cloud**](IAMCloud.md) and how it works.
