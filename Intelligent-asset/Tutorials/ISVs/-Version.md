@@ -1,5 +1,5 @@
 ---
-title: in.__Version - Table
+title: in.__Version - UI Input Schema
 ---
 # in.__Version - Input Schema Table
 

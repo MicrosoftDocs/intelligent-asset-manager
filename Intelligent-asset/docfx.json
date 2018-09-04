@@ -40,12 +40,11 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/intelligent-asset-manager",
       "author": "BeatrizCampos-IAM",
-      "description": "User guidelines for using SAM Intelligent Asset Manager and Universal Inventory based on user type",
       "ms.author": "v-beaca",
       "ms.date": "09/06/2018",
       "ms.prod": "intelligent-asset-mgr",
       "ms.topic": "conceptual" ,
-      "titleSuffix": "IAM"
+      "titleSuffix": "Intelligent Asset Manager"
     },
     "fileMetadata": {},
     "template": [],
