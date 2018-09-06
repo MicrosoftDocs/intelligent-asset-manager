@@ -1,5 +1,6 @@
 ---
 title: Overview Intelligent Asset Manager (IAM) Cloud
+description: Overview of the IAM Cloud platform, mainly focused on the SAM Partners audience that are running a SAM engagement in partnership with Microsoft. IAM Cloud user types description and provisioning information.
 ---
 # Overview: Intelligent Asset Manager (IAM) Cloud
 

@@ -23,7 +23,7 @@ The Tutorial section for the SAM Partners will showcase how to get access to IAM
 
 ## IAM Cloud Administrative Tasks
 
-Before starting any work on the IAM Cloud platform, you should review the [IAM Cloud administrative](../Tutorials/SAM-Partners/SAM-Partner-admin.md) Tutorial section in order to learn how to get provisioned and tackle the IAM Cloud tasks.
+Before starting any work on the IAM Cloud platform, you should review the [IAM Cloud administrative](SAM-Partner-admin.md) Tutorial section in order to learn how to get provisioned and tackle the IAM Cloud tasks.
 
 ## Customer’s Engagement Consent
 
