@@ -20,12 +20,12 @@ The Clean Inventory Data Contract (CIDC) is an Excel report used as the required
 
    ![UI Client App Universal Inventory](media/UI-Client-App-screenshot.jpg)
 
-1. Click on “New Project”, type in the Project name (a valid project name consists of alphanumeric characters and spaces only, and is between 3 and 64 characters long) and click on “Save” button. The system will create the Project database, taking into account the data stored in UI database as a starting point. You know the Project was created successfully when you see a *project card* displayingd the status of the project and last update time.  
+1. Click on “New Project”, type in the Project name (a valid project name consists of alphanumeric characters and spaces only, and is between 3 and 64 characters long) and click on “Save” button. The system will create the Project database, taking into account the data stored in UI database as a starting point. You know the Project was created successfully when you see a *project card* displaying the status of the project and last update time.  
 
    ![UI Client App New Project Universal Inventory](media/UI-Client-App-New-Project.jpg)
 
 >[!TIP]
->Many projects can be created in Universal Inventory. Every Project corresponds with an *inventory*, and can have many *data sources*. An organization with a complex infrastructure may consider creating a test project to validate correctness and verify data source availability, before creating a production project to be shared with value providers. SAM Partners may create a project for each customer, provided customers consent to their data being stored on the consultant's machine.  
+>Many projects can be created in Universal Inventory. Every Project corresponds with an *inventory*, and can have many *data sources*. An organization with a complex infrastructure may consider creating a test project to validate correctness and verify data source availability, before creating a production project to be shared with value providers. 
 
 1. Click on “Open Project” and you will see standard interface with the Actions and Reports that can be performed through UI.
 
@@ -35,7 +35,7 @@ The Clean Inventory Data Contract (CIDC) is an Excel report used as the required
 
 1. Click on “Gather” to configure the data sources that need to be configured for this Engagement. *Data source not found* will be displayed the first time the Gather screen is opened for a project. To add new data sources for an Engagement you currently have to options:
     - Use a “Pull Connector” to reach out to the data sources maintained by Microsoft (Active Directory, MAP Toolkit, SCCM 2012 and/or vMWare vCenter (Office 365 will be added shortly); OR
-    - Use to “Push Connectors” to automatically push the data scanned through the Inventory Tools/Services from the UI-integrated Vendors (ISVs).
+    - Use a “Push Connectors” to automatically push the data scanned through the Inventory Tools/Services from the UI-integrated Vendors (ISVs).
 
 1. For the first option of a “Pull Connector”, click on “Add” button and choose which data source is preferred from the available list of UI connectors on the right.
 
@@ -57,7 +57,7 @@ The Clean Inventory Data Contract (CIDC) is an Excel report used as the required
    ![UI Client App MAP Toolkit Universal Inventory](media/UI-Client-App-MAP-Toolkit.jpg)
 
 >[!TIP]
-> The **Tenant/Site** field is optional but  useful when more than one MAP database is included, so that later reports can be run for a specific Tenant from a MAP database. At a later stage this field allows you to limit data in reports. E.g. geographically dispersed organizations might specify a site name to be able to only report on data from a specific site. Internet providers might specify a tenant name to be able to only report on data from a specific tenant. Multiple data sources can have the same Tenant/Site value.  
+> The **Tenant/Site** field is optional but useful when more than one MAP database is included, so that later reports can be run for a specific Tenant from a MAP database. At a later stage this field allows you to limit data in reports. E.g. geographically dispersed organizations might specify a site name to be able to only report on data from a specific site. Internet providers might specify a tenant name to be able to only report on data from a specific tenant. Multiple data sources can have the same Tenant/Site value.  
 
 > [!IMPORTANT]
 > Remember that Universal Inventory runs as Windows service. When you select 'Windows Integrated' authentication, it will not be the current user that connects to the data source to import data, but the [Service Account](preparation.md#prepare-a-local-user-account-as-service-account) of the Universal Inventory service.
@@ -116,7 +116,7 @@ For IAM , Microsoft is partnering with leading SAM Tools providers who have demo
    | Software vendor          | Microsoft Corporation            |
    | Application path         | c:\program files\test\office.exe |
    | Application name         | Office 2013 Professional         |
-   | File size                | 12000 mbs                        |
+   | File size                | 12000 Mb                        |
 
 2. Click on “Refine” under the Snow service that is shown as available.
 
@@ -153,7 +153,7 @@ For IAM , Microsoft is partnering with leading SAM Tools providers who have demo
 From this point on, you should perform the action of exporting your Universal Inventory standardized document based on what this inventory will be used for. 
 If it will be used as an input into one of our Value Providers (ISVs with a SAM/value/analysis tool integrated with UI), you will find the icon of their solution on the "Export" tab and will be able to export the file in the right format for that specific solution by clicking on "Export".
 
-If you are running UI to be used in a Microsoft SAM Engagement with a SAM Partner, you should follow the steps below on how to created a UI Clean Inventory Data Contract (CIDC), which will contain Microsoft licensing deployment data only, since it is the only data provided to Microsoft during a SAM Engagement.  
+If you are running UI to be used in a Microsoft SAM Engagement with a SAM Partner, you should follow the steps below on how to create a UI Clean Inventory Data Contract (CIDC), which will contain Microsoft licensing deployment data only, since it is the only data provided to Microsoft during a SAM Engagement.  
 
 ## Creating UI Clean Inventory Data Contract (CIDC) for a SAM Engagement
 1. To finalize your inventory collection for a Microsoft SAM Engagement, you need to create the Universal Inventory CIDC. Click on the “Export” button on the Project dashboard and you will see the option to create a Microsoft CIDC. The system will then build the CIDC file and prompt you to select a location for it to be stored. 
@@ -172,7 +172,7 @@ If you are running UI to be used in a Microsoft SAM Engagement with a SAM Partne
 ## CIDC Encryption/Decryption - for Microsoft SAM Engagements only
 
 1. Once you find that your CIDC has sufficient data quality and is ready to be included by your SAM Partner on [IAM Cloud](../../Overview/IAMCloud.md) fore[ Efffective Deployment Position (EDP)](../SAM-Partners/EDP.md) and/or e[Effective Licensing Position (ELP)](../SAM-Partners/ELP.md) creation, you should open the IAM Encryption/Decryption tool that was installed along with UI_Setup to encrypt your CIDC data. Launch the tool and fill in the “Source CIDC File” by browsing your document on the location it was saved. Then you will have to determine a Password for your CIDC, so the data will only be available for the ones that have this password. Click on “Encrypt” and the CIDC encrypted file will be created in the same folder as the source file, with the same name suffixed with “-Encrypted”.
-   - Guideline for CIDC password:
+   - Guideline for CIDC encryption password:
         - At least 8 characters long;
         - Include 3 of the following four below:
            - Uppercase
@@ -191,7 +191,7 @@ If you are running UI to be used in a Microsoft SAM Engagement with a SAM Partne
   > CloudRecon licenses might be required for using this service.  
   
   > [!TIP]
-  > To be able to create a Value Engagement report, CloudRecon will require a full picture of the Customer’s IT environment, not only Microsoft-related licensing information. Therefore, this CIDC downloaded will contain all manufacturers data information.
+  > To be able to create a Value Engagement report, CloudRecon will require a full picture of the Customer’s IT environment, not only Microsoft-related licensing information. 
 
    ![CloudRecon Analytics Export Universal Inventory UI](media/CloudRecon-Analytics-Export.jpg)
 
