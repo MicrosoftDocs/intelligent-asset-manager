@@ -1,6 +1,6 @@
 ---
 title: Overview Intelligent Asset Manager (IAM)
-description: Overview of the strategy and value proposition of the Intelligent Asset Manager platform from the Software Asset Management organization at Microsoft. Its main components IAM Cloud and Universal Inventory and the high level IAM Data Flow are also briefly described. 
+description: Strategy, value and main components of the Intelligent Asset Manager platform from the Software Asset Management organization at Microsoft. 
 ---
 # Overview: Intelligent Asset Manager
 
