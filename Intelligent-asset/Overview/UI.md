@@ -4,7 +4,7 @@ description: Overview of the Universal Inventory Application, details about how 
 ---
 # Overview: Universal Inventory
 
-[**Universal Inventory**](https://aka.ms/downloadUI) (UI) is a free application you can install on-premise to gather, process and standardizes inventory data about the entire IT infrastructure of an organization. UI does not scan the IT infrastructure, but rather integrates with existing solutions to import data from sources such as the Active Directory, well-known discovery tools, asset management solutions, virtualization systems, and cloud subscriptions, and stores the consolidated inventory in a database on-premise. The core output of UI is the Clean Inventory Data Contract (CIDC), which can then be exported into one of the Value solutions integrated with UI or into the IAM Cloud during a Microsoft SAM Engagement (see below).
+[**Universal Inventory**](https://aka.ms/downloadUI) (UI) is a free application you can install on-premise to gather, process and standardizes inventory data about the entire IT infrastructure of an organization. UI does not scan the IT infrastructure, but rather integrates with existing solutions to import data from sources such as the Active Directory, well-known discovery tools, asset management solutions, virtualization systems, and cloud subscriptions, and stores the consolidated inventory in a database on-premise. The core output of UI is the Clean Inventory Data Contract (CIDC), which can then be exported (encrypted) into the IAM Cloud during a Microsoft SAM Engagement (see below) or the dataset can be used in one of the Value solutions integrated with UI.
 
 This workflow is better showcased on the picture below.
 
@@ -30,7 +30,7 @@ The workflow below outlines the UI processing of the input data:
 - Gather: Inputs the raw data scanned by the data sources described above into UI
 - Verify: Allows user to exclude out-of-scope items
 - Normalization/Refine: Translates discovered data into normalized and standard product names
-- Export: Allows export of standardized inventory data to both Microsoft and other value service providers using Microsoft's Clean Inventory Data Contract (CIDC) format
+- Export: Allows export of standardized inventory data to both Microsoft (using Microsoft's Clean Inventory Data Contract (CIDC) format) and value service providers
 - Encryption/Decryption Tool: App installed along with UI that allows encryption of the CIDC PII data before sending it to Microsoft through IAM Cloud
 
 **It is recommended to read carefully the [**Best Practices for Quality Inventory**](../Tutorials/UI/quality.md) Tutorial when performing the inventory collection/scanning. The best way to ensure great value analysis and consequent most efficient IT business decisions based on a SAM Engagement is making sure the raw data used for these analysis are of the highest quality possible.*
