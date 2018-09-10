@@ -30,7 +30,7 @@ title: UI Release Notes
 *Universal Inventory Setup*
 
 - UISetup now supports uninstall
-- UISetup now supports updating from a previous version\
+- UISetup now supports updating from a previous version
 - Fixed launching Universal Inventory after setup exits
 - Check of permissions on the Work folder during installation is improved
 - Check of TCP port during installation is improved

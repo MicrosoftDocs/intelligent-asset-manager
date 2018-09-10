@@ -47,7 +47,7 @@ A Connector imports data from a specific Inventory Data Source (Tool/Service) in
 Two types of connectors exist:
 
 - **Pull connectors** pull information from a Data Source. They are managed and executed by UI. Pull connectors currently exist for Active Directory, Azure, MapToolkit, Office 365, SCCM, and vSphere.
-- **Push connectors** push information from a Data Source. They are built by by Inventory Providers, executed through the Inventory Provider tool, and push data directly into the UI Database. To access the full list of Inventory Providers, please access the [official IAM page](https://aka.ms/samiam).
+- **Push connectors** push information from a Data Source. They are built by Inventory Providers, executed through the Inventory Provider tool, and push data directly into the UI Database. To access the full list of Inventory Providers, please access the [official IAM page](https://aka.ms/samiam).
 
 
 ## Standardized Inventory Data Output - Value Analysis

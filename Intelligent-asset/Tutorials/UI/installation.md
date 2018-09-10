@@ -7,7 +7,7 @@ Before starting the work to install the Universal Inventory application, make su
 
 ## Quick Tips
 
-- Download the Universal Inventory Application [here](https://aka.ms/downloadUI).
+- Download the Universal Inventory Application Installer [here](https://aka.ms/downloadUI).
 - Always start UISetup.exe **in administrative mode**.
 - If a previous installation of Universal Inventory is detected, UISetup allows you to uninstall it.  
 - If the version of the previous installation is lower than the version being installed, UISetup allows you to upgrade the existing installation.
@@ -16,16 +16,15 @@ Before starting the work to install the Universal Inventory application, make su
 
 ## Installing Universal Inventory and Encryption/Decryption Tool
 
+   >[!IMPORTANT]
+   > **The installation of UI must be done on Customers domain.**
+
 > [!TIP]
 > If you prefer a video guided training about how to install the Universal Inventory application, you can also watch the [IAM 2018 Session 2: Installing Universal Inventory](https://aka.ms/iamsession2) (this recording still uses the first version and look-and-feel of UI, but the workflow remains correct).
 
 1. To download the Universal Inventory, go to [https://aka.ms/downloadUI](https://aka.ms/downloadUI) and download the “UISetup” compressed folder. Extract the files contained on the folder and run the “UISetup” Application.
 
    ![Step 1- Download Universal Inventory UI](media/Step1-Download-UI-screenshot.jpg)
-
-1. Once you finalize the installation of “UISetup”, it will install two different client apps on the computer: (1) Universal Inventory (IAM-UI) and; (2) IAM Encryption/Decryption Tool (IAM-EDT).  
-   >[!IMPORTANT]
-   > **The installation of UI must be done on Customers domain.**
 
 1. First, run the “UISetup” as an administrator by right-clicking it and choosing “Run as administrator” option, it is the safest way to install UI.
 1. The Universal Inventory Setup windows will open and the first thing you will see is a list of the prerequisites needed.
