@@ -1,5 +1,6 @@
 ---
 title: Quickstart - SAM Engagement Managers (EMs)
+description: Detailed dscription of what the Microsoft SAM Engagement Managers should know to support their SAM Partners into using IAM. 
 ---
 # Quickstart: Microsoft SAM Engagement Managers
 

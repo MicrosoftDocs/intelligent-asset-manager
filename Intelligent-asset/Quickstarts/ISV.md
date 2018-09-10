@@ -1,5 +1,6 @@
 ---
 title: Quickstart UI Independent Software Vendors (ISVs)
+description: Detailed step-by-step of how a Microsoft Independent Software Vendor, or ISV, can integrate its solution with Universal Inventory application.
 ---
 # Quickstart: Universal Inventory ISVs
 

@@ -1,5 +1,6 @@
 ---
 title: Quickstart SAM Partners on Intelligent Asset Manager
+description: End-to-end steps of a Microsoft SAM Engagement that the SAM Partners should know in order to deliver it using IAM platform. 
 ---
 # Quickstart: Microsoft SAM Partners
 
