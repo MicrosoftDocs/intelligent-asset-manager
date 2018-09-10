@@ -7,7 +7,7 @@ Before starting the work to install the Universal Inventory application, make su
 
 ## Quick Tips
 
-- Download the Universal Inventory Application [here](https://aka.ms/downloadUI).
+- Download the Universal Inventory Application Installer [here](https://aka.ms/downloadUI).
 - Always start UISetup.exe **in administrative mode**.
 - If a previous installation of Universal Inventory is detected, UISetup allows you to uninstall it.  
 - If the version of the previous installation is lower than the version being installed, UISetup allows you to upgrade the existing installation.
