@@ -1,5 +1,6 @@
 ---
-title: Tutorial SAM EMs
+title: Tutorial SAM Engagement Managers
+description: Tutorial with description of all pieces of information required for a SAM EM to know in order to support their SAM Partners. 
 ---
 # Tutorial: IAM Cloud for Microsoft SAM Engagement Manager (EM)
 

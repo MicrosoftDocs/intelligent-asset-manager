@@ -1,5 +1,6 @@
 ---
 title: in.tblMembers - UI Input Schema
+description: Input Schema of Table in.tblMembers, shows the data points and types included on this table.
 ---
 # in.tblMembers - Input Schema Table
 

@@ -1,5 +1,6 @@
 ---
 title: in.tblWebApplications - UI Input Schema
+description: Input Schema of Table in.tblWebApplications, shows the data points and types included on this table.
 ---
 # in.tblWebApplications - Input Schema Table
 

@@ -1,5 +1,6 @@
 --- 
 title: in.tblGroups - UI Input Schema
+description: Input Schema of Table in.tblGroups, shows the data points and types included on this table.
 ---
 # in.tblGroups - Input Schema Table
 

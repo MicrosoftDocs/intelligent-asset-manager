@@ -1,5 +1,6 @@
 ---
 title: Established Deployment Position
+description: Tutorial for SAM Partners on end-to-end process of how to create a Established Deployment Position report using IAM Cloud. 
 ---
 # Tutorial: Established Deployment Position (EDP)
 

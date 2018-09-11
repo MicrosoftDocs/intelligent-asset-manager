@@ -1,5 +1,6 @@
 ---
 title: UI Release Notes
+description: Detailed technical description of changes and features added on each of the past and current versions of Universal Inventory.
 ---
 # Universal Inventory Release Notes
 

@@ -1,5 +1,6 @@
 ---
 title: in.tblO365Subscriptions - UI Input Schema
+description: Input Schema of Table in.tblO365Subscriptions, shows the data points and types included on this table.
 ---
 # in.tblO365Subscriptions - Input Schema Table
 

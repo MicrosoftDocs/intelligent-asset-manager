@@ -1,6 +1,6 @@
 ---
 title: Overview Universal Inventory (UI) and Workflow
-description: Overview of the Universal Inventory Application, details about how it works, what are the data sources of inventory available, how it processes the raw data into a standardized inventory file, and how you can use it to run value tools and services.  
+description: Universal Inventory Application, how it works, data sources of inventory available, processing flow and how to use it for value delivery. 
 ---
 # Overview: Universal Inventory
 

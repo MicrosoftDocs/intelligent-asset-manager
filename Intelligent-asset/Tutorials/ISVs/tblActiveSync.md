@@ -1,5 +1,6 @@
 ---
 title: in.tblActiveSync - UI Input Schema
+description: Input Schema of Table in.tblActiveSync, shows the data points and types included on this table.
 ---
 # in.tblActiveSync - Input Schema Table
 

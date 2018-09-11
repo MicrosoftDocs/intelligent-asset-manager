@@ -1,5 +1,6 @@
 ---
 title: Tutorial ELP Service
+description: Tutorial for SAM Partners on end-to-end process of how to use the free-of-charge Microsoft's Established Licensing Position Service. 
 ---
 # Microsoft's Effective Licensing Position (ELP) Service
 

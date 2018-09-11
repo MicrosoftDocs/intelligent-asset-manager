@@ -1,5 +1,6 @@
 ---
 title: in.tblDeviceLogons - UI Input Schema
+description: Input Schema of Table in.tblDeviceLogons, shows the data points and types included on this table.
 ---
 # in.tblDeviceLogons - Input Schema Table
 

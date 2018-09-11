@@ -1,5 +1,6 @@
 ---
 title: in.tblVmHosts - UI Input Schema
+description: Input Schema of Table in.tblVmHosts, shows the data points and types included on this table.
 ---
 # in.tblVmHosts - Input Schema Table
 

@@ -1,5 +1,6 @@
 ---
 title: in.tblO365AssignedPlans - UI Input Schema
+description: Input Schema of Table in.tblO365AssignedPlans, shows the data points and types included on this table.
 ---
 # in.tblO365AssignedPlans - Input Schema Table
 

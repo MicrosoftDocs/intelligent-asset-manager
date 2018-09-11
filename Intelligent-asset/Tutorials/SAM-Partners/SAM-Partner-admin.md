@@ -1,5 +1,6 @@
 ---
 title: SAM Partners Administrative Work
+description: Tutorial for SAM Partners with information about administrative tasks needed on the IAM Cloud platform.
 ---
 # Tutorial: IAM Cloud Administrative work for SAM Partners
 

@@ -1,5 +1,6 @@
 ---
 title: in.tblDatabaseServers - UI Input Schema
+description: Input Schema of Table in.tblDatabaseServers, shows the data points and types included on this table.
 ---
 # in.tblDatabaseServers - Input Schema Table
 

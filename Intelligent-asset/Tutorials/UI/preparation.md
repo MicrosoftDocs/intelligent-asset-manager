@@ -1,5 +1,6 @@
 ---
 title: Preparing for Universal Inventory
+description: Tutorial for Universal Inventory Users with complete preparation and pre requisites for using the Universal Inventory application.
 ---
 # Tutorial: Preparing to install Universal Inventory
 

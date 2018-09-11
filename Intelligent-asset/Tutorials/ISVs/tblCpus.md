@@ -1,5 +1,6 @@
 ---
 title: in.tblCpus - UI Input Schema
+description: Input Schema of Table in.tblCpus, shows the data points and types included on this table.
 ---
 # in.tblCpus - Input Schema Table
 

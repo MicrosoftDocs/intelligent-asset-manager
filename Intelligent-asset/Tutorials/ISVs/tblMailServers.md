@@ -1,5 +1,6 @@
 ---
 title: in.tblMailServers - UI Input Schema
+description: Input Schema of Table in.tblMailServers, shows the data points and types included on this table.
 ---
 # in.tblMailServers - Input Schema Table
 

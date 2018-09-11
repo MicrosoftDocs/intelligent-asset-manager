@@ -1,5 +1,6 @@
 ---
 title: in.tblUsers - UI Input Schema
+description: Input Schema of Table in.tblUsers, shows the data points and types included on this table.
 ---
 # in.tblUsers - Input Schema Table
 

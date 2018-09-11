@@ -1,5 +1,6 @@
 ---
 title: in.tblSoftware - UI Input Schema
+description: Input Schema of Table in.tblSoftware, shows the data points and types included on this table.
 ---
 # in.tblSoftware - Input Schema Table
 

@@ -1,5 +1,6 @@
 ---
 title: in.tblWebBrowsers - UI Input Schema
+description: Input Schema of Table in.tblWebBrowsers, shows the data points and types included on this table.
 ---
 # in.tblWebBrowsers - Input Schema Table
 

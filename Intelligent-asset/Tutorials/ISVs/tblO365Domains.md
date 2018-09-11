@@ -1,5 +1,6 @@
 ---
 title: in.tblO365Domains - UI Input Schema
+description: Input Schema of Table in.tblO365Domains, shows the data points and types included on this table.
 ---
 # in.tblO365Domains - Input Schema Table
 

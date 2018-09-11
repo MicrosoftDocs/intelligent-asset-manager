@@ -1,5 +1,6 @@
 ---
 title: in.tblO365Organization - UI Input Schema
+description: Input Schema of Table in.tblO365Organization, shows the data points and types included on this table.
 ---
 # in.tblO365Organization - Input Schema Table
 

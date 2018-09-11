@@ -1,5 +1,6 @@
 ---
 title: Tutorial Other Data Template
+description: Tutorial for SAM Partners on end-to-end process of how to use the Other Data Template document using IAM Cloud. 
 ---
 # Tutorial: Other Data Template (ODT)
 

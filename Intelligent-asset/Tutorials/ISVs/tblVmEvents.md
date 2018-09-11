@@ -1,5 +1,6 @@
 ---
 title: in.tblVmEvents - UI Input Schema
+description: Input Schema of Table in.tblVmEvents, shows the data points and types included on this table.
 ---
 # in.tblVmEvents - Input Schema Table
 

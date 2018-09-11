@@ -1,5 +1,6 @@
 ---
 title: Universal Inventory Input Schema 
+description: Tutorial on what is the Universal Inventory Input Schema within the UI Data Model and all the tables available.
 ---
 # Universal Inventory Input schema [in]
 

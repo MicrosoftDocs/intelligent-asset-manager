@@ -1,5 +1,6 @@
 ---
 title: SAM Partners on IAM Cloud
+description: Tutorial for SAM Partners with introductory information of how to use the IAM Cloud platform to share a SAM Engagement with Microsoft. 
 ---
 # Tutorial: Preparation to use IAM Cloud for SAM Partners
 

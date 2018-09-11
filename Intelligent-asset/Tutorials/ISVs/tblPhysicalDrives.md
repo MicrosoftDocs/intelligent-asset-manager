@@ -1,5 +1,6 @@
 ---
 title: in.tblPhysicalDrives - UI Input Schema
+description: Input Schema of Table in.tblPhysicalDrives, shows the data points and types included on this table.
 ---
 # in.tblPhysicalDrives - Input Schema Table
 

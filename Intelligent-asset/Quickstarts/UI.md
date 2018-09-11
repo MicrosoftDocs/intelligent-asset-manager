@@ -1,10 +1,10 @@
 ---
 title: Quickstart Universal Inventory (UI) Users
-description: 
+description: End-to-end process that a UI User should do in order to install and run UI, with the output of a de-duplicated, normalized inventory.
 ---
 # Quickstart: Universal Inventory
 
-## UI User Workflow 
+## UI User Workflow
 
 After you have read the Overview: Universal Inventory section and have learned the value proposition and main components of UI, please access the articles below in the suggested order to learn the tool's prerequisites, how to use it and some other valuable tips.
 

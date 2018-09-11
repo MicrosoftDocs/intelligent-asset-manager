@@ -1,5 +1,6 @@
 ---
 title: in.tblO365Users - UI Input Schema
+description: Input Schema of Table in.tblO365Users, shows the data points and types included on this table.
 ---
 # in.tblO365Users - Input Schema Table
 

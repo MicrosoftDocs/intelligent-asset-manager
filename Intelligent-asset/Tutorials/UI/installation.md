@@ -1,5 +1,6 @@
 ---
 title: Installing Universal Inventory
+description: Tutorial for Universal Inventory Users with end-to-end installation procedure of Universal Inventory. 
 ---
 # Tutorial: Installing Universal Inventory
 
@@ -64,85 +65,85 @@ Before starting the work to install the Universal Inventory application, make su
   >[!NOTE]
    > It is recommended independently of the edition/version of the SQL Server you choose to use,provided that it follows the UI pre requisites, that the [SQL Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) is installed, to be sure you can connect in the right way to the different databases available on the system (since for SQL 2016 and higher you need the most recent Management Studio for loading the core Universal Inventory datasets).
 
-1. After downloading and running SQL Management Studio installer Application, you will see the black window shown below. Click on “Install”. The installation will then run, once it is completed you will be requested to restart the computer to finalize the setup.
+13. After downloading and running SQL Management Studio installer Application, you will see the black window shown below. Click on “Install”. The installation will then run, once it is completed you will be requested to restart the computer to finalize the setup.
 
    ![Step13 Install Microsoft SQL Server UI](media/Step13-Install-SQL-Server.jpg)
 
-1. Now, going back to the UI installation, open the “UISetup” Application again by right clicking it and choosing “Run as Administrator”. Click on “Next” and you will see a checklist with a validation of the prerequisites. If all of them are green you will be able to proceed to the next page.
+14. Now, going back to the UI installation, open the “UISetup” Application again by right clicking it and choosing “Run as Administrator”. Click on “Next” and you will see a checklist with a validation of the prerequisites. If all of them are green you will be able to proceed to the next page.
 
    ![Step14 UI Setup Universal Inventory](media/Step14-UI-Setup-screenshot.jpg)
 
-1. You will then need to provide a user name that can be used for the UI Service Account. 
+15. You will then need to provide a user name that can be used for the UI Service Account. 
 
    ![Step15 UI Setup Service Account Universal Inventory](media/Step15-UI-Setup-Service-Account.jpg)
 
 >[!TIP]
 >On the **Service Account** page, enter the credentials of the Universal Inventory Service Account. For a local user account, enter the user name only. For a domain account, enter the logon name in the format `domain\username` or `username@domain`  
 
-1. To create a Service Account through the local user’s database open “Computer Management” panel under your Windows search bar. Open the drop-down menu on the left for the “Local Users and Groups” and select “Users” folder. You should then right click on the blank space and select “New User”.
+16. To create a Service Account through the local user’s database open “Computer Management” panel under your Windows search bar. Open the drop-down menu on the left for the “Local Users and Groups” and select “Users” folder. You should then right click on the blank space and select “New User”.
 
    ![Step16 UI Setup New User Universal Inventory](media/Step16-UI-Setup-New-User.jpg)
 
-1. You will then be prompted to fill out information about the Service Account. Note that password must follow the organization’s password policy. Also, select the options “User cannot change password” and “Password never expires”, to avoid future issues with the Service Account. Click on “create” when done.
+17. You will then be prompted to fill out information about the Service Account. Note that password must follow the organization’s password policy. Also, select the options “User cannot change password” and “Password never expires”, to avoid future issues with the Service Account. Click on “create” when done.
 
    ![Step17 UI Setup New User Info Universal Inventory](media/Step17-UI-Setup-New-User-Info.jpg)
 
-1. You should know that it was created successfully once you see the user on the user list, such as below.
+18. You should know that it was created successfully once you see the user on the user list, such as below.
 
    ![Step18 UI Setup New User Created Universal Inventory](media/Step18-UI-Setup-New-User-Created.jpg)
 
-1. Now going back to the UI interface, populated the Service Account username and password and click on “Verify” to check that the service account can logon using the specified credentials, and to grant it the *Logon as a Service* permission.. The pop-up window should confirm that the Service Account has been granted the Logon as a service permission.
+19. Now going back to the UI interface, populated the Service Account username and password and click on “Verify” to check that the service account can logon using the specified credentials, and to grant it the *Logon as a Service* permission.. The pop-up window should confirm that the Service Account has been granted the Logon as a service permission.
 
    ![Step19 UI Setup Account Verify Universal Inventory](media/Step19-UI-Setup-Account-Verify.jpg)
 
-1. Before moving to the next stage of UI installation, you need to configure your Service Account as a system administrator for it to be able to logon to the database server. To do so, you will need to use the SQL Management Studio previously installed. When you open the application, in most cases it will automatically verify the Server Name you created for UI, in this case named “UniversalInvent”. If not, select the correct server name and click on “Connect".
+20. Before moving to the next stage of UI installation, you need to configure your Service Account as a system administrator for it to be able to logon to the database server. To do so, you will need to use the SQL Management Studio previously installed. When you open the application, in most cases it will automatically verify the Server Name you created for UI, in this case named “UniversalInvent”. If not, select the correct server name and click on “Connect".
 
    ![Step20 SQL Server Universal Inventory UI](media/Step20-SQL-Server-screenshot.jpg)
 
-1. You will then see a menu on the left hand-side, open the “+” sign on “Security”. Right click on “Login” right below it and click on “New Login”
+21. You will then see a menu on the left hand-side, open the “+” sign on “Security”. Right click on “Login” right below it and click on “New Login”
 
    ![Step21 SQL New Login Universal Inventory UI](media/Step21-SQL-New-Login.jpg)
 
-1. Type in the Service Account name (in this case, “UI-Service”) and click on “Search”.
+22. Type in the Service Account name (in this case, “UI-Service”) and click on “Search”.
 
    ![Step22 SQL Search Service Account Universal Inventory UI](media/Step22-SQL-Search-Service-Account.jpg)
 
-1. Re-type the Service Account name on the box and click on “Check Name” and then on “OK”.
+23. Re-type the Service Account name on the box and click on “Check Name” and then on “OK”.
 
    ![Step23 SQL Retype Service Account UI](media/Step23-SQL-Retype-Service-Account.jpg)
 
-1. Now, select the “Server Roles” on the menu on the left and select also the “sysadmin” role for this Service Account, click on “OK”. You can now close the SQL Management Studio application.
+24. Now, select the “Server Roles” on the menu on the left and select also the “sysadmin” role for this Service Account, click on “OK”. You can now close the SQL Management Studio application.
 
    ![Step24 SQL Server Roles Universal Inventory UI](media/Step24-SQL-Server-Roles.jpg)
 
-1. On the UI interface, now under Database Server configuration step, you will be prompted to provide the Server Name (sometimes it could be the local machine). For this case, it is the name used when installing the SQL Server 2016 (“.\UniversalInvent”). Select the Authentication Mode, type in the Service Account username and passwords and click on “Verify”. If all is correctly configured, you should see the checkmark on the left for the Database Server. Now, click on “Next”.
+25. On the UI interface, now under Database Server configuration step, you will be prompted to provide the Server Name (sometimes it could be the local machine). For this case, it is the name used when installing the SQL Server 2016 (“.\UniversalInvent”). Select the Authentication Mode, type in the Service Account username and passwords and click on “Verify”. If all is correctly configured, you should see the checkmark on the left for the Database Server. Now, click on “Next”.
 
    ![Step25 UI Database Server Configuration](media/Step25-UI-Database-Server-Configuration.jpg)
 
 >[!TIP]
 > Check the "Additional Tips" section further down on this page for more information about this tab.
 
-1. At the “Work Folder” stage, you will need to select a folder where all UI scripts, logs and other files will be stored. Click on “Select Folder” to choose the location. Look for the checkmark on the left to ensure it is configured correctly and click on “Next”.
+26. At the “Work Folder” stage, you will need to select a folder where all UI scripts, logs and other files will be stored. Click on “Select Folder” to choose the location. Look for the checkmark on the left to ensure it is configured correctly and click on “Next”.
 
    ![Step26 UI Work Folder Configuration](media/Step26-UI-Work-Folder-Configuration.jpg)
 
 >[!TIP]
 > Check the "Additional Tips" section further down on this page for more information about this tab.
 
-1. On the next screen you will need to select the correct ports that the system will use for communication.This step is necessary because one could have different configuration set-ups such as running everything locally or having another server connecting to UI using one specific port. If the Customer wants to have another port defined that is not the default one (localhost:10940), that is okay. Click on “Verify”, make sure the check mark is shown under the URL stage and click on “Next”.
+27. On the next screen you will need to select the correct ports that the system will use for communication.This step is necessary because one could have different configuration set-ups such as running everything locally or having another server connecting to UI using one specific port. If the Customer wants to have another port defined that is not the default one (localhost:10940), that is okay. Click on “Verify”, make sure the check mark is shown under the URL stage and click on “Next”.
 
     ![Step27 UI URL Configuration Universal Inventory](media/Step27-UI-URL-Configuration.jpg)
 
 >[!TIP]
 > Check the "Additional Tips" section further down on this page for more information about this tab.
 
-1. Review the components Summary and click on “Install”. UI will only start changing configurations of the system once this “Install” button is pressed.
-1. Now UI will create the database on the database Server and Instance, which contains an UI central data store and an additional store with configuration parameters, also will install and, by default, when you click on “Exit” it will launch the UI Client application.
+28. Review the components Summary and click on “Install”. UI will only start changing configurations of the system once this “Install” button is pressed.
+29. Now UI will create the database on the database Server and Instance, which contains an UI central data store and an additional store with configuration parameters, also will install and, by default, when you click on “Exit” it will launch the UI Client application.
 
    ![Step29 UI Installation Universal Inventory](media/Step29-UI-Installation.jpg)
 
    >[!TIP]
-    > If you get a “You are not connected” error when the UI Client Application is launched, you will need to validate that the connection settings are correct. To do so, click on “Settings” and make sure that the connect address and port are the ones you specified during set-up and click on “Test”. If you see in green “Connection Successful” it means that you are all set. Click on “OK”. You will then be prompted to restart the UI Client application. Once it restarts, you will see a screen showing that you have no projects created.
+   > If you get a “You are not connected” error when the UI Client Application is launched, you will need to validate that the connection settings are correct. To do so, click on “Settings” and make sure that the connect address and port are the ones you specified during set-up and click on “Test”. If you see in green “Connection Successful” it means that you are all set. Click on “OK”. You will then be prompted to restart the UI Client application. Once it restarts, you will see a screen showing that you have no projects created.
 
    ![Step29.2  UI Installation Completed](media/Step29.2-UI-Installation-Completed.jpg)
 

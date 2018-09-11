@@ -1,5 +1,6 @@
 ---
 title: Universal Inventory Data Model for ISVs
+description: Tutorial on what consists the Universal Inventory Data Model and how to download the UI database template.
 ---
 # Universal Inventory Data Model
 

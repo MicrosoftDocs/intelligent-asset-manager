@@ -1,5 +1,6 @@
 ---
 title: Tutorial Quality Inventory
+description: Outline of Microsof's best practices suggestions on how to ensure the inventory collection is donw with the highest level of data quality.
 ---
 # Tutorial: Best Practices for Quality Inventory Collection
 

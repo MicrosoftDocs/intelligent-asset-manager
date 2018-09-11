@@ -1,5 +1,6 @@
 ---
 title: in.tblLogicalDrives - UI Input Schema
+description: Input Schema of Table in.tblLogicalDrives, shows the data points and types included on this table.
 ---
 # in.tblLogicalDrives - Input Schema Table
 

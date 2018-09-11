@@ -1,5 +1,6 @@
 ---
 title: in.tblDevicePerformanceStatistics - UI Input Schema
+description: Input Schema of Table in.tblDevicePerformanceStatistics, shows the data points and types included on this table.
 ---
 # in.tblDevicePerformanceStatistics - Input Schema Table
 

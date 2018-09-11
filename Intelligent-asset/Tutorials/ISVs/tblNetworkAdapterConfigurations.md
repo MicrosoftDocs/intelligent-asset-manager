@@ -1,5 +1,6 @@
 ---
 title: in.tblNetworkAdapterConfigurations - UI Input Schema
+description: Input Schema of Table in.tblNetworkAdapterConfigurations, shows the data points and types included on this table.
 ---
 # in.tblNetworkAdapterConfigurations - Input Schema Table
 

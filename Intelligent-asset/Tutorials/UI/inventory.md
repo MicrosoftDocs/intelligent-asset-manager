@@ -1,5 +1,6 @@
 ---
 title: Creating Universal Inventory
+description: Tutorial for Universal Inventory Users with end-to-end procedure on how to create the end inventory file using Universal Inventory.
 ---
 # Tutorial: Creating an inventory with Universal Inventory
 
@@ -16,7 +17,7 @@ The Clean Inventory Data Contract (CIDC) is an Excel report used as the required
 
 ## Creating a New Project
 
-1.. On the Customer’s machine, open the Universal Inventory client application that was just created. It will launch with a standard blank screen because no Projects are defined yet. With this solution the Customer can create multiple projects for themselves, UI can be a component to be used without any specific Microsoft Engagement running.
+1. On the Customer’s machine, open the Universal Inventory client application that was just created. It will launch with a standard blank screen because no Projects are defined yet. With this solution the Customer can create multiple projects for themselves, UI can be a component to be used without any specific Microsoft Engagement running.
 
    ![UI Client App Universal Inventory](media/UI-Client-App-screenshot.jpg)
 
@@ -27,7 +28,7 @@ The Clean Inventory Data Contract (CIDC) is an Excel report used as the required
 >[!TIP]
 >Many projects can be created in Universal Inventory. Every Project corresponds with an *inventory*, and can have many *data sources*. An organization with a complex infrastructure may consider creating a test project to validate correctness and verify data source availability, before creating a production project to be shared with value providers. 
 
-1. Click on “Open Project” and you will see standard interface with the Actions and Reports that can be performed through UI.
+3. Click on “Open Project” and you will see standard interface with the Actions and Reports that can be performed through UI.
 
    ![UI Client App Open Project Universal Inventory](media/UI-Client-App-Open-Project.jpg)
 
@@ -142,7 +143,7 @@ For IAM , Microsoft is partnering with leading SAM Tools providers who have demo
 >[!NOTE]
  > When you have products that are not recognized immediately by Snow, those are processed by Snow’s normalization team and made available on the UI app within the next 24 hours.
 
-20. To check on the normalization work that has been completed, go back to the main Project dashboard and click on “Summary”. On the report, you will see the “Distinct software titles and versions” as the total count within the raw data and “Normalized software titles” with the total count after the normalization process.  
+7. To check on the normalization work that has been completed, go back to the main Project dashboard and click on “Summary”. On the report, you will see the “Distinct software titles and versions” as the total count within the raw data and “Normalized software titles” with the total count after the normalization process.  
 
 > [!TIP]
 > You can also see the reports “Devices” and “Users” for more detailed information about them.

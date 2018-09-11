@@ -1,5 +1,6 @@
 ---
 title: in.tblMemory - UI Input Schema
+description: Input Schema of Table in.tblMemory, shows the data points and types included on this table.
 ---
 # in.tblMemory - Input Schema Table
 

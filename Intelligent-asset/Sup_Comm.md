@@ -1,3 +1,7 @@
+---
+title: Intelligent Asset Manager Support and Community
+description: Information about how to get support and reach out to the community related to Intelligent Asset Manager and Universal Inventory.
+---
 # Intelligent Asset Manager Support and Community
 
 ## IAM Cloud and Universal Inventory Support

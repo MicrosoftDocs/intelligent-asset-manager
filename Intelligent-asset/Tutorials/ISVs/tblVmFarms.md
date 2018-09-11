@@ -1,5 +1,6 @@
 ---
 title: in.tblVmFarms - UI Input Schema
+description: Input Schema of Table in.tblVmFarms, shows the data points and types included on this table.
 ---
 # in.tblVmFarms - Input Schema Table
 

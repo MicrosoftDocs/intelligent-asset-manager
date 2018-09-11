@@ -1,5 +1,6 @@
 ---
 title: Universal Inventory Push Connectors
+description: Tutorial about what are the Universal Inventory Push Connectors that an ISV will have to develop in order to integrate their solution with UI.
 ---
 # Universal Inventory Push Connectors
 

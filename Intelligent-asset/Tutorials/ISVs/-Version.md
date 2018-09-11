@@ -1,5 +1,6 @@
 ---
 title: in.__Version - UI Input Schema
+description: Input Schema of Table in.__Version, shows the data points and types included on this table. 
 ---
 # in.__Version - Input Schema Table
 

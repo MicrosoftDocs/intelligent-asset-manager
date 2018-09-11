@@ -1,5 +1,6 @@
 ---
 title: in.tblMailboxes - UI Input Schema
+description: Input Schema of Table in.tblMailboxes, shows the data points and types included on this table.
 ---
 # in.tblMailboxes - Input Schema Table
 

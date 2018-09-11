@@ -1,5 +1,6 @@
 ---
 title: in.tsysImportLog - UI Input Schema
+description: Input Schema of Table in.tsysImportLog, shows the data points and types included on this table.
 ---
 # in.tsysImportLog - Input Schema Table
 

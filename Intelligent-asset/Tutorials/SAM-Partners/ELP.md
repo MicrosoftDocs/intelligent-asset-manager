@@ -1,5 +1,6 @@
 ---
 title: Effective Licensing Position
+description: Tutorial for SAM Partners on end-to-end process of how to create a Established Licensing Position report using IAM Cloud. 
 ---
 # Tutorial: Effective Licensing Position (ELP)
 

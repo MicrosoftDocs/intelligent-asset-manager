@@ -1,5 +1,6 @@
 ---
 title: Universal Inventory Introduction
+description: Tutorial for Universal Inventory Users with introductory information such as terminologies and key components of Universal Inventory.
 ---
 # Tutorial: Universal Inventory Introduction
 

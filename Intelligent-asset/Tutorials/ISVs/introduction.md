@@ -1,5 +1,6 @@
 ---
 title: Tutorial Universal Inventory for ISVs
+description: Tutorial with the complete introduction and detailed process of integration of a new Tool or Service with Universal Inventory.
 ---
 # Tutorial: Technical Integration Process for UI ISVs
 

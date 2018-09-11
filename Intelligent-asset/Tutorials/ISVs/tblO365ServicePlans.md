@@ -1,5 +1,6 @@
 ---
 title: in.tblO365ServicePlans - UI Input Schema
+description: Input Schema of Table in.tblO365ServicePlans, shows the data points and types included on this table.
 ---
 # in.tblO365ServicePlans - Input Schema Table
 
