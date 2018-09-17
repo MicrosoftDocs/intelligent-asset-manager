@@ -4,11 +4,7 @@ description: End-to-end steps of a Microsoft SAM Engagement that the SAM Partner
 ---
 # Quickstart: Microsoft SAM Partners
 
-This Quickstart guide explains the end-to-end steps and process required for a SAM Partner to use Intelligent Asset Manager (IAM) when running a complete SAM Engagement in Partnership with Microsoft. 
-
-In addition to this guide, there are videos available that contain detailed overviews and demos of IAM features:
-
-| Steps 2 and 3  |**End-to-end Engagement using the IAM Platform**     | [https://aka.ms/IAMSession4](https://aka.ms/IAMSession4)  |
+This Quickstart guide explains the end-to-end steps and process required for a SAM Partner to use Intelligent Asset Manager (IAM) when running a complete SAM Engagement in Partnership with Microsoft.
 
 ## IAM Workflow Overview
 
