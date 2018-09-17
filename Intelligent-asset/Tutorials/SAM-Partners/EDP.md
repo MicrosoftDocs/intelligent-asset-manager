@@ -6,6 +6,10 @@ description: Tutorial for SAM Partners on end-to-end process of how to create a 
 
 Before a SAM Partner starts the work on the IAM Cloud platform, it is recommended you read the SAM Partner Tutorial sections of [Preparation](preparation.md) and [Administrative](SAM-Partner-admin.md) tasks.
 
+In addition to this guide, there are videos available that contain detailed overviews and demos of IAM features:
+
+| Steps 2 and 3  | **End-to-end Engagement using the IAM Platform** | [https://aka.ms/IAMSession4](https://aka.ms/IAMSession4) |
+
 ## Uploading a CIDC
 
 After [encrypting your CIDC using Universal Inventory](../UI/inventory.md), navigate to [**IAM Cloud**](https://www.intelligentassetmanager.com/) platform and upload the encrypted CIDC file to the Engagement to which it relates.
