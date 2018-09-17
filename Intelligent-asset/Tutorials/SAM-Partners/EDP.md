@@ -89,7 +89,7 @@ When opening the file (or any file downloaded from Intelligent Asset Manager) yo
 >[!IMPORTANT]
 > If the Engagement will use [**the free Microsoft’s Centralized ELP Service program](ELPS.md), click on the ELPS link to follow the instructions on how to do so, **do not follow the instructions below to finalize your EDP**.
 
-1. As a first step to finalize an EDP, it is recommended Partner and Customer review and sign off teh data available on the EDP document provided.
+1. As a first step to finalize an EDP, it is recommended Partner and Customer review and sign off the data available on the EDP document provided.
 1. Click on the “Finalize” link for the EDP you would like to finalize.
 
    ![Finalize Established Deployment Position EDP](media/Finalize-EDP-Screenshot.jpg)
