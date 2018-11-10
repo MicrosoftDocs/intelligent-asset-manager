@@ -50,7 +50,7 @@ description: Detailed technical description of changes and features added on eac
 **Version 0.6** (Input schema renamed)
 
 - The Input schema previously called [cnct] is renamed to [in].  
-  **Partners that have started creating queries for Push Connectors should modify their scripts to accomodate this change.**
+  **Partners that have started creating queries for Push Connectors should modify their scripts to accommodate this change.**
 - Added Descriptions to fields and tables in the Input schema.
 - Renamed to UniversalInventory.bacpac.
 - Corrected typos and errors on field names and data types.
@@ -69,7 +69,7 @@ description: Detailed technical description of changes and features added on eac
 
 ​​​​**Version 0.3** (vSphere & Performance)  
 
-Virtualization tables restructured to accomodate for the new vSphere Connector:
+Virtualization tables restructured to accommodate for the new vSphere Connector:
 - tblVmEvents: Events that occur on Virtualization hosts with virtual machines, limited to VM Creation, -Cloning, -Removal, -Migration, and Migration for Disaster Recovery.
   It is important to make the distinction between the latter two.
 - tblVmFarms: Clusters and Farms of Virtualization hosts.
