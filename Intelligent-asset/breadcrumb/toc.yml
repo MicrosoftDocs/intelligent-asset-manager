@@ -173,7 +173,7 @@
                 topicHref: /Tutorials/ISVs/tblVmFarms.md
               - name: tblVmHosts
                 tocHref: /Tutorials/ISVs/Input-Schema.md
-                topicHref: Tutorials/ISVs/tblVmHosts.md
+                topicHref: /Tutorials/ISVs/tblVmHosts.md
               - name: tblVms
                 tocHref: /Tutorials/ISVs/Input-Schema.md
                 topicHref: /Tutorials/ISVs/tblVms.md
