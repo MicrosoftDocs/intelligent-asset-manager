@@ -53,7 +53,7 @@ The Clean Inventory Data Contract (CIDC) is an Excel report used as the required
 
 ## Pull Connector: MAP Toolkit example
 
-1. In this guide we will showcase in more detail the process for adding a MAP Toolkit integration as a data source, so click on “Add” under the MAP Toolkit option. Type the Sever name that contains the MAP data base instance and select the type of Authentication. Then, click on the blue Refresh button and the system will update with all Database names contained in this server under the “Database” drop-down menu. Select the preferred one. As an option, you can also define the “Tenant/Site” name. Click on “Add”.
+1. In this guide we will showcase in more detail the process for adding a MAP Toolkit integration as a data source, so click on “Add” under the MAP Toolkit option. Type the server name that contains the MAP data base instance and select the type of Authentication. Then, click on the blue Refresh button and the system will update with all Database names contained in this server under the “Database” drop-down menu. Select the preferred one. As an option, you can also define the “Tenant/Site” name. Click on “Add”.
 
    ![UI Client App MAP Toolkit Universal Inventory](media/UI-Client-App-MAP-Toolkit.jpg)
 
